@@ -12,7 +12,7 @@ export async function generateMetadata() {
   };
 }
 
-export default function ErrorPage() {
+export default function Error() {
   const t = useTranslations("errorPage");
 
   return (

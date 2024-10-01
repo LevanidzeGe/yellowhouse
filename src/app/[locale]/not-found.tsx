@@ -10,7 +10,7 @@ export async function generateMetadata() {
   };
 }
 
-export default function NotFoundPage() {
+export default function NotFound() {
   const t = useTranslations("notFoundPage");
   return (
     <section className={`section section-dark `}>
