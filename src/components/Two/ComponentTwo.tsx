@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./ComponentTwo.module.css";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function ComponentTwo() {
   const t = useTranslations("homePage.componentTwo");
+  const locale = useLocale();
   return (
     <section className="section ">
       <div className="container">
@@ -22,7 +23,7 @@ export default function ComponentTwo() {
               <p>{t("text2")}</p>
             </div>
           </div>
-          <Link href="/about" className={` button  `}>
+          <Link href={`/${locale}/story`} className={` button  `}>
             {t("button")}
           </Link>
         </div>
