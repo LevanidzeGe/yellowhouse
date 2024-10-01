@@ -56,7 +56,8 @@ export default async function MenuDetailsPage({
   const item = await fetchMenuItem(itemId);
 
   if (!item) {
-    return <div>Item not found</div>;
+    return null;
+    // <div>Item not found</div>;
   }
   const safeItem = {
     ...item,

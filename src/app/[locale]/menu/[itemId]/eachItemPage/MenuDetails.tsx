@@ -23,7 +23,8 @@ export default function MenuDetails({ item }: MenuDetailsProps) {
   const locale = useLocale(); // Use locale directly from next-intl
 
   if (!item) {
-    return <p>Error: Item not found</p>;
+    return null;
+    // <p>Error: Item not found</p>;
   }
 
   const itemName = item.names[locale] || item.names["en"] || "Unnamed Item";
@@ -50,7 +51,7 @@ export default function MenuDetails({ item }: MenuDetailsProps) {
 
         <div className={` ${styles.tagsPriceWrap}`}>
           <div className={styles.details}>
-            {item.option2 && (
+            {item.option1 && (
               <div className={styles.new}>
                 <Image
                   className={styles.eachItem}
@@ -61,12 +62,12 @@ export default function MenuDetails({ item }: MenuDetailsProps) {
                 />
               </div>
             )}
-            {item.option3 && (
+            {item.option2 && (
               <div className={styles.heart}>
                 <FaHeart className={styles.eachItem} />
               </div>
             )}
-            {item.option1 && (
+            {item.option3 && (
               <div className={styles.vegan}>
                 <LuVegan className={styles.eachItem} />
               </div>
