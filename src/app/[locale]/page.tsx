@@ -1,6 +1,6 @@
 import { companyDomain, companyName } from "@/Manager/info";
-import ComponentFour from "@/src/components/ComponentFour/ComponentFour";
-import ComponentTwo from "@/src/components/ComponentTwo/ComponentTwo";
+// import ComponentFour from "@/src/components/ComponentFour/ComponentFour";
+// import ComponentTwo from "@/src/components/ComponentTwo/ComponentTwo";
 import ComponentFive from "@/src/components/ComponentFive/ComponentFive";
 import Hero from "@/src/components/Hero/Hero";
 import { getTranslations } from "next-intl/server";
@@ -12,9 +12,9 @@ import {
   chefImage,
   womanChef,
 } from "@/public/image";
-import ComponentSix from "@/src/components/ComponentSix/ComponentSix";
+// import ComponentSix from "@/src/components/ComponentSix/ComponentSix";
 import ComponentOne from "@/src/components/ComponentOne/ComponentOne";
-import ComponentThree from "@/src/components/ComponentThree/ComponentThree";
+// import ComponentThree from "@/src/components/ComponentThree/ComponentThree";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
 
