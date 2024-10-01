@@ -2,29 +2,28 @@
   "homePage": {
     "metadata": {
       "title": "ChaCha Restaurant",
-      "description": "Discover an unforgettable dining experience, crafted with love and sustainability in mind. Enjoy the finest sushi in Genève, Switzerland."
+      "description": "Discover an unforgettable dining experience, crafted with love and sustainability. Enjoy the finest Italian specialties in Geneva, Switzerland."
     },
     "hero": {
       "title1": "Welcome to",
-      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos optio earum reiciendis placeat quis iusto doloremque facere eaque. Deleniti corrupti fugiat nesciunt dolore officia aperiam ipsam accusantium, debitis nisi unde?",
+      "text": "Immerse yourself in an exceptional culinary world where every dish is carefully prepared using the finest local and Italian ingredients.",
       "button1": "View Menu",
       "button2": "Book a Table"
     },
     "componentOne": {
-      "title1": "Leader's Word",
-      "title2": "Made for future",
-      "text": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumbeatae, sapiente dolorem veniam doloribus eum harum rerum nemopariatur numquam repellat dicta non architecto voluptas quasimolestiae! Commodi, molestiae?"
+      "title1": "Chef's Word",
+      "title2": "Made for the Future",
+      "text": "Our commitment to quality and sustainability is at the heart of everything we do. Every dish is a promise of freshness and authenticity."
     },
     "componentTwo": {
-      "title1": "Leader's Word",
-      "title2": "Made for future",
-      "text1": "Fish is one of the most wholesome foods that man can eat. Infact, people have been eating fish throughout human history.These days, many cooks yearn to add fish to their repertoire,but the whole process of cleaning and",
-      "text2": "Filleting fresh fish is a little scary to them. The process ofcleaning and filleting fresh fish is relatively simple once thesteps are understood. To begin, you must clean your fresh fish properly in order to maintain it’s quality.",
-      "button": "More About Us"
+      "title1": "Chef's Word",
+      "title2": "Made for the Future",
+      "text1": "Italian ingredients of the highest quality are at the center of our cuisine. Our chefs work tirelessly to offer dishes that honor tradition while adding a modern touch.",
+      "text2": "Whether you're enjoying a freshly baked pizza or homemade pasta, our menu will surprise you with new flavors in a cozy setting."
     },
     "componentThree": {
-      "title1": "WE ARE EXPERT IN",
-      "title2": "What we love to do",
+      "title1": "We are Experts in",
+      "title2": "What We Love to Do",
       "caption": "Read more",
       "services": {
         "ser1": "Chef's Specials",
@@ -37,26 +36,26 @@
     },
     "componentFour": {
       "1": {
-        "title": "The Secret of Oliv Oil",
-        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quidem, modi sapiente sed perspiciatis fuga facilis laboriosam, necessitatibus accusamus temporibus id minima, doloremque tempora neque illo qui eveniet nobis optio?"
+        "title": "The Secret of Olive Oil",
+        "text": "Discover the highest quality olive oil used in each of our dishes, adding an authentic touch to our Italian recipes."
       },
       "2": {
-        "title": "Sectet of The Dough  ",
-        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quidem, modi sapiente sed perspiciatis fuga facilis laboriosam, necessitatibus accusamus temporibus id minima, doloremque tempora neque illo qui eveniet nobis optio?"
+        "title": "The Secret of the Dough",
+        "text": "The perfect dough is the foundation of our pizzas. Prepared daily with fresh and authentic ingredients, it guarantees an unparalleled taste."
       }
     },
     "componentFive": {
-      "title4": "Get In Touch"
+      "title4": "Get in Touch"
     },
     "testimonials": {
-      "title1": "Little Love",
-      "title2": "What our customers say about us"
+      "title1": "A Little Love",
+      "title2": "What Our Customers Say About Us"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Explore Our Menu",
-      "description": "Browse our menu and savor the best of our sushi creations, crafted with fresh ingredients and a touch of local love."
+      "description": "Browse through our menu and enjoy the best of our Italian creations, crafted with fresh ingredients and a touch of local love."
     },
     "menu": {
       "underCategory": "menu"
@@ -65,26 +64,26 @@
   "storyPage": {
     "metadata": {
       "title": "Our Story",
-      "description": "Learn about the roots of our sushi passion and how we’ve grown into a beloved dining spot in Genève, bringing together tradition and innovation."
+      "description": "Learn about the roots of our passion for Italian cuisine and how we have become a beloved restaurant in Geneva, combining tradition and innovation."
     },
     "componentSeven": {
       "title": "Experience",
-      "caption": "Patient",
-      "text": "Our goal is to offer a one-of-a-kind, sustainable dining experience that leaves a lasting impression, serving dishes crafted from locally sourced ingredients."
+      "caption": "Patience",
+      "text": "Our goal is to offer a unique and sustainable dining experience, serving dishes prepared with local and Italian ingredients."
     },
     "componentEight": {
       "title": "25 Years",
-      "text": "For 25 years, we’ve been perfecting our craft, offering a memorable dining experience for sushi lovers and the local community."
+      "text": "For 25 years, we have been perfecting our craft, offering a memorable dining experience for lovers of Italian cuisine in Geneva."
     }
   },
   "reservationPage": {
     "metadata": {
-      "title": "Reserve a Table",
-      "description": "Book a table with us today to experience the finest sushi and an unforgettable dining atmosphere in the heart of Genève."
+      "title": "Book a Table",
+      "description": "Book a table with us today and enjoy the finest Italian specialties in a warm atmosphere in the heart of Geneva."
     },
     "componentNine": {
       "title": "Reserve Your Table",
-      "text": "Secure your spot and enjoy our sustainable sushi crafted with love. We can't wait to welcome you!"
+      "text": "Secure your spot and enjoy our sustainable cuisine prepared with love. We look forward to welcoming you!"
     }
   },
   "forms": {
@@ -95,28 +94,28 @@
       "date": "Date",
       "time": "Time",
       "quantity": "Number of Guests",
-      "message": "Any special requests?",
+      "message": "Any Special Requests?",
       "send": "Send Reservation Request",
       "thankYou": "Thank you for your reservation!",
-      "comfirmation": "Wait for our confirmation"
+      "comfirmation": "Please wait for our confirmation"
     }
   },
   "errorPage": {
     "metadata": {
       "title": "Error - Something Went Wrong",
-      "description": "It seems like something went wrong. The page you’re looking for doesn’t exist or has been moved. Let’s get you back to the homepage."
+      "description": "It seems something went wrong. The page you're looking for doesn't exist or has been moved. Let's get you back to the homepage."
     },
-    "errorTitle": "Oops! Something went wrong",
-    "errorDescription": "The page you’re looking for doesn’t exist or has been moved. Please return to the homepage and continue exploring.",
+    "errorTitle": "Oops! Something Went Wrong",
+    "errorDescription": "The page you're looking for doesn't exist or has been moved. Please return to the homepage and continue exploring.",
     "errorButton": "Back to Homepage"
   },
   "notFoundPage": {
     "metadata": {
       "title": "404 - Page Not Found",
-      "description": "The page you’re looking for could not be found. Return to our homepage to discover the best sushi in Genève."
+      "description": "The page you're looking for could not be found. Return to our homepage to discover the finest Italian specialties in Geneva."
     },
     "title": "Page Not Found",
-    "description": "The page you’re looking for doesn’t exist or has been moved. Let's get you back to the homepage.",
+    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back to the homepage.",
     "button": "Back to Homepage"
   }
 }
