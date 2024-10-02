@@ -1,8 +1,8 @@
 import "@/src/app/globals.css";
-import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
 
 // SEO Metadata
+import { getTranslations } from "next-intl/server";
 import { companyDomain, companyName } from "@/Manager/info";
 export async function generateMetadata() {
   const t = await getTranslations("homePage.metadata");
@@ -17,10 +17,6 @@ export async function generateMetadata() {
       title: companyName,
       description: t("description"),
       url: companyDomain,
-    },
-    twitter: {
-      card: "summary_large_image",
-      site: companyDomain, // Same as above
     },
   };
 }

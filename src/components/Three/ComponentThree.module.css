@@ -56,7 +56,7 @@
 
 @media (max-width: 550px) {
   .threeSectionWrapper {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   }
 }
