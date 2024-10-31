@@ -6,7 +6,10 @@ import { getTranslations } from "next-intl/server";
 import { companyDomain } from "@/Manager/info";
 
 export async function generateMetadata() {
+  const locale = useLocale();
   const t = await getTranslations("homePage.metadata");
+  const canonicalUrl = `${companyDomain}/${locale}`;
+
   return {
     metadataBase: new URL(companyDomain),
     title: {
@@ -14,12 +17,15 @@ export async function generateMetadata() {
       template: `%s | ${t("title")}`,
     },
     description: t("description"),
+    alternates: {
+      canonical: canonicalUrl, // Dynamic canonical URL based on locale
+    },
     openGraph: {
       description: t("description"),
       url: companyDomain,
       images: [
         {
-          url: `${companyDomain}/images/openGraph/red.jpg`,
+          url: `${companyDomain}/images/openGraph/mainOpenGraph.jpg`,
           width: 1200,
           height: 630,
           alt: t("title"),
@@ -61,6 +67,7 @@ import Footer from "@/src/components/Footer/Footer";
 import LowerFoot from "@/src/components/LowerFooter/LowerFoot";
 import { redirect } from "next/navigation";
 import { defaultLocale, supportedLocales } from "@/Manager/navigation"; // Import supported locales
+import { useLocale } from "next-intl";
 
 interface RootLayoutProps {
   children: React.ReactNode;

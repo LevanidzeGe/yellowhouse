@@ -29,7 +29,7 @@ export const generateMetadata = async ({
     const itemDescription =
       data.descriptions?.[params.lang] || data.descriptions?.[defaultLocale];
     const openGraphImage =
-      data.image || `${companyDomain}/images/openGraph/red.jpg`;
+      data.image || `${companyDomain}/images/openGraph/mainOpenGraph.jpg`;
     // Fallback image path
 
     return {
