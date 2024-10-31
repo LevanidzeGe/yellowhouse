@@ -28,8 +28,16 @@ export default function LanguageSwitcher() {
 
   return (
     <div className={styles.languageSwitcher}>
-      <button className={styles.currentLang} onClick={toggleFlagDropdown}>
-        <Flag className={styles.flags} code={locale == "en" ? "gb" : locale} />
+      <button
+        className={styles.currentLang}
+        onClick={toggleFlagDropdown}
+        aria-label="Select Language"
+      >
+        <Flag
+          className={styles.flags}
+          code={locale == "en" ? "gb" : locale}
+          alt={`${locale} flag`}
+        />
       </button>
       {flagShow && (
         <ul className={styles.languageDropdown}>
@@ -39,6 +47,7 @@ export default function LanguageSwitcher() {
                 <Flag
                   code={lang === "en" ? "gb" : lang}
                   className={styles.flags}
+                  aria-label="Select Language"
                   alt={`${lang} flag`}
                 />
               </button>
