@@ -23,6 +23,7 @@
   border: 1px solid var(--gray3);
   border-right: none;
   padding: 10px;
+  word-break: break-word;
 }
 
 .FourBoxMainWrapper :nth-child(4) {
@@ -34,7 +35,7 @@
     flex-wrap: wrap;
   }
   .FourBoxMainWrapper a {
-    width: 40%;
+    width: 50%;
   }
   .FourBoxMainWrapper a:nth-child(2) {
     border-right: 1px solid var(--gray3);
