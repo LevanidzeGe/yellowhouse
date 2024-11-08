@@ -13,8 +13,7 @@
   padding-top: 50px;
 }
 
-.FourBoxMainWrapper a,
-.FourBoxMainWrapper :nth-child(4) {
+.FourBoxMainWrapper a {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -23,12 +22,9 @@
   height: 250px;
   border: 1px solid var(--gray3);
   border-right: none;
+  padding: 10px;
 }
 
-.FourBoxMainWrapper h4 {
-  word-wrap: break-word;
-  max-width: 80%;
-}
 .FourBoxMainWrapper :nth-child(4) {
   border-right: 1px solid var(--gray3);
 }
@@ -37,18 +33,14 @@
   .FourBoxMainWrapper {
     flex-wrap: wrap;
   }
-  .FourBoxMainWrapper div,
-  .FourBoxMainWrapper :nth-child(4) {
-    width: 50%;
+  .FourBoxMainWrapper a {
+    width: 40%;
   }
-  .FourBoxMainWrapper div:nth-child(2),
   .FourBoxMainWrapper a:nth-child(2) {
     border-right: 1px solid var(--gray3);
   }
 
-  .FourBoxMainWrapper div:nth-child(1),
   .FourBoxMainWrapper a:nth-child(1),
-  .FourBoxMainWrapper div:nth-child(2),
   .FourBoxMainWrapper a:nth-child(2) {
     border-bottom: none;
   }
