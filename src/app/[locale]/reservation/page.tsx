@@ -32,10 +32,10 @@ export default async function StoryPage() {
         wait={t("reservationPage.reservationForm.wait")}
       />
 
-      <Testimonials
+      {/* <Testimonials
         title1={t("homePage.testimonials.title1")}
         title2={t("homePage.testimonials.title1")}
-      />
+      /> */}
     </div>
   );
 }
