@@ -58,8 +58,8 @@ export default function ServerCard({
 
           <div className={` ${styles.tagseWrap}`}>
             <div className={styles.details}>
-              {option1 && <p className={styles.new}>new</p>}
-              {option2 && <p className={styles.favorite}>favorite</p>}
+              {option1 && <p className={styles.favorite}>favorite</p>}
+              {option2 && <p className={styles.new}>new</p>}
               {option3 && <p className={styles.vegan}>vegetarian</p>}
             </div>
           </div>
