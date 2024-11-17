@@ -47,7 +47,7 @@ export default function ComponentFive() {
             </Link>
 
             {/* Chat with Us Box */}
-            <Link href={`${locale}/contact `}>
+            <Link href={`${locale}/reservation `}>
               <Image src={chatIcon} width={70} height={70} alt="Chat Icon" />
               <span className="twoLines"></span>
               <p className="paragraph gray7">Chat with Us</p>
