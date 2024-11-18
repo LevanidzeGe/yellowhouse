@@ -39,7 +39,7 @@ export default function ComponentFour({
               <Image src={icon} alt="chair" width={60} height={60}></Image>
               <h2 className="heading3 font1 ">{title}</h2>
               <p className="twoLines"></p>
-              <h5 className="paragraph gray7 textMedium">{text}</h5>
+              <h3 className="paragraph gray7 textMedium">{text}</h3>
             </div>
           </div>
         </div>
