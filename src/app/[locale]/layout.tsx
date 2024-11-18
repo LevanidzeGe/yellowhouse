@@ -30,8 +30,8 @@ export async function generateMetadata({
       images: [
         {
           url: `${companyDomain}/images/openGraph/mainOpenGraph.jpg`,
-          width: 1200,
-          height: 630,
+          width: 500,
+          height: 300,
           alt: t("title"),
         },
       ],

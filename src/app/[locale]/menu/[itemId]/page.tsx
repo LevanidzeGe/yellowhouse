@@ -45,8 +45,8 @@ export const generateMetadata = async ({
         images: [
           {
             url: openGraphImage,
-            width: 1200, // Standard Open Graph image width
-            height: 630, // Standard Open Graph image height
+            width: 500, // Standard Open Graph image width
+            height: 300, // Standard Open Graph image height
             alt: itemName,
           },
         ],
