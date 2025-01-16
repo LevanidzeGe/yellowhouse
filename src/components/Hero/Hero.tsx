@@ -1,22 +1,65 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./Hero.module.css";
-import ImageOverlay from "./Overlay/ImageOverlay";
-import { acharuli } from "@/public/image";
+import { giIconSvg, judoChildren } from "@/public/image";
+import Link from "next/link";
 
 export default function MainImage() {
   return (
-    <div className={` ${styles.mainWrapper} ${styles.outline}`}>
-      <ImageOverlay />
-      <div className={styles.imageDarkLayer}></div>
-      <Image
-        className={styles.mainImage}
-        src={acharuli}
-        alt=""
-        width={1200}
-        height={800}
-        priority
-      />
+    <div
+      className={` section no-padding ${styles.mainWrapper} ${styles.outline}`}
+    >
+      <div className="container">
+        <div className={` ${styles.overlay}`}>
+          <div className={styles.leftDiv}>
+            <div>
+              <h1 className="heading1">GEO JUDO</h1>
+              <h2 className="heading2">Study the art of judo in</h2>
+              <h2 className="heading2">Geneva</h2>
+            </div>
+            <div className={styles.buttonContainer}>
+              <Link className="button" href="/">
+                Contact
+              </Link>
+              <Link className="button button-reverse" href="/">
+                Roll in
+              </Link>
+            </div>
+          </div>
+          <div className={styles.rightDiv}>
+            <div className={styles.topDiv}>
+              <div>
+                <p>95+</p>
+                <span>Student</span>
+              </div>
+              <div>
+                <p>15+</p>
+                <span>Years in Geneva</span>
+              </div>
+            </div>
+            <div className={styles.imagesDiv}>
+              <Image
+                src={judoChildren}
+                width={1000}
+                height={1000}
+                alt="children judo"
+              ></Image>
+            </div>
+            <div className={styles.botomDiv}>
+              <div className={`heading2 ${styles.blueDiv}`}>Geneva 1506</div>
+              <div className={`heading2 ${styles.redDiv}`}>School Geneva</div>
+            </div>
+          </div>
+        </div>
+        <Image
+          className={styles.mainImage}
+          src={giIconSvg}
+          alt=""
+          width={1200}
+          height={800}
+          priority
+        />
+      </div>
     </div>
   );
 }

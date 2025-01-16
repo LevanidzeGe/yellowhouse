@@ -29,7 +29,7 @@ export default async function StoryPage() {
   const t = await getTranslations("storyPage");
   return (
     <div className="fadeOut">
-      <PageHeadImage image={heroStory} value={t("headComponent.title")} short />
+      {/* <PageHeadImage image={heroStory} value={t("headComponent.title")} short />
       <ComponentSeven
         title1={t("componentSeven.title1")}
         title2={t("componentSeven.title2")}
@@ -48,9 +48,9 @@ export default async function StoryPage() {
         title={t("componentFour.2.title")}
         text={t("componentFour.2.text")}
         reverse
-      />
+      /> */}
       {/* <ComponentThree image={womanChef} /> */}
-      <ComponentFour
+      {/* <ComponentFour
         icon={dishIcon}
         image={heroStory}
         title={t("componentFour.3.title")}
@@ -82,7 +82,7 @@ export default async function StoryPage() {
         title={t("componentFour.6.title")}
         text={t("componentFour.6.text")}
         reverse
-      />
+      /> */}
 
       {/* 
       <Testimonials

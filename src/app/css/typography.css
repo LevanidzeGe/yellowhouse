@@ -42,6 +42,15 @@
   color: var(--color1);
   text-transform: uppercase;
   font-weight: 500;
+  /* მთავარი */
+
+  /* font-family: 'Poppins'; */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #003d73;
 }
 .active-link {
   /* text-decoration: underline; */
@@ -53,19 +62,19 @@
 
 /* typography */
 .heading1 {
-  font-family: var(--font2);
+  font-family: var(--font1);
   margin-top: 16px;
   margin-bottom: 24px;
-  font-size: 60px;
+  font-size: 80px;
   line-height: 80px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .heading2 {
-  font-size: 38px;
+  font-size: 45px;
   font-family: var(--font1);
   line-height: 120%;
   user-select: none;
-  font-weight: 900;
+  font-weight: 600;
 }
 .heading3 {
   font-size: 30px;
@@ -121,28 +130,24 @@
 /* Break point 1200px */
 @media (max-width: 1200px) {
   .heading1 {
-    font-size: 50px;
   }
 }
 
 /* Break point 992px */
 @media (max-width: 992px) {
   .heading1 {
-    font-size: 45px;
   }
 }
 
 /* Break point 768px */
 @media (max-width: 768px) {
   .heading1 {
-    font-size: 40px;
   }
 }
 
 /* Break point 576px */
 @media (max-width: 576px) {
   .heading1 {
-    font-size: 35px;
   }
   .heading2 {
     font-size: 30px;
@@ -152,6 +157,5 @@
 /* Break point 400px */
 @media (max-width: 400px) {
   .heading1 {
-    font-size: 30px;
   }
 }

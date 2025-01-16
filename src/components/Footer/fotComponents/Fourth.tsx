@@ -4,21 +4,13 @@ import Link from "next/link";
 import {
   pizza,
   pizza2,
-  heroMain,
   heroMenu,
   heroReservation,
   heroStory,
 } from "@/public/image";
 import Image from "next/image";
 
-const defaultImages = [
-  pizza,
-  pizza2,
-  heroMain,
-  heroMenu,
-  heroReservation,
-  heroStory,
-];
+const defaultImages = [pizza, pizza2, heroMenu, heroReservation, heroStory];
 interface props {
   title: string;
   subTitle: string;

@@ -1,6 +1,3 @@
-.outline {
-  border: 7px solid var(--white);
-}
 .mainWrapper {
   overflow: hidden;
   position: relative;
@@ -11,24 +8,93 @@
 }
 
 .mainImage {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-height: 600px;
-  height: 100vh;
-  z-index: -1;
-  max-height: 1500px;
-}
-.imageDarkLayer {
   position: absolute;
   height: 100%;
-  width: 100%;
-  background-color: var(--overlayLight);
+  padding: 3% 0;
+  min-height: 600px;
+  z-index: -1;
+  max-height: 1500px;
+  left: -10%;
+  top: 0;
+}
+.overlay {
+  display: flex;
+  position: relative;
+}
+.leftDiv {
+  margin-top: 100px;
+  width: 50%;
+}
+
+.leftDiv h1 {
+  color: var(--color4);
+  padding-bottom: 30px;
+}
+.leftDiv h2 {
+  line-height: 150%;
+  color: rgba(0, 34, 64, 0.6);
+}
+.leftDiv h2:nth-child(3) {
+  color: var(--color6);
+}
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 10%;
+}
+
+.rightDiv {
+  width: 50%;
+  position: relative;
+}
+.topDiv {
+  position: absolute;
+  right: 100px;
+}
+.topDiv p {
+  color: var(--color4);
+  font-size: 60px;
+  line-height: 50px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.topDiv span {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gray7);
+}
+
+.imagesDiv img {
+  margin-right: -10px;
+}
+.botomDiv {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+.blueDiv {
+  color: var(--color1);
+  max-width: max-content;
+  padding: 10px 20px;
+  background: linear-gradient(
+    100.09deg,
+    var(--color3) 7.55%,
+    var(--color5) 98.78%
+  );
+  border-radius: 11px;
+}
+.redDiv {
+  color: var(--color4);
+  margin-top: 20px;
+  padding: 10px 20px;
+  max-width: max-content;
+  background: linear-gradient(
+    100.09deg,
+    var(--color6) 7.55%,
+    rgb(205, 80, 80) 98.78%
+  );
+  border-radius: 11px;
 }
 
 @media (max-width: 450px) {
-  .mainWrapper,
-  .mainImage {
-    height: auto;
-  }
 }

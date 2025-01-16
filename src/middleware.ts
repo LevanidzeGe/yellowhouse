@@ -7,7 +7,7 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ["/", "/(de|en|fr|it)/:path*"],
+  matcher: ["/", "/(de|en|fr|it|ge)/:path*"],
 };
 
 //must fix

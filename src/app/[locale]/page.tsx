@@ -1,12 +1,6 @@
 import ComponentFive from "@/src/components/Five/ComponentFive";
 import Hero from "@/src/components/Hero/Hero";
-import {
-  instagram1,
-  chefImage,
-  khachapuri1,
-  dishIcon,
-  dumplings,
-} from "@/public/image";
+import { chefImage, khachapuri1, dishIcon, dumplings } from "@/public/image";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
 import ComponentFour from "@/src/components/Four/ComponentFour";
@@ -22,7 +16,7 @@ export default function Home() {
   return (
     <div className="fadeOut">
       <Hero />
-      <ComponentOne image={chefImage} />
+      {/* <ComponentOne image={chefImage} />
       <ComponentSeven
         title1={t("componentSeven.title1")}
         title2={t("componentSeven.title2")}
@@ -51,13 +45,13 @@ export default function Home() {
         button={t("componentTwo.button")}
       />
 
-      <ComponentFive />
+      <ComponentFive /> */}
 
-      {/* <Testimonials
+      <Testimonials
         title1={t("testimonials.title1")}
         title2={t("testimonials.title2")}
-      /> */}
-      <ComponentSix />
+      />
+      {/* <ComponentSix /> */}
     </div>
   );
 }

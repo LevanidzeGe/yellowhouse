@@ -19,9 +19,11 @@
   flex: 1;
 }
 .logoWrapper img {
-  max-width: 150px;
-  max-height: 32px;
+  max-width: 100px;
+  max-height: 100px;
   object-fit: contain;
+  position: absolute;
+  top: 20px;
 }
 
 .languageSwitcher {

@@ -21,17 +21,18 @@
   /* project colors */
   /* color1 = bright color */
   /* color5 = dark color */
-  --color1: #fffee8;
-  --color2: #eba75e;
-  --color3: #6bd839;
-  --color4: #002e5b;
+  --color1: #c8e2ff;
+  --color2: #5ba2ff;
+  --color3: #0069c6;
+  --color4: #003d73;
+  --color5: #002240;
+  --color6: #e20001;
 
-  --color2-10: hsla(31, 78%, 65%, 0.2);
+  --color2-10: hsla(214, 100%, 68%, 0.1);
   --color4-10: rgba(63, 76, 57, 0.1); /*opacity 10*/
   --color4-20: rgba(63, 76, 57, 0.2); /*opacity 10*/
   --color4-40: rgba(63, 76, 57, 0.4); /*opacity 40*/
   --color4-80: rgba(63, 76, 57, 0.8); /*opacity 80*/
-  --color5: #1111;
 }
 
 /* Classes */
@@ -65,6 +66,9 @@
 }
 .color5 {
   color: var(--color5);
+}
+.color6 {
+  color: var(--color6);
 }
 .bg-color1 {
   background-color: var(--color1);

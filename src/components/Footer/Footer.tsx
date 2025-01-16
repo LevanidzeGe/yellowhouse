@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Footer.module.css";
 import First from "./fotComponents/First";
 import Second from "./fotComponents/Second";
-import Third from "./fotComponents/Third";
 import Fourth from "./fotComponents/Fourth";
 import { useTranslations } from "next-intl";
 

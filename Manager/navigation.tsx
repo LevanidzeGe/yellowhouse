@@ -1,4 +1,4 @@
-export const supportedLocales = ["fr", "en", "de", "it"];
+export const supportedLocales = ["fr", "en", "de", "it", "ge"];
 export const defaultLocale = "fr";
 export const dynamicPageRoute = "menu"; // [slug]
 export const fireBaseRoute = "toisondor"; //firebase route
@@ -35,5 +35,11 @@ export const navItems: { [key: string]: NavItemProps[] } = {
     { title: "Menu", url: "/menu" },
     { title: "Chi siamo", url: "/story" },
     { title: "Prenotazione", url: "/reservation", button: true },
+  ],
+  ge: [
+    { title: "მთავარი", url: "/" },
+    { title: "მენიუ", url: "/menu" },
+    { title: "ისტორია", url: "/story" },
+    { title: "რეზერვაცია", url: "/reservation", button: true },
   ],
 };

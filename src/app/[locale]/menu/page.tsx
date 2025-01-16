@@ -17,8 +17,8 @@ export default function MenuPage() {
   const t = useTranslations("menuPage");
   return (
     <div className="fadeOut">
-      <PageHeadImage image={heroMenu} value={t("headComponent.title")} short />
-      <Menu />
+      {/* <PageHeadImage image={heroMenu} value={t("headComponent.title")} short /> */}
+      {/* <Menu /> */}
     </div>
   );
 }
