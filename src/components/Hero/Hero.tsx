@@ -14,8 +14,10 @@ export default function MainImage() {
           <div className={styles.leftDiv}>
             <div>
               <h1 className="heading1">GEO JUDO</h1>
-              <h2 className="heading2">Study the art of judo in</h2>
-              <h2 className="heading2">Geneva</h2>
+              <div className={styles.title}>
+                <h2 className="heading2">Study the art of judo in</h2>
+                <h2 className="heading2">Geneva</h2>
+              </div>
             </div>
             <div className={styles.buttonContainer}>
               <Link className="button" href="/">
@@ -45,7 +47,7 @@ export default function MainImage() {
                 alt="children judo"
               ></Image>
             </div>
-            <div className={styles.botomDiv}>
+            <div className={styles.bottomDiv}>
               <div className={`heading2 ${styles.blueDiv}`}>Geneva 1506</div>
               <div className={`heading2 ${styles.redDiv}`}>School Geneva</div>
             </div>

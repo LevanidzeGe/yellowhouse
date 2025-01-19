@@ -24,6 +24,7 @@
 .leftDiv {
   margin-top: 100px;
   width: 50%;
+  z-index: 1;
 }
 
 .leftDiv h1 {
@@ -34,7 +35,7 @@
   line-height: 150%;
   color: rgba(0, 34, 64, 0.6);
 }
-.leftDiv h2:nth-child(3) {
+.leftDiv h2:nth-child(2) {
   color: var(--color6);
 }
 .buttonContainer {
@@ -67,7 +68,7 @@
 .imagesDiv img {
   margin-right: -10px;
 }
-.botomDiv {
+.bottomDiv {
   position: absolute;
   left: -250px;
   bottom: 0px;
@@ -96,5 +97,29 @@
   border-radius: 11px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1300px) {
+  .bottomDiv {
+    display: none;
+  }
+  .topDiv {
+    display: none;
+  }
+  .imagesDiv {
+    margin-left: -50px;
+  }
+  .title {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .rightDiv {
+    display: none;
+  }
+  .title {
+    max-width: auto;
+  }
+  .leftDiv {
+    width: auto;
+  }
 }
