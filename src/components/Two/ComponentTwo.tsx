@@ -9,7 +9,7 @@ export default function ComponentTwo() {
   const t = useTranslations("homePage.componentTwo");
   return (
     <section className="section ">
-      <div className="container">
+      <div className={`container ${styles.wrapper}`}>
         <div className={styles.upperDiv}>
           <h2 className=" heading2 color4">რატომ ჩვენი სკოლა?</h2>
           <h3 className="heading3 gray5">
