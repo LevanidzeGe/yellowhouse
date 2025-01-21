@@ -9,7 +9,7 @@
   width: 50%;
   height: auto;
   object-fit: cover;
-  border: 3px solid #013d73;
+  border: 2px solid #013d73;
   filter: drop-shadow(-30px -30px #013d73);
   border-radius: 20px;
 }
@@ -28,7 +28,11 @@
   padding-bottom: 50px;
   color: var(--gray7);
 }
+.iconTextDiv h2 {
+  line-height: 40px;
+}
 .iconTextDiv {
+  align-items: end;
   display: flex;
   gap: 20px;
 }

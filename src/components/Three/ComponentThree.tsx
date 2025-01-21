@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./ComponentThree.module.css";
 import { useLocale, useTranslations } from "next-intl";
-import { childrenTeam, giSvg, giorgiSofia } from "@/public/image";
+import { giSvg, giorgiSofia } from "@/public/image";
 import Link from "next/link";
 
 export default function ComponentThree() {
@@ -13,7 +13,7 @@ export default function ComponentThree() {
         <div className={styles.mainWrapper}>
           <div className={styles.leftDiv}>
             <div className={styles.iconTextDiv}>
-              <Image src={giSvg} height={70} width={50} alt="" />
+              <Image src={giSvg} height={50} width={50} alt="" />
               <h2 className="heading3 color4">მასწავლებელი</h2>
             </div>
             <div className={styles.middleDiv}>
