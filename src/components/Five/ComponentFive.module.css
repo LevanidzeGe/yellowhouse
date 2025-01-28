@@ -1,8 +1,7 @@
 .FourBoxMainWrapper {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .FourBoxMainWrapper span {
@@ -10,39 +9,46 @@
 }
 
 .FourBoxMainWrapper img {
-  padding-top: 50px;
+  margin-top: 30px;
+  height: 60px;
 }
 
 .FourBoxMainWrapper a {
-  width: 25%;
+  width: 32%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 250px;
-  border: 1px solid var(--gray3);
-  border-right: none;
+  border: 2px solid var(--color4);
   padding: 10px;
   word-break: break-word;
+  border-radius: 10px;
+}
+.FourBoxMainWrapper p {
+  margin-bottom: 40px;
+}
+.FourBoxMainWrapper h3 {
+  margin: 20px 0;
 }
 
-.FourBoxMainWrapper :nth-child(4) {
-  border-right: 1px solid var(--gray3);
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .FourBoxMainWrapper {
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
   }
   .FourBoxMainWrapper a {
-    width: 50%;
+    width: 48%;
+    margin-bottom: 4%;
   }
-  .FourBoxMainWrapper a:nth-child(2) {
-    border-right: 1px solid var(--gray3);
+}
+
+@media (max-width: 576px) {
+  .FourBoxMainWrapper a {
+    width: 100%;
   }
 
-  .FourBoxMainWrapper a:nth-child(1),
-  .FourBoxMainWrapper a:nth-child(2) {
-    border-bottom: none;
+  .FourBoxMainWrapper {
+    flex-direction: column;
   }
 }

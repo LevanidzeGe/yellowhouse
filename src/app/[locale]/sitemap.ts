@@ -1,5 +1,5 @@
 import { companyDomain } from "@/Manager/info";
-import { fetchCategories } from "@/src/app/[locale]/menu/fetchingData";
+import { fetchCategories } from "@/src/app/[locale]/events/fetchingData";
 import {
   fireBaseRoute,
   navItems,
