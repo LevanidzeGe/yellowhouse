@@ -20,12 +20,11 @@ export default function Home() {
       <ComponentThree />
       <AlbumSlider />
       <ComponentFour />
-      <ComponentFive />
       <Testimonials
         title1={t("testimonials.title1")}
         title2={t("testimonials.title2")}
       />
-      {/* <ComponentSix /> */}
+      <ComponentFive />
     </div>
   );
 }

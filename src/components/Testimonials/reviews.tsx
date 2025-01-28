@@ -14,146 +14,161 @@ export const reviewsData: reviewsDataProps[] = [
   {
     stars: 5,
     reviews: {
-      en: "The food was exceptional, and the service was top-notch. Highly recommend this place for a special evening.",
-      fr: "La nourriture était exceptionnelle et le service impeccable. Je recommande vivement cet endroit pour une soirée spéciale.",
-      de: "Das Essen war außergewöhnlich, und der Service erstklassig. Sehr zu empfehlen für einen besonderen Abend.",
-      it: "Il cibo era eccezionale e il servizio impeccabile. Consiglio vivamente questo posto per una serata speciale.",
-    },
-
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "John Doe",
-    caption: {
-      en: "CEO",
-      fr: "PDG",
-      de: "Geschäftsführer",
-      it: "Amministratore Delegato",
-    },
-  },
-  {
-    stars: 4.5,
-    reviews: {
-      en: "Great atmosphere and delicious food. The staff was welcoming and very attentive to our needs. Will visit again soon!",
-      fr: "Super ambiance et nourriture délicieuse. Le personnel était accueillant et très attentif à nos besoins. Je reviendrai bientôt !",
-      de: "Tolle Atmosphäre und köstliches Essen. Das Personal war freundlich und sehr aufmerksam. Ich werde bald wiederkommen!",
-      it: "Atmosfera fantastica e cibo delizioso. Il personale era accogliente e molto attento alle nostre esigenze. Tornerò presto!",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "Jane Smith",
-    caption: {
-      en: "CTO",
-      fr: "Directeur Technique",
-      se: "Technischer Direktor",
-      it: "Direttore Tecnico",
-    },
-  },
-  {
-    stars: 4,
-    reviews: {
-      en: "A wonderful dining experience. The desserts were especially good. A must-try for those who love fine dining.",
-      fr: "Une merveilleuse expérience culinaire. Les desserts étaient particulièrement bons. Un incontournable pour les amateurs de gastronomie.",
-      de: "Ein wunderbares kulinarisches Erlebnis. Die Desserts waren besonders gut. Ein Muss für Feinschmecker.",
-      it: "Un'esperienza culinaria meravigliosa. I dolci erano particolarmente buoni. Un must per gli amanti della buona cucina.",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "Robert Brown",
-    caption: {
-      en: "COO",
-      fr: "Directeur des Opérations",
-      de: "COO",
-      it: "Direttore Operativo",
-    },
-  },
-  {
-    stars: 4.8,
-    reviews: {
-      en: "Excellent food and ambiance. Perfect for a quiet dinner or a celebration with friends.",
-      fr: "Excellente nourriture et ambiance. Parfait pour un dîner tranquille ou une fête entre amis.",
-      de: "Ausgezeichnetes Essen und Ambiente. Perfekt für ein ruhiges Abendessen oder eine Feier mit Freunden.",
-      it: "Cibo e atmosfera eccellenti. Perfetto per una cena tranquilla o una festa con amici.",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "Emily White",
-    caption: {
-      en: "CFO",
-      fr: "Directeur Financier",
-      de: "CFO",
-      it: "Direttore Finanziario",
-    },
-  },
-  {
-    stars: 5,
-    reviews: {
-      en: "The service was outstanding. Every dish was a delight, and the presentation was on point.",
-      fr: "Le service était exceptionnel. Chaque plat était un délice, et la présentation était impeccable.",
-      de: "Der Service war hervorragend. Jedes Gericht war eine Freude, und die Präsentation war perfekt.",
-      it: "Il servizio è stato eccezionale. Ogni piatto era una delizia e la presentazione era perfetta.",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "David Green",
-    caption: {
-      en: "Marketing Manager",
-      fr: "Directeur Marketing",
-      de: "Marketing Manager",
-      it: "Direttore Marketing",
-    },
-  },
-  {
-    stars: 4.2,
-    reviews: {
-      en: "The dishes were well-prepared, and the flavors were amazing. A bit crowded, but overall a pleasant experience.",
-      fr: "Les plats étaient bien préparés et les saveurs étaient incroyables. Un peu bondé, mais une expérience agréable dans l'ensemble.",
-      de: "Die Gerichte waren gut zubereitet und die Aromen waren großartig. Etwas überfüllt, aber insgesamt eine angenehme Erfahrung.",
-      it: "I piatti erano ben preparati e i sapori erano fantastici. Un po' affollato, ma nel complesso un'esperienza piacevole.",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "Lisa Black",
-    caption: {
-      en: "HR Manager",
-      fr: "Responsable RH",
-      de: "HR Manager",
-      it: "Responsabile Risorse Umane",
-    },
-  },
-  {
-    stars: 4.7,
-    reviews: {
-      en: "A great place to dine with family and friends. The staff made us feel very welcome, and the food was delicious.",
-      fr: "Un excellent endroit pour dîner en famille et entre amis. Le personnel nous a fait sentir très bienvenus, et la nourriture était délicieuse.",
-      de: "Ein großartiger Ort zum Essen mit Familie und Freunden. Das Personal hat uns sehr willkommen geheißen und das Essen war köstlich.",
-      it: "Un ottimo posto per cenare con la famiglia e gli amici. Il personale ci ha fatto sentire i benvenuti e il cibo era delizioso.",
-    },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
-    name: "Michael Scott",
-    caption: {
-      en: "General Manager",
-      fr: "Directeur Général",
-      de: "General Manager",
-      it: "Direttore Generale",
-    },
-  },
-  {
-    stars: 5,
-    reviews: {
-      en: "An unforgettable dining experience. Every dish was perfectly crafted and tasted heavenly. Will definitely return!",
-      fr: "Une expérience culinaire inoubliable. Chaque plat était parfaitement élaboré et avait un goût divin. Je reviendrai sans aucun doute !",
-      de: "Ein unvergessliches kulinarisches Erlebnis. Jedes Gericht war perfekt zubereitet und schmeckte göttlich. Ich werde auf jeden Fall wiederkommen!",
-      it: "Un'esperienza culinaria indimenticabile. Ogni piatto era perfetto e aveva un sapore celestiale. Tornerò sicuramente!",
+      en: "The coaches are incredible, and my son has learned so much discipline and confidence. I highly recommend this club for any .",
+      fr: "Les entraîneurs sont incroyables, et mon fils a beaucoup appris en discipline et en confiance. Je recommande vivement ce club à tous les .",
+      de: "Die Trainer sind unglaublich, und mein Sohn hat so viel Disziplin und Selbstvertrauen gelernt. Ich kann diesen Club jedem Elternteil .",
+      it: "Gli allenatori sono incredibili e mio figlio ha imparato tantissimo in termini di disciplina e fiducia. Consiglio vivamente questo club a tutti i genitori .",
+      ge: "მწვრთნელები დაუჯერებელნი არიან, და ჩემმა შვილმა ბევრ რამეში გაიარა დისციპლინისა და თავდაჯერებულობის გაძლიერება. ნამდვილად გირჩევთ ამ კლუბს ნებისმიერი .",
     },
     image:
       "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
     name: "Sophia Brown",
     caption: {
-      en: "Operations Manager",
-      fr: "Responsable des Opérations",
-      de: "Operations Manager",
-      it: "Responsabile Operativo",
+      en: "Mother of a 7-year-old",
+      fr: "Maman d'un enfant de 7 ans",
+      de: "Mutter eines 7-Jährigen",
+      it: "Mamma di un bambino di 7 anni",
+      ge: "7 წლის ბავშვის დედა",
+    },
+  },
+  {
+    stars: 4.8,
+    reviews: {
+      en: "My daughter has been training here for a year, and the improvement is remarkable. She’s stronger, more disciplined, and loves the community here.",
+      fr: "Ma fille s'entraîne ici depuis un an, et les progrès sont remarquables. Elle est plus forte, plus disciplinée et adore la communauté ici.",
+      de: "Meine Tochter trainiert seit einem Jahr hier, und die Fortschritte sind bemerkenswert. Sie ist stärker, disziplinierter und liebt die Gemeinschaft hier.",
+      it: "Mia figlia si allena qui da un anno e i miglioramenti sono notevoli. È più forte, più disciplinata e ama la comunità.",
+      ge: "ჩემი შვილი უკვე ერთი წელია ვარჯიშობს აქ და პროგრესი საოცარია. ის უფრო ძლიერია, მეტად დისციპლინირებული და უყვარს აქაური საზოგადოება.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Michael Scott",
+    caption: {
+      en: "Father of a 10-year-old",
+      fr: "Papa d'un enfant de 10 ans",
+      de: "Vater eines 10-Jährigen",
+      it: "Papà di un bambino di 10 anni",
+      ge: "10 წლის ბავშვის მამა",
+    },
+  },
+  {
+    stars: 5,
+    reviews: {
+      en: "My 5-year-old loves coming here every week. The instructors are so patient, and it’s amazing to see how much he enjoys the sport.",
+      fr: "Mon enfant de 5 ans adore venir ici chaque semaine. Les instructeurs sont très patients, et c'est incroyable de voir à quel point il aime ce sport.",
+      de: "Mein 5-jähriger Sohn liebt es, jede Woche hierher zu kommen. Die Trainer sind sehr geduldig, und es ist erstaunlich zu sehen, wie sehr er den Sport genießt.",
+      it: "Il mio bambino di 5 anni adora venire qui ogni settimana. Gli istruttori sono così pazienti, ed è incredibile vedere quanto ami questo sport.",
+      ge: "ჩემი 5 წლის შვილი ყოველ კვირას სიამოვნებით მოდის აქ. ინსტრუქტორები ძალიან მოთმინებით გამოირჩევიან და საოცარია, როგორ უყვარს სპორტი.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Lisa Black",
+    caption: {
+      en: "Mother of a 5-year-old",
+      fr: "Maman d'un enfant de 5 ans",
+      de: "Mutter eines 5-Jährigen",
+      it: "Mamma di un bambino di 5 anni",
+      ge: "5 წლის ბავშვის დედა",
+    },
+  },
+  {
+    stars: 4.7,
+    reviews: {
+      en: "This club has helped my twins, aged 12, develop teamwork and respect. The tournaments are well-organized, and they’ve made lifelong friends here.",
+      fr: "Ce club a aidé mes jumeaux de 12 ans à développer le travail d'équipe et le respect. Les tournois sont bien organisés, et ils se sont fait des amis pour la vie ici.",
+      de: "Dieser Club hat meinen 12-jährigen Zwillingen geholfen, Teamarbeit und Respekt zu entwickeln. Die Turniere sind gut organisiert, und sie haben hier lebenslange Freunde gefunden.",
+      it: "Questo club ha aiutato i miei gemelli di 12 anni a sviluppare il lavoro di squadra e il rispetto. I tornei sono ben organizzati e hanno fatto amicizie durature.",
+      ge: "ამ კლუბმა ჩემმა 12 წლის ტყუპებს გუნდური მუშაობისა და პატივისცემის განვითარებაში დაეხმარა. ტურნირები კარგად ორგანიზებულია და მათ აქ ცხოვრებაში მეგობრები იპოვეს.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Emily White",
+    caption: {
+      en: "Mother of 12-year-old twins",
+      fr: "Maman de jumeaux de 12 ans",
+      de: "Mutter von 12-jährigen Zwillingen",
+      it: "Mamma di gemelli di 12 anni",
+      ge: "12 წლის ტყუპების დედა",
+    },
+  },
+  {
+    stars: 5,
+    reviews: {
+      en: "The coaches are incredible, and my son has learned so much discipline and confidence. I highly recommend this club for any .",
+      fr: "Les entraîneurs sont incroyables, et mon fils a beaucoup appris en discipline et en confiance. Je recommande vivement ce club à tous les .",
+      de: "Die Trainer sind unglaublich, und mein Sohn hat so viel Disziplin und Selbstvertrauen gelernt. Ich kann diesen Club jedem Elternteil .",
+      it: "Gli allenatori sono incredibili e mio figlio ha imparato tantissimo in termini di disciplina e fiducia. Consiglio vivamente questo club a tutti i genitori .",
+      ge: "მწვრთნელები დაუჯერებელნი არიან, და ჩემმა შვილმა ბევრ რამეში გაიარა დისციპლინისა და თავდაჯერებულობის გაძლიერება. ნამდვილად გირჩევთ ამ კლუბს ნებისმიერი .",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Sophia Brown",
+    caption: {
+      en: "Mother of a 7-year-old",
+      fr: "Maman d'un enfant de 7 ans",
+      de: "Mutter eines 7-Jährigen",
+      it: "Mamma di un bambino di 7 anni",
+      ge: "7 წლის ბავშვის დედა",
+    },
+  },
+  {
+    stars: 4.8,
+    reviews: {
+      en: "My daughter has been training here for a year, and the improvement is remarkable. She’s stronger, more disciplined, and loves the community here.",
+      fr: "Ma fille s'entraîne ici depuis un an, et les progrès sont remarquables. Elle est plus forte, plus disciplinée et adore la communauté ici.",
+      de: "Meine Tochter trainiert seit einem Jahr hier, und die Fortschritte sind bemerkenswert. Sie ist stärker, disziplinierter und liebt die Gemeinschaft hier.",
+      it: "Mia figlia si allena qui da un anno e i miglioramenti sono notevoli. È più forte, più disciplinata e ama la comunità.",
+      ge: "ჩემი შვილი უკვე ერთი წელია ვარჯიშობს აქ და პროგრესი საოცარია. ის უფრო ძლიერია, მეტად დისციპლინირებული და უყვარს აქაური საზოგადოება.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Michael Scott",
+    caption: {
+      en: "Father of a 10-year-old",
+      fr: "Papa d'un enfant de 10 ans",
+      de: "Vater eines 10-Jährigen",
+      it: "Papà di un bambino di 10 anni",
+      ge: "10 წლის ბავშვის მამა",
+    },
+  },
+  {
+    stars: 5,
+    reviews: {
+      en: "My 5-year-old loves coming here every week. The instructors are so patient, and it’s amazing to see how much he enjoys the sport.",
+      fr: "Mon enfant de 5 ans adore venir ici chaque semaine. Les instructeurs sont très patients, et c'est incroyable de voir à quel point il aime ce sport.",
+      de: "Mein 5-jähriger Sohn liebt es, jede Woche hierher zu kommen. Die Trainer sind sehr geduldig, und es ist erstaunlich zu sehen, wie sehr er den Sport genießt.",
+      it: "Il mio bambino di 5 anni adora venire qui ogni settimana. Gli istruttori sono così pazienti, ed è incredibile vedere quanto ami questo sport.",
+      ge: "ჩემი 5 წლის შვილი ყოველ კვირას სიამოვნებით მოდის აქ. ინსტრუქტორები ძალიან მოთმინებით გამოირჩევიან და საოცარია, როგორ უყვარს სპორტი.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Lisa Black",
+    caption: {
+      en: "Mother of a 5-year-old",
+      fr: "Maman d'un enfant de 5 ans",
+      de: "Mutter eines 5-Jährigen",
+      it: "Mamma di un bambino di 5 anni",
+      ge: "5 წლის ბავშვის დედა",
+    },
+  },
+  {
+    stars: 4.7,
+    reviews: {
+      en: "This club has helped my twins, aged 12, develop teamwork and respect. The tournaments are well-organized, and they’ve made lifelong friends here.",
+      fr: "Ce club a aidé mes jumeaux de 12 ans à développer le travail d'équipe et le respect. Les tournois sont bien organisés, et ils se sont fait des amis pour la vie ici.",
+      de: "Dieser Club hat meinen 12-jährigen Zwillingen geholfen, Teamarbeit und Respekt zu entwickeln. Die Turniere sind gut organisiert, und sie haben hier lebenslange Freunde gefunden.",
+      it: "Questo club ha aiutato i miei gemelli di 12 anni a sviluppare il lavoro di squadra e il rispetto. I tornei sono ben organizzati e hanno fatto amicizie durature.",
+      ge: "ამ კლუბმა ჩემმა 12 წლის ტყუპებს გუნდური მუშაობისა და პატივისცემის განვითარებაში დაეხმარა. ტურნირები კარგად ორგანიზებულია და მათ აქ ცხოვრებაში მეგობრები იპოვეს.",
+    },
+    image:
+      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    name: "Emily White",
+    caption: {
+      en: "Mother of 12-year-old twins",
+      fr: "Maman de jumeaux de 12 ans",
+      de: "Mutter von 12-jährigen Zwillingen",
+      it: "Mamma di gemelli di 12 anni",
+      ge: "12 წლის ტყუპების დედა",
     },
   },
 ];
