@@ -22,7 +22,6 @@ export default function Home() {
       <ComponentFour />
       <Testimonials
         title1={t("testimonials.title1")}
-        title2={t("testimonials.title2")}
       />
       <ComponentFive />
     </div>

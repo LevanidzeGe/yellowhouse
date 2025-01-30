@@ -1,6 +1,6 @@
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
-import { chroisant2, heroReservation } from "@/public/image";
+import { childrenTeam, chroisant2, heroReservation } from "@/public/image";
 import PageHeadImage from "@/src/components/PageHeadImage/PageHeadImage";
 import ReservationContactForm from "@/src/components/ReservationContactForm/ReservationContactForm";
 
@@ -17,25 +17,25 @@ export default async function StoryPage() {
   const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      {/* <PageHeadImage
-        image={chroisant2}
-        value={t("reservationPage.headComponent.title")}
+      <PageHeadImage
+        image={childrenTeam}
+        // value={t("forms.headComponent.title")}
       />
       <ReservationContactForm
-        name={t("reservationPage.reservationForm.name")}
-        email={t("reservationPage.reservationForm.email")}
-        phone={t("reservationPage.reservationForm.phone")}
-        people={t("reservationPage.reservationForm.people")}
-        text={t("reservationPage.reservationForm.text")}
-        button={t("reservationPage.reservationForm.button")}
-        thank={t("reservationPage.reservationForm.thank")}
-        wait={t("reservationPage.reservationForm.wait")}
-      /> */}
+        name={t("forms.reservationForm.name")}
+        email={t("forms.reservationForm.email")}
+        phone={t("forms.reservationForm.phone")}
+        people={t("forms.reservationForm.people")}
+        text={t("forms.reservationForm.text")}
+        button={t("forms.reservationForm.button")}
+        thank={t("forms.reservationForm.thank")}
+        wait={t("forms.reservationForm.wait")}
+      />
 
-      {/* <Testimonials
+      <Testimonials
         title1={t("homePage.testimonials.title1")}
         title2={t("homePage.testimonials.title1")}
-      /> */}
+      />
     </div>
   );
 }

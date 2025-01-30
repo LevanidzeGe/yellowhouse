@@ -5,7 +5,7 @@ import styles from "./PageHeadImage.module.css";
 interface PageHeadImageProps {
   image: StaticImageData;
   short?: boolean;
-  value: string;
+  value?: string;
 }
 
 export default function PageHeadImage({
@@ -16,13 +16,14 @@ export default function PageHeadImage({
   return (
     <div className={styles.mainWrapper}>
       <div className={styles.overlayWrapper}>
-        <h1 className="heading1 gray5 color2">{value}</h1>
+        {/* <h1 className="heading1 gray5 color2">{value}</h1> */}
       </div>
       <div className={styles.imageDarkLayer}></div>
       <Image
         className={` ${styles.mainImage} ${short ? styles.short : ""}`}
         src={image}
-        alt={value}
+        // alt={value}
+        alt="s"
         width={1000}
         height={700}
         priority

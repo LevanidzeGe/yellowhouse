@@ -13,7 +13,7 @@ export default function Testimonials({
   title2,
 }: {
   title1: string;
-  title2: string;
+  title2?: string;
 }) {
   const reviewsWrapperRef = useRef<HTMLDivElement>(null);
   const [isScrolledLeft, setIsScrolledLeft] = useState(true); // Track if fully scrolled left
@@ -65,7 +65,6 @@ export default function Testimonials({
           <div className="container">
             <div className={styles.titlesWrapper}>
               <h3 className="heading2 color4">{title1}</h3>
-              <h4 className="heading4 color4">{title2}</h4>
             </div>
           </div>
         </div>
