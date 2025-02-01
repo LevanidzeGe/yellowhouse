@@ -7,7 +7,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperClass } from "swiper";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { Pagination } from "swiper/modules";
-import { images } from "./images-data";
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,9 +21,8 @@ import styles from "./AlbumSlider.module.css";
 
 interface AlbumProps {
   images: string[];
-  title: string;
 }
-export default function AlbumSlider() {
+export default function AlbumSlider({ images }: AlbumProps) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   return (

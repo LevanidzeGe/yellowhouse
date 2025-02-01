@@ -9,6 +9,7 @@ import AlbumSlider from "@/src/components/AlbumSlider/AlbumSlider";
 import ComponentFour from "@/src/components/Four/ComponentFour";
 import ComponentFive from "@/src/components/Five/ComponentFive";
 import Events from "./events/menuComponents/events";
+import { images } from "@/src/components/AlbumSlider/images-data";
 
 export default function Home() {
   const t = useTranslations("homePage");
@@ -17,10 +18,10 @@ export default function Home() {
     <div className="fadeOut">
       <Hero />
       <ComponentOne image={oldImage} />
-      <Events mini={true} />
       <ComponentTwo />
+      <Events mini={true} />
       <ComponentThree />
-      <AlbumSlider />
+      <AlbumSlider images={images} />
       <ComponentFour />
       <Testimonials title1={t("testimonials.title1")} />
       <ComponentFive />

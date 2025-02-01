@@ -56,7 +56,8 @@
       "description": ""
     },
     "events": {
-      "title": "Événements récents"
+      "title": "Événements récents",
+      "button": "Lire la suite"
     }
   },
   "storyPage": {

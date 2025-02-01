@@ -56,7 +56,8 @@
       "description": ""
     },
     "events": {
-      "title": "Kürzliche Veranstaltungen"
+      "title": "Kürzliche Veranstaltungen",
+      "button": "Mehr lesen"
     }
   },
   "storyPage": {

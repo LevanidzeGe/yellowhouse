@@ -1,92 +1,74 @@
-import MenuDetails from "./eachItemPage/MenuDetails";
-import { fetchMenuItem } from "../fetchingData";
+import EventDetails from "./eachItemPage/EventDetails";
+import { events } from "../eventsData";
 import { Metadata } from "next";
-import { defaultLocale, dynamicPageRoute } from "@/Manager/navigation";
+import { defaultLocale } from "@/Manager/navigation";
 import { companyDomain } from "@/Manager/info";
 
 type Props = {
   params: {
     lang: string;
-    itemId: string;
+    itemId: string; // Use itemId instead of id
   };
 };
 
 export const generateMetadata = async ({
   params,
 }: Props): Promise<Metadata> => {
-  try {
-    const data = await fetchMenuItem(params.itemId); // Use fetchMenuItem to fetch the data
+  const event = events.find((e) => e.id === params.itemId); // Use itemId here
 
-    if (!data) {
-      return {
-        title: "Not Found",
-        description: "The page you are looking for does not exist",
-      };
-    }
-
-    // Use params.lang instead of `useLocale` hook
-    const itemName = data.names?.[params.lang] || data.names?.[defaultLocale];
-    const itemDescription =
-      data.descriptions?.[params.lang] || data.descriptions?.[defaultLocale];
-    const openGraphImage =
-      data.image || `${companyDomain}/images/openGraph/mainOpenGraph.jpg`;
-    // Fallback image path
-
-    return {
-      title: itemName,
-      description: itemDescription,
-      alternates: {
-        canonical: `/${params.lang}/menu/${params.itemId}`,
-      },
-      openGraph: {
-        title: itemName,
-        description: itemDescription,
-        url: `${companyDomain}/${params.lang}/${dynamicPageRoute}/${params.itemId}`,
-        images: [
-          {
-            url: openGraphImage,
-            width: 500, // Standard Open Graph image width
-            height: 300, // Standard Open Graph image height
-            alt: itemName,
-          },
-        ],
-      },
-    };
-  } catch (error) {
+  if (!event) {
     return {
       title: "Not Found",
-      description: "The page you are looking for does not exist",
+      description: "The event you are looking for does not exist",
     };
   }
+
+  const translation =
+    event.translations[params.lang] || event.translations[defaultLocale];
+
+  return {
+    title: translation.title,
+    description: translation.description,
+    alternates: {
+      canonical: `/${params.lang}/events/${params.itemId}`, // Correct URL
+    },
+    openGraph: {
+      title: translation.title,
+      description: translation.description,
+      url: `${companyDomain}/${params.lang}/events/${params.itemId}`,
+      images: [
+        {
+          url:
+            event.images[0] ||
+            `${companyDomain}/images/openGraph/mainOpenGraph.jpg`,
+          width: 500,
+          height: 300,
+          alt: translation.title,
+        },
+      ],
+    },
+  };
 };
 
-interface MenuDetailsPageProps {
+interface EventDetailsPageProps {
   params: {
-    itemId: string;
+    itemId: string; // Use itemId here
+    lang: string;
   };
 }
 
-export default async function MenuDetailsPage({
+export default async function EventDetailsPage({
   params,
-}: MenuDetailsPageProps) {
-  const { itemId } = params;
+}: EventDetailsPageProps) {
+  const event = events.find((e) => e.id === params.itemId); // Use itemId here
 
-  const item = await fetchMenuItem(itemId);
-
-  if (!item) {
-    return null;
-    // <div>Item not found</div>;
+  if (!event) {
+    return <div>Event not found</div>;
   }
-  const safeItem = {
-    ...item,
-    names: item.names || {}, // Provide empty object if undefined
-    descriptions: item.descriptions || {}, // Provide empty object if undefined
-  };
 
-  // Pass the item to MenuDetails component
   return (
-    <div className="fadeOut bg-color4">
-      <MenuDetails item={safeItem} />
+    <div className="fadeOut ">
+      <EventDetails event={event} />
     </div>
   );
 }

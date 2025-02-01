@@ -19,7 +19,7 @@ export default function Second({ title }: props) {
           const localizedUrl =
             item.url === "/" ? `/${locale}` : `/${locale}${item.url}`;
           return (
-            <Link key={item.title} className="link" href={localizedUrl}>
+            <Link key={item.title} className="caption" href={localizedUrl}>
               {item.title}
             </Link>
           );

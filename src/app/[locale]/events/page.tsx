@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import Events from "./menuComponents/events";
 
 export async function generateMetadata() {
-  const t = await getTranslations("menuPage.metadata");
+  const t = await getTranslations("eventsPage.metadata");
   return {
     title: t("title"),
     description: t("description"),
