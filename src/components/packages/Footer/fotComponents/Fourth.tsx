@@ -1,16 +1,10 @@
 import { instagramUrl } from "@/Manager/info";
 import styles from "./Fourth.module.css";
 import Link from "next/link";
-import {
-  pizza,
-  pizza2,
-  heroMenu,
-  heroReservation,
-  heroStory,
-} from "@/public/image";
+import {} from "@/public/image";
 import Image from "next/image";
 
-const defaultImages = [pizza, pizza2, heroMenu, heroReservation, heroStory];
+// const defaultImages = [pizza, pizza2, heroMenu, heroReservation, heroStory];
 interface props {
   title: string;
   subTitle: string;
@@ -20,7 +14,7 @@ export default function Fourth({ title, subTitle }: props) {
     <section className={styles.wrapper}>
       <h2 className="heading4">{title}</h2>
       <div className={styles.imageWrapper}>
-        {defaultImages.slice(0, 6).map((img, index) => (
+        {/* {defaultImages.slice(0, 6).map((img, index) => (
           <Image
             key={img.src || index}
             className={styles.image}
@@ -29,7 +23,7 @@ export default function Fourth({ title, subTitle }: props) {
             height={70}
             src={img.src}
           />
-        ))}
+        ))} */}
       </div>
 
       <Link
