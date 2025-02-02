@@ -12,6 +12,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  max-height: 90vh;
+  overflow: hidden;
 }
 
 .image {
@@ -40,7 +42,8 @@
 .title {
   text-transform: capitalize;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  text-align: center;
+  margin: 0 auto 20px auto;
 }
 
 .description {

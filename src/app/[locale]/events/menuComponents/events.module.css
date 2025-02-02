@@ -1,5 +1,8 @@
-.paddingTop {
+.container {
   margin-top: 150px;
+}
+.paddingTop {
+  margin-top: 50px;
 }
 
 .eventsWrapper {
@@ -13,6 +16,9 @@
   gap: 30px;
   margin-bottom: 50px;
   align-items: end;
+}
+.button {
+  margin-left: auto;
 }
 @media (max-width: 992px) {
   .eventsWrapper {

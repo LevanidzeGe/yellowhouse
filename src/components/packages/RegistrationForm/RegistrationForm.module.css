@@ -2,7 +2,6 @@
   position: relative;
   width: 60%;
   max-width: 800px;
-  height: 700px;
   border: 5px solid var(--color2);
   margin: -150px auto 0 auto;
   margin-bottom: 100px;
@@ -12,6 +11,11 @@
 .reservation {
   height: 100%;
   padding: 10%;
+}
+.reservation h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .form {
@@ -80,7 +84,7 @@
 .hide {
   opacity: 0;
   pointer-events: none;
-  font-size: 40px;
+  font-size: 20px;
 }
 .none {
   display: none;

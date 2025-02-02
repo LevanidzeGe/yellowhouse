@@ -3,10 +3,11 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { giIconSvg, judoChildren } from "@/public/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function MainImage() {
   const t = useTranslations("homePage.hero");
+  const locale = useLocale();
   return (
     <div
       className={` section no-padding ${styles.mainWrapper} ${styles.outline}`}
@@ -22,10 +23,13 @@ export default function MainImage() {
               </div>
             </div>
             <div className={styles.buttonContainer}>
-              <Link className="button button-reverse" href="/">
+              <Link
+                className="button button-reverse"
+                href={`${locale}/contact`}
+              >
                 {t("button1")}
               </Link>
-              <Link className="button" href="/">
+              <Link className="button" href={`${locale}/registration`}>
                 {t("button2")}
               </Link>
             </div>

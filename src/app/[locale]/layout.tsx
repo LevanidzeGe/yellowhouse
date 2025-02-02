@@ -68,9 +68,9 @@ const dancingScript = Dancing_Script({
 
 //components
 
-import Header from "@/src/components/Header/Header";
-import Footer from "@/src/components/Footer/Footer";
-import LowerFoot from "@/src/components/LowerFooter/LowerFoot";
+import Header from "@/src/components/packages/Header/Header";
+import Footer from "@/src/components/packages/Footer/Footer";
+import LowerFoot from "@/src/components/packages/LowerFooter/LowerFoot";
 import { redirect } from "next/navigation";
 import { defaultLocale, supportedLocales } from "@/Manager/navigation"; // Import supported locales
 

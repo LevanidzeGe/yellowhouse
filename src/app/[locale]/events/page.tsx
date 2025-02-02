@@ -1,7 +1,7 @@
 import { heroMenu } from "@/public/image";
 import Menu from "./menuComponents/events";
 import { getTranslations } from "next-intl/server";
-import PageHeadImage from "@/src/components/PageHeadImage/PageHeadImage";
+import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
 import { useTranslations } from "next-intl";
 import Events from "./menuComponents/events";
 

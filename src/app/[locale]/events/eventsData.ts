@@ -14,6 +14,43 @@ export interface EventProps {
 }
 export const events: EventProps[] = [
   {
+    id: "event0",
+    timestamp: 1735776000000, // 2025-01-02
+    translations: {
+      en: {
+        title: "International Judo Grand Prix in Lyon",
+        description:
+          "The International Judo Grand Prix in Lyon brings together elite judokas from over 30 countries. Witness intense battles of strength, technique, and mental resilience as competitors vie for international glory. This prestigious event sets the stage for future world champions and Olympic hopefuls.",
+      },
+      fr: {
+        title: "Grand Prix International de Judo à Lyon",
+        description:
+          "Le Grand Prix International de Judo à Lyon réunit des judokas d'élite de plus de 30 pays. Assistez à des combats intenses où s'affrontent force, technique et résilience mentale. Un événement prestigieux qui prépare la voie aux futurs champions du monde et espoirs olympiques.",
+      },
+      de: {
+        title: "Internationaler Judo-Grand-Prix in Lyon",
+        description:
+          "Der Internationale Judo-Grand-Prix in Lyon vereint Spitzensportler aus über 30 Ländern. Erleben Sie packende Kämpfe voller Kraft, Technik und mentaler Stärke, wenn die Athleten um internationalen Ruhm kämpfen.",
+      },
+      it: {
+        title: "Gran Premio Internazionale di Judo a Lione",
+        description:
+          "Il Gran Premio Internazionale di Judo a Lione riunisce judoka d'élite provenienti da oltre 30 paesi. Vivi la tensione dei combattimenti più intensi, dove la forza fisica e la strategia mentale si fondono per la vittoria.",
+      },
+      ge: {
+        title: "ძიუდოს საერთაშორისო გრან-პრი ლიონში",
+        description:
+          "ძიუდოს საერთაშორისო გრან-პრი ლიონში აერთიანებს 30-ზე მეტი ქვეყნის ელიტარულ სპორტსმენებს. დააკვირდით დაძაბულ ბრძოლებს, სადაც ძალა, ტექნიკა და მენტალური სიმტკიცე ერთმანეთს ეჯახება.",
+      },
+    },
+    images: [
+      "https://github.com/levanydze/SUP/blob/main/judo/2.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/judo/1.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/judo/3.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/judo/4.png?raw=true",
+    ],
+  },
+  {
     id: "event1",
     timestamp: 1735776000000, // 2025-01-02
     translations: {

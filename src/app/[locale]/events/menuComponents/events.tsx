@@ -4,11 +4,14 @@ import { getTranslations } from "next-intl/server";
 import { events, EventProps } from "../eventsData";
 import { giSvg } from "@/public/image";
 import Image from "next/image";
+import Link from "next/link";
+import { useLocale } from "next-intl";
 
 export const revalidate = 86400; // Revalidate once a day
 
 export default async function Events({ mini }: { mini?: boolean }) {
   const t = await getTranslations("");
+  const locale = useLocale();
 
   // Sort events by timestamp (newest first)
   const sortedEvents = events.sort(
@@ -56,6 +59,14 @@ export default async function Events({ mini }: { mini?: boolean }) {
                 <ServerCard key={event.id} {...event} />
               ))}
           </div>
+          {mini && (
+            <Link
+              href={`${locale}/events`}
+              className={`${styles.button} button button-reverse`}
+            >
+              {t("eventsPage.events.seeAll")}
+            </Link>
+          )}
         </div>
 
         {/* ⏳ Past Events Section */}

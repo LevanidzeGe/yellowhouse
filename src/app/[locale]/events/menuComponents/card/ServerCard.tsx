@@ -20,7 +20,7 @@ export default function ServerCard({
 
   return (
     <div className={styles.cardWrapper}>
-      <div className={styles.imageWrapper}>
+      <Link href={`/${locale}/events/${id}`} className={styles.imageWrapper}>
         <Image
           src={images[0]}
           width={1000}
@@ -29,7 +29,7 @@ export default function ServerCard({
           loading="lazy"
           className={styles.image}
         />
-      </div>
+      </Link>
 
       <div className={styles.topDiv}>
         {timestamp && (

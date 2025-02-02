@@ -1,9 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"; //  npm install --save @emailjs/browser
-
-import styles from "./ReservationContactForm.module.css";
-import { useTranslations } from "next-intl";
+import styles from "./RegistrationForm.module.css";
 
 interface FormValues {
   user_name: string;
@@ -16,6 +14,7 @@ interface FormValues {
 }
 
 interface reservProps {
+  head: string;
   name: string;
   email: string;
   phone: string;
@@ -26,7 +25,8 @@ interface reservProps {
   wait: string;
 }
 
-export default function ReservationContactForm({
+export default function RegistrationForm({
+  head,
   name,
   email,
   phone,
@@ -92,6 +92,7 @@ export default function ReservationContactForm({
     <div className="container1">
       <div className={styles.reservationWrapper}>
         <div className={styles.reservation}>
+          <h3 className="heading3 color4">{head}</h3>
           <form
             className={`${styles.form} ${emailSent ? styles.none : ""}`}
             ref={form}

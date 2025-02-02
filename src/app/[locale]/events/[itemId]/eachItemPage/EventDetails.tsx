@@ -3,7 +3,8 @@ import Image from "next/image";
 import { useLocale } from "next-intl";
 import { EventProps } from "../../eventsData";
 import { defaultLocale } from "@/Manager/navigation";
-import AlbumSlider from "@/src/components/AlbumSlider/AlbumSlider";
+import AlbumSlider from "@/src/components/packages/AlbumSlider/AlbumSlider";
+import { babyIcon } from "@/public/image";
 
 interface EventDetailsProps {
   event: EventProps;
@@ -18,6 +19,9 @@ export default function EventDetails({ event }: EventDetailsProps) {
 
   return (
     <article className={styles.eventDetailsWrapper}>
+      <h2 className={`heading3 font1 color3 ${styles.title}`}>
+        {translation.title}
+      </h2>
       <div className={styles.imgWrapper}>
         <AlbumSlider images={event.images} />
       </div>
@@ -28,10 +32,6 @@ export default function EventDetails({ event }: EventDetailsProps) {
             {new Date(event.timestamp).toLocaleDateString(locale)}
           </p>
         )}
-        <h2 className={`heading3 font1 color3 ${styles.title}`}>
-          {translation.title}
-        </h2>
-
         <p className={`paragraph gray7 ${styles.description}`}>
           {translation.description}
         </p>
