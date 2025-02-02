@@ -37,7 +37,7 @@ export default async function Events({ mini }: { mini?: boolean }) {
 
   return (
     <section className="section section-light">
-      <div className={`container ${styles.container}`}>
+      <div className={`container ${!mini && styles.container}`}>
         {/* 📅 Upcoming Events Section */}
         <div className={`${!mini && styles.paddingTop}`}>
           <div className={styles.iconTextDiv}>
