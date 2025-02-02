@@ -42,7 +42,7 @@ export const navItems: { [key: string]: NavItemProps[] } = {
   ],
   ge: [
     { title: "მთავარი", url: "/" },
-    { title: "ივენთები", url: "/events" },
+    { title: "ღონისძიებები", url: "/events" },
     { title: "ისტორია", url: "/story" }, // Single word "ისტორია" (Story in Georgian)
     { title: "კონტაქტი", url: "/contact" },
     { title: "რეგისტრაცია", url: "/registration", button: true },

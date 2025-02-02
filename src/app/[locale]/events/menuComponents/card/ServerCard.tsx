@@ -31,11 +31,21 @@ export default function ServerCard({
         />
       </div>
 
-      {timestamp && (
-        <p className={`gray7 ${styles.date}`}>
-          {new Date(timestamp).toLocaleDateString(locale)}
-        </p>
-      )}
+      <div className={styles.topDiv}>
+        {timestamp && (
+          <p className={`gray7 ${styles.date}`}>
+            {new Date(timestamp).toLocaleDateString(locale)}
+          </p>
+        )}
+        {timestamp &&
+          (timestamp > Date.now() ? (
+            <span className={styles.upcoming}>
+              {t("eventsPage.events.upcoming")}
+            </span>
+          ) : (
+            <span className={styles.past}>{t("eventsPage.events.past")}</span>
+          ))}
+      </div>
 
       <div>
         <h2 className="heading4 color4">

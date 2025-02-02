@@ -12,11 +12,26 @@
   border-radius: 12px;
 }
 
-.date {
-  margin: 13px 0 0 0;
+.topDiv span {
+  font-size: 12px;
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 25px;
+  padding: 0 7px;
+  border-radius: 4px;
 }
-.cardWrapper p {
-  margin-top: 10px;
+.upcoming {
+  background-color: var(--color3);
+}
+.past {
+  background-color: var(--color6);
+}
+
+.topDiv {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .button svg {

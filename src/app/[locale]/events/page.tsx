@@ -15,10 +15,8 @@ export async function generateMetadata() {
 
 // Dynamic server-side rendering function that accepts params
 export default function MenuPage() {
-  const t = useTranslations("menuPage");
   return (
     <div className="fadeOut">
-      {/* <PageHeadImage image={heroMenu} value={t("headComponent.title")} short /> */}
       <Events />
     </div>
   );

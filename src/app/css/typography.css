@@ -126,20 +126,20 @@
 
 /* Break point 992px */
 @media (max-width: 992px) {
-  .heading1 {
-  }
+  /* .heading1 {
+  } */
 }
 
 /* Break point 768px */
 @media (max-width: 768px) {
-  .heading1 {
-  }
+  /* .heading1 {
+  } */
 }
 
 /* Break point 576px */
 @media (max-width: 576px) {
-  .heading1 {
-  }
+  /* .heading1 {
+  } */
   .heading2 {
     font-size: 30px;
   }
@@ -147,6 +147,6 @@
 
 /* Break point 400px */
 @media (max-width: 400px) {
-  .heading1 {
-  }
+  /* .heading1 {
+  } */
 }

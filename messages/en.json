@@ -57,7 +57,12 @@
     },
     "events": {
       "title": "Recent Events",
-      "button": "Read more"
+      "button": "Read more",
+      "upcomingEvents": "Upcoming events",
+      "pastEvents": "Past events",
+      "recentEvents": "Recent events",
+      "upcoming": "upcoming",
+      "past": "past"
     }
   },
   "storyPage": {
