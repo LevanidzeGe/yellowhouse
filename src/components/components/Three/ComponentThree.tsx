@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "./ComponentThree.module.css";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { giSvg, giorgiSofia } from "@/public/image";
 import Link from "next/link";
 
 export default function ComponentThree() {
   const t = useTranslations("homePage.componentThree");
+  const locale = useLocale();
   return (
     <section className="section">
       <div className="container">
@@ -18,7 +19,10 @@ export default function ComponentThree() {
             <div className={styles.middleDiv}>
               <h2 className="heading2 color4">{t("title2")}</h2>
               <p className="paragraph">{t("text1")}</p>
-              <Link className="button button-reverse heading4" href="/">
+              <Link
+                className="button button-reverse heading4"
+                href={`${locale}/registration`}
+              >
                 {t("button")}
               </Link>
             </div>

@@ -1,9 +1,19 @@
+import image1 from "@/public/images/testimonial/1-man.png";
+import image2 from "@/public/images/testimonial/2-girl.png";
+import image3 from "@/public/images/testimonial/3-man.png";
+import image4 from "@/public/images/testimonial/4-man.png";
+import image5 from "@/public/images/testimonial/5-girl.png";
+import image6 from "@/public/images/testimonial/6-girl.png";
+import image7 from "@/public/images/testimonial/7-man.png";
+import image8 from "@/public/images/testimonial/8-man.png";
+
+import { StaticImageData } from "next/image";
 interface reviewsDataProps {
   stars: number;
   reviews: {
     [key: string]: string;
   };
-  image: string;
+  image: StaticImageData; // Correct Type
   name: string;
   caption?: {
     [key: string]: string;
@@ -20,8 +30,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Gli allenatori sono incredibili e mio figlio ha imparato tantissimo in termini di disciplina e fiducia. Consiglio vivamente questo club a tutti i genitori .",
       ge: "მწვრთნელები დაუჯერებელნი არიან, და ჩემმა შვილმა ბევრ რამეში გაიარა დისციპლინისა და თავდაჯერებულობის გაძლიერება. ნამდვილად გირჩევთ ამ კლუბს ნებისმიერი .",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image2,
     name: "Sophia Brown",
     caption: {
       en: "Mother of a 7-year-old",
@@ -40,8 +49,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Mia figlia si allena qui da un anno e i miglioramenti sono notevoli. È più forte, più disciplinata e ama la comunità.",
       ge: "ჩემი შვილი უკვე ერთი წელია ვარჯიშობს აქ და პროგრესი საოცარია. ის უფრო ძლიერია, მეტად დისციპლინირებული და უყვარს აქაური საზოგადოება.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image1,
     name: "Michael Scott",
     caption: {
       en: "Father of a 10-year-old",
@@ -60,8 +68,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Il mio bambino di 5 anni adora venire qui ogni settimana. Gli istruttori sono così pazienti, ed è incredibile vedere quanto ami questo sport.",
       ge: "ჩემი 5 წლის შვილი ყოველ კვირას სიამოვნებით მოდის აქ. ინსტრუქტორები ძალიან მოთმინებით გამოირჩევიან და საოცარია, როგორ უყვარს სპორტი.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image5,
     name: "Lisa Black",
     caption: {
       en: "Mother of a 5-year-old",
@@ -80,8 +87,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Questo club ha aiutato i miei gemelli di 12 anni a sviluppare il lavoro di squadra e il rispetto. I tornei sono ben organizzati e hanno fatto amicizie durature.",
       ge: "ამ კლუბმა ჩემმა 12 წლის ტყუპებს გუნდური მუშაობისა და პატივისცემის განვითარებაში დაეხმარა. ტურნირები კარგად ორგანიზებულია და მათ აქ ცხოვრებაში მეგობრები იპოვეს.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image6,
     name: "Emily White",
     caption: {
       en: "Mother of 12-year-old twins",
@@ -100,8 +106,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Gli allenatori sono incredibili e mio figlio ha imparato tantissimo in termini di disciplina e fiducia. Consiglio vivamente questo club a tutti i genitori .",
       ge: "მწვრთნელები დაუჯერებელნი არიან, და ჩემმა შვილმა ბევრ რამეში გაიარა დისციპლინისა და თავდაჯერებულობის გაძლიერება. ნამდვილად გირჩევთ ამ კლუბს ნებისმიერი .",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image2,
     name: "Sophia Brown",
     caption: {
       en: "Mother of a 7-year-old",
@@ -120,8 +125,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Mia figlia si allena qui da un anno e i miglioramenti sono notevoli. È più forte, più disciplinata e ama la comunità.",
       ge: "ჩემი შვილი უკვე ერთი წელია ვარჯიშობს აქ და პროგრესი საოცარია. ის უფრო ძლიერია, მეტად დისციპლინირებული და უყვარს აქაური საზოგადოება.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image4,
     name: "Michael Scott",
     caption: {
       en: "Father of a 10-year-old",
@@ -140,8 +144,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Il mio bambino di 5 anni adora venire qui ogni settimana. Gli istruttori sono così pazienti, ed è incredibile vedere quanto ami questo sport.",
       ge: "ჩემი 5 წლის შვილი ყოველ კვირას სიამოვნებით მოდის აქ. ინსტრუქტორები ძალიან მოთმინებით გამოირჩევიან და საოცარია, როგორ უყვარს სპორტი.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image5,
     name: "Lisa Black",
     caption: {
       en: "Mother of a 5-year-old",
@@ -160,8 +163,7 @@ export const reviewsData: reviewsDataProps[] = [
       it: "Questo club ha aiutato i miei gemelli di 12 anni a sviluppare il lavoro di squadra e il rispetto. I tornei sono ben organizzati e hanno fatto amicizie durature.",
       ge: "ამ კლუბმა ჩემმა 12 წლის ტყუპებს გუნდური მუშაობისა და პატივისცემის განვითარებაში დაეხმარა. ტურნირები კარგად ორგანიზებულია და მათ აქ ცხოვრებაში მეგობრები იპოვეს.",
     },
-    image:
-      "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true",
+    image: image6,
     name: "Emily White",
     caption: {
       en: "Mother of 12-year-old twins",
