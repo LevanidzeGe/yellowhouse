@@ -1,8 +1,8 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo",
-      "description": "Geo Judo"
+      "title": "Geo Judo Club de Genève - Judo-Schule in Genf für Kinder",
+      "description": "Treten Sie dem Geo Judo Club de Genève bei und genießen Sie professionelles Judo-Training. Unsere Schule ist seit über 15 Jahren eine vertrauenswürdige Institution in Genf und bietet erstklassiges Training für Kinder im Alter von 2 bis 15 Jahren."
     },
     "hero": {
       "title1": "Lernen Sie die Kunst des Judo in",
@@ -10,11 +10,11 @@
       "text1": "Schüler",
       "text2": "Jahre in Genf",
       "button1": "Kontakt",
-      "button2": "Einschreiben"
+      "button2": "Jetzt anmelden"
     },
     "componentOne": {
-      "title1": "In Genf seit 2010",
-      "text": "Unsere Judoschule, die vor 15 Jahren in Genf gegründet wurde, ist ein wichtiger Ort für junge Athleten geworden. Mit Leidenschaft und Professionalität fördern wir unsere Schüler, indem wir ihnen Disziplin, Stärke und Einheit durch die Kunst des Judo beibringen. Treten Sie noch heute unserem Erbe bei!"
+      "title1": "Seit 2010 stolz in Genf tätig",
+      "text": "Unsere Judo-Schule, die vor 15 Jahren in Genf gegründet wurde, ist ein bedeutender Ort für junge Sportler. Mit Leidenschaft und Professionalität fördern wir unsere Schüler, indem wir ihnen Disziplin, Stärke und Einheit durch die Kunst des Judo vermitteln. Werden Sie Teil unseres Erbes!"
     },
     "componentTwo": {
       "text1": "Warum unsere Schule?",
@@ -22,22 +22,22 @@
       "text3": "Warum unsere Schule?",
       "text4": "Garantierte Ergebnisse, sportliche Aktivitäten und eine freundliche Atmosphäre",
       "text5": "Freundliche Atmosphäre",
-      "text6": "Entwicklung durch Freundschaft, sportliche Aktivitäten und Disziplin",
-      "text7": "Wettbewerbe im letzten Jahr",
-      "text8": "Im letzten Jahr haben unsere Schüler an zahlreichen Wettbewerben teilgenommen und verdient Gold-, Silber- und Bronzemedaillen gewonnen!"
+      "text6": "Entwicklung durch Freundlichkeit, sportliche Aktivitäten und Disziplin",
+      "text7": "Wettkämpfe im vergangenen Jahr",
+      "text8": "Im vergangenen Jahr nahmen unsere Schüler an zahlreichen Wettkämpfen teil und gewannen verdient Gold-, Silber- und Bronzemedaillen!"
     },
     "componentThree": {
       "title1": "Lehrer",
       "title2": "Giorgi Kurtanidze",
-      "text1": "Giorgi Kurtanidze, ein erfahrener Judo-Lehrer aus Georgien, zeichnet sich durch über 20 Jahre Erfahrung im Sport aus. Seit 15 Jahren unterrichtet er in Genf und hilft Kindern im Alter von 2 bis 15 Jahren, Judotechniken und Werte wie Respekt und Teamarbeit zu entwickeln. Giorgis Engagement und Professionalität haben ihn zu einer angesehenen Persönlichkeit in der lokalen Gemeinschaft gemacht.",
-      "button": "Registrieren",
+      "text1": "Giorgi Kurtanidze, ein erfahrener Judo-Lehrer aus Georgien, hebt sich mit über 20 Jahren Erfahrung im Sport hervor. Seit 15 Jahren unterrichtet er in Genf und hilft Kindern im Alter von 2-15 Jahren, Judo-Techniken sowie Werte wie Respekt und Teamarbeit zu entwickeln. Giorgis Hingabe und Professionalität haben ihn zu einer respektierten Persönlichkeit in der lokalen Gemeinschaft gemacht.",
+      "button": "Anmelden",
       "title3": "100+ Aktive Schüler",
-      "text2": "Das über 15 Jahre gesammelte Wissen und die Erfahrung sind der größte Schatz unserer Schule."
+      "text2": "Das Wissen und die Erfahrung, die über 15 Jahre angesammelt wurden, sind der größte Schatz unserer Schule."
     },
     "componentFour": {
-      "title1": "Kaufen Sie Uniformen bei Geo Judo",
-      "text1": "Schwarze Judo-Uniform",
-      "text2": "Weiße Judo-Uniform"
+      "title1": "Kaufen Sie Judo-Anzüge bei Geo Judo",
+      "text1": "Schwarzer Judo-Anzug",
+      "text2": "Weißer Judo-Anzug"
     },
     "componentFive": {
       "title1": "Adresse",
@@ -47,46 +47,53 @@
     "componentSix": {},
     "componentSeven": {},
     "testimonials": {
-      "title1": "Ein wenig Liebe"
+      "title1": "Was sagen Eltern?"
     }
   },
   "eventsPage": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Bevorstehende Judo-Veranstaltungen im Geo Judo Club de Genève",
+      "description": "Entdecken Sie die neuesten und bevorstehenden Judo-Veranstaltungen im Geo Judo Club de Genève. Bleiben Sie auf dem Laufenden über unsere Wettkämpfe und Trainingsveranstaltungen."
     },
     "events": {
-      "title": "Neueste Veranstaltungen",
+      "title": "Aktuelle Veranstaltungen",
       "button": "Mehr lesen",
       "upcomingEvents": "Bevorstehende Veranstaltungen",
       "pastEvents": "Vergangene Veranstaltungen",
-      "recentEvents": "Recent events",
-      "upcoming": "Bevorstehend",
-      "past": "Vergangen"
+      "recentEvents": "Aktuelle Veranstaltungen",
+      "upcoming": "bevorstehend",
+      "past": "vergangen",
+      "seeAll": "Alle Veranstaltungen"
     }
   },
-  "storyPage": {
+  "contactPage": {
     "metadata": {
-      "title": "Unsere Geschichte",
-      "description": "Entdecken Sie die Wurzeln unserer Leidenschaft für die georgische Küche und wie wir ein ikonisches Restaurant in Genf wurden, das Tradition und Innovation vereint."
+      "title": "Kontakt Geo Judo Club de Genève",
+      "description": "Nehmen Sie Kontakt mit dem Geo Judo Club de Genève auf, wenn Sie Fragen haben oder sich anmelden möchten. Wir helfen Ihnen gerne weiter!"
     },
-    "componentTwo": {},
-    "componentThree": {},
-    "componentFour": {},
-    "componentSeven": {}
+    "faq": "Häufig gestellte Fragen"
+  },
+  "registrationPage": {
+    "metadata": {
+      "title": "Melden Sie sich beim Geo Judo Club de Genève an",
+      "description": "Melden Sie sich für Judo-Kurse im Geo Judo Club de Genève an und starten Sie Ihre Reise in die Welt des Judo."
+    }
   },
   "forms": {
-    "reservationForm": {
+    "contactForm": {
+      "head1": "Kontaktieren Sie uns",
+      "head2": "Anmeldung",
       "name": "Vollständiger Name",
       "email": "E-Mail",
       "phone": "Telefonnummer",
       "date": "Datum",
       "time": "Uhrzeit",
       "quantity": "Anzahl der Personen",
-      "message": "Besondere Wünsche?",
+      "message": "Ihre Nachricht hier",
+      "button": "Absenden",
       "send": "Reservierungsanfrage senden",
-      "thankYou": "Danke für Ihre Reservierung!",
-      "comfirmation": "Bitte warten Sie auf unsere Bestätigung"
+      "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
+      "comfirmation": "Wir werden uns so schnell wie möglich bei Ihnen melden."
     }
   },
   "notFoundPage": {

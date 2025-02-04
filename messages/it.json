@@ -1,20 +1,20 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo",
-      "description": "Geo Judo"
+      "title": "Geo Judo Club de Genève - Scuola di Judo a Ginevra per Bambini",
+      "description": "Unisciti al Geo Judo Club de Genève per un allenamento di judo di classe mondiale. La nostra scuola è un'istituzione di fiducia a Ginevra da oltre 15 anni, offrendo formazione professionale per bambini dai 2 ai 15 anni."
     },
     "hero": {
-      "title1": "Impara l'arte del judo a",
+      "title1": "Studia l'arte del judo a",
       "title2": "Ginevra",
-      "text1": "Studenti",
-      "text2": "Anni a Ginevra",
+      "text1": "studenti",
+      "text2": "anni a Ginevra",
       "button1": "Contatto",
-      "button2": "Iscriviti"
+      "button2": "Iscriviti ora"
     },
     "componentOne": {
-      "title1": "A Ginevra dal 2010",
-      "text": "La nostra scuola di judo, fondata 15 anni fa a Ginevra, è diventata un luogo importante per i giovani atleti. Con passione e professionalità, formiamo i nostri studenti insegnando loro disciplina, forza e unità attraverso l'arte del judo. Unisciti alla nostra eredità oggi stesso!"
+      "title1": "Al servizio di Ginevra dal 2010",
+      "text": "La nostra scuola di judo, fondata 15 anni fa a Ginevra, è un luogo significativo per i giovani atleti. Con passione e professionalità, nutriamo i nostri studenti, insegnando loro disciplina, forza e unità attraverso l'arte del judo. Unisciti alla nostra eredità oggi!"
     },
     "componentTwo": {
       "text1": "Perché la nostra scuola?",
@@ -22,82 +22,90 @@
       "text3": "Perché la nostra scuola?",
       "text4": "Risultati garantiti, attività sportive e un'atmosfera amichevole",
       "text5": "Atmosfera amichevole",
-      "text6": "Sviluppo attraverso amicizia, attività sportive e disciplina",
-      "text7": "Competizioni nell'ultimo anno",
-      "text8": "Nell'ultimo anno, i nostri studenti hanno partecipato a numerose competizioni e hanno meritato medaglie d'oro, d'argento e di bronzo!"
+      "text6": "Sviluppo attraverso l'amicizia, le attività sportive e la disciplina",
+      "text7": "Competizioni dell'anno scorso",
+      "text8": "Lo scorso anno, i nostri studenti hanno partecipato a numerose competizioni e hanno meritato medaglie d'oro, d'argento e di bronzo!"
     },
     "componentThree": {
       "title1": "Insegnante",
       "title2": "Giorgi Kurtanidze",
-      "text1": "Giorgi Kurtanidze, un esperto istruttore di judo proveniente dalla Georgia, si distingue per oltre 20 anni di esperienza nello sport. Negli ultimi 15 anni ha insegnato a Ginevra, aiutando bambini di età compresa tra i 2 e i 15 anni a sviluppare tecniche di judo e valori come il rispetto e il lavoro di squadra. La dedizione e la professionalità di Giorgi lo hanno reso una figura rispettata nella comunità locale.",
-      "button": "Registrati",
-      "title3": "100+ Studenti Attivi",
-      "text2": "Le conoscenze e l'esperienza accumulate in 15 anni sono il più grande patrimonio della nostra scuola."
+      "text1": "Giorgi Kurtanidze, un istruttore di judo esperto dalla Georgia, si distingue con oltre 20 anni di esperienza nel sport. Da 15 anni insegna a Ginevra, aiutando i bambini dai 2 ai 15 anni a sviluppare tecniche di judo e valori come il rispetto e il lavoro di squadra. La dedizione e la professionalità di Giorgi lo hanno reso una figura rispettata nella comunità locale.",
+      "button": "Iscriviti",
+      "title3": "100+ studenti attivi",
+      "text2": "La conoscenza e l'esperienza accumulate in 15 anni sono il più grande patrimonio della nostra scuola."
     },
     "componentFour": {
-      "title1": "Acquista Uniformi da Geo Judo",
-      "text1": "Uniforme da Judo Nera",
-      "text2": "Uniforme da Judo Bianca"
+      "title1": "Acquista divise da Geo Judo",
+      "text1": "Divisa Judo Nera",
+      "text2": "Divisa Judo Bianca"
     },
     "componentFive": {
       "title1": "Indirizzo",
-      "title2": "Scrivici via email",
+      "title2": "Scrivici via e-mail",
       "title3": "Chiamaci"
     },
     "componentSix": {},
     "componentSeven": {},
     "testimonials": {
-      "title1": "Un po' d'amore"
+      "title1": "Cosa dicono i genitori"
     }
   },
   "eventsPage": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Eventi futuri al Geo Judo Club de Genève",
+      "description": "Scopri gli ultimi eventi e gli eventi futuri al Geo Judo Club de Genève. Rimani aggiornato sulle nostre competizioni e sugli eventi di allenamento."
     },
     "events": {
       "title": "Eventi recenti",
       "button": "Leggi di più",
-      "upcomingEvents": "Eventi in programma",
+      "upcomingEvents": "Eventi futuri",
       "pastEvents": "Eventi passati",
-      "upcoming": "In arrivo",
-      "past": "Passato"
+      "recentEvents": "Eventi recenti",
+      "upcoming": "futuro",
+      "past": "passato",
+      "seeAll": "Tutti gli eventi"
     }
   },
-  "storyPage": {
+  "contactPage": {
     "metadata": {
-      "title": "La Nostra Storia",
-      "description": "Scopri le radici della nostra passione per la cucina georgiana e come siamo diventati un ristorante iconico a Ginevra, mescolando tradizione e innovazione."
+      "title": "Contatta Geo Judo Club de Genève",
+      "description": "Contatta il Geo Judo Club de Genève per qualsiasi domanda o iscrizione. Siamo qui per aiutarti!"
     },
-    "componentTwo": {},
-    "componentThree": {},
-    "componentFour": {},
-    "componentSeven": {}
+    "faq": "Domande frequenti"
+  },
+  "registrationPage": {
+    "metadata": {
+      "title": "Iscriviti al Geo Judo Club de Genève",
+      "description": "Iscriviti ai corsi di judo al Geo Judo Club de Genève e inizia il tuo viaggio nel mondo del judo."
+    }
   },
   "forms": {
-    "reservationForm": {
-      "name": "Nome Completo",
-      "email": "Email",
-      "phone": "Numero di Telefono",
+    "contactForm": {
+      "head1": "Contattaci",
+      "head2": "Registrazione",
+      "name": "Nome completo",
+      "email": "E-mail",
+      "phone": "Numero di telefono",
       "date": "Data",
-      "time": "Ora",
-      "quantity": "Numero di Persone",
-      "message": "Richieste speciali?",
-      "send": "Invia Richiesta di Prenotazione",
-      "thankYou": "Grazie per la tua prenotazione!",
-      "comfirmation": "Attendi la nostra conferma"
+      "time": "Orario",
+      "quantity": "Numero di persone",
+      "message": "Il tuo messaggio qui",
+      "button": "Invia",
+      "send": "Invia richiesta di prenotazione",
+      "thankYou": "Grazie per averci contattato!",
+      "comfirmation": "Ti contatteremo il prima possibile."
     }
   },
   "notFoundPage": {
     "title1": "La pagina che stai cercando non esiste",
     "title2": "La pagina che stai cercando non esiste",
-    "button": "Pagina Iniziale"
+    "button": "Pagina principale"
   },
   "footer": {
-    "title1": "Informazioni di Contatto",
+    "title1": "Informazioni di contatto",
     "title2": "Navigazione",
     "title3": "Eventi",
     "title4": "Instagram",
-    "title5": "Vedi Altro"
+    "title5": "Vedi altro"
   }
 }

@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { childrenTeam } from "@/public/image";
 import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
 import ContactForm from "@/src/components/packages/ContactForm/ContactForm";
+import Accordion from "@/src/components/packages/Accordion/Accordion";
 
 export async function generateMetadata() {
   const t = await getTranslations("contactPage.metadata");
@@ -32,6 +33,7 @@ export default async function StoryPage() {
         thank={t("forms.contactForm.thank")}
         wait={t("forms.contactForm.wait")}
       />
+      <Accordion title={t("contactPage.faq")} />
 
       <Testimonials
         title1={t("homePage.testimonials.title1")}

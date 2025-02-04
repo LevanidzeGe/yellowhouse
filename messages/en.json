@@ -1,8 +1,8 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo",
-      "description": "Geo Judo"
+      "title": "Geo Judo Club de Genève - Judo School in Geneva for Children",
+      "description": "Join Geo Judo Club de Genève for world-class judo training. Our school has been a trusted institution in Geneva for over 15 years, offering professional training for children aged 2-15."
     },
     "hero": {
       "title1": "Study the art of judo in",
@@ -13,7 +13,7 @@
       "button2": "Roll in"
     },
     "componentOne": {
-      "title1": "In Geneva since 2010",
+      "title1": "Proudly Serving Geneva Since 2010",
       "text": "Our judo school, founded 15 years ago in Geneva, has become a significant place for young athletes. With passion and professionalism, we nurture our students, teaching them discipline, strength, and unity through the art of judo. Join our legacy today!"
     },
     "componentTwo": {
@@ -52,8 +52,8 @@
   },
   "eventsPage": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Upcoming Judo Events at Geo Judo Club de Genève",
+      "description": "Explore the latest and upcoming judo events at Geo Judo Club de Genève. Stay up-to-date with our competitions and training events."
     },
     "events": {
       "title": "Recent Events",
@@ -68,14 +68,15 @@
   },
   "contactPage": {
     "metadata": {
-      "title": "",
-      "description": ""
-    }
+      "title": "Contact Geo Judo Club de Genève",
+      "description": "Get in touch with Geo Judo Club de Genève for any inquiries or registration questions. We're here to help!"
+    },
+    "faq": "Frequently Asked Questions"
   },
   "registrationPage": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Register for Geo Judo Club de Genève",
+      "description": "Sign up for judo classes at Geo Judo Club de Genève and start your journey in the world of judo."
     }
   },
   "forms": {
