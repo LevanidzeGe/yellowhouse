@@ -1,4 +1,4 @@
-export const companyDomain = "https://geojudogeneve.ch";
+export const companyDomain = "https://geo-judo.vercel.app";
 export const companyName = "Geo Judo";
 export const phoneNumber: string = "+41 079 502 71 91";
 export const phoneNumber2: string = "";
