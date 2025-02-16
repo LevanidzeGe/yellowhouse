@@ -1,5 +1,5 @@
 import EventDetails from "./eachItemPage/EventDetails";
-import { events } from "../eventsData";
+import { projects } from "../projectsData";
 import { Metadata } from "next";
 import { defaultLocale } from "@/Manager/navigation";
 import { companyDomain } from "@/Manager/info";
@@ -7,14 +7,14 @@ import { companyDomain } from "@/Manager/info";
 type Props = {
   params: {
     lang: string;
-    itemId: string; // Use itemId instead of id
+    itemId: string;
   };
 };
 
 export const generateMetadata = async ({
   params,
 }: Props): Promise<Metadata> => {
-  const event = events.find((e) => e.id === params.itemId); // Use itemId here
+  const event = projects.find((e) => e.id === params.itemId); // Use itemId here
 
   if (!event) {
     return {
@@ -60,7 +60,7 @@ interface EventDetailsPageProps {
 export default async function EventDetailsPage({
   params,
 }: EventDetailsPageProps) {
-  const event = events.find((e) => e.id === params.itemId); // Use itemId here
+  const event = projects.find((e) => e.id === params.itemId); // Use itemId here
 
   if (!event) {
     return <div>Event not found</div>;

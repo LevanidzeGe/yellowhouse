@@ -12,4 +12,3 @@ export const address2: string = "École Mosaic";
 export const addressLink: string = "https://maps.app.goo.gl/jZgohAFduxMpTTXA8";
 
 export const email: string = "geojudogeneve@gmail.com";
-//must fix

@@ -4,7 +4,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 0;
   padding-top: 80px;
   width: 100vw;
   margin-top: -460px;
@@ -21,6 +21,9 @@
   text-align: center;
   transition: 0.5s cubic-bezier(1, 0.23, 0.59, 1.12);
   z-index: 99;
+}
+.burgerLi span {
+  cursor: pointer;
 }
 .burgerLi {
   padding: 15px 0;
@@ -47,8 +50,19 @@
   color: var(--color5);
   font-size: 28px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
   margin-bottom: -12px;
+}
+
+.dropdownMenu {
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dropdownMenu li {
+  padding: 10px 0;
 }
 
 @media (min-width: 993px) {

@@ -4,7 +4,7 @@ export interface EventTranslation {
   description: string;
 }
 
-export interface EventProps {
+export interface ProjectProps {
   id: string;
   timestamp: number;
   translations: {
@@ -12,7 +12,7 @@ export interface EventProps {
   };
   images: string[];
 }
-export const events: EventProps[] = [
+export const projects: ProjectProps[] = [
   {
     id: "event0",
     timestamp: 1735776000000, // 2025-01-02

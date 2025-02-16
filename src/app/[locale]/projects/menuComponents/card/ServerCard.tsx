@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ServerCard.module.css";
 import Image from "next/image";
-import { EventProps } from "../../eventsData";
+import { ProjectProps } from "../../projectsData";
 import { useLocale, useTranslations } from "next-intl";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export default function ServerCard({
   translations,
   images,
   timestamp,
-}: EventProps) {
+}: ProjectProps) {
   const locale = useLocale();
   const t = useTranslations();
 
@@ -20,7 +20,7 @@ export default function ServerCard({
 
   return (
     <div className={styles.cardWrapper}>
-      <Link href={`/${locale}/events/${id}`} className={styles.imageWrapper}>
+      <Link href={`/${locale}/projects/${id}`} className={styles.imageWrapper}>
         <Image
           src={images[0]}
           width={1000}
@@ -33,22 +33,17 @@ export default function ServerCard({
 
       <div className={styles.topDiv}>
         {timestamp && (
-          <p className={`gray7 ${styles.date}`}>
-            {new Date(timestamp).toLocaleDateString(locale)}
-          </p>
+          <>
+            <p className={`gray7 ${styles.date}`}>
+              {new Date(timestamp).toLocaleDateString(locale)}
+            </p>
+            <p className={`gray7 caption-mini ${styles.caption}`}>Renovation</p>
+          </>
         )}
-        {timestamp &&
-          (timestamp > Date.now() ? (
-            <span className={styles.upcoming}>
-              {t("eventsPage.events.upcoming")}
-            </span>
-          ) : (
-            <span className={styles.past}>{t("eventsPage.events.past")}</span>
-          ))}
       </div>
 
       <div>
-        <h2 className="heading4 color4">
+        <h2 className="heading3 color4">
           {displayTranslation.title.length > 40
             ? `${displayTranslation.title.substring(0, 40)}...`
             : displayTranslation.title}
@@ -60,7 +55,7 @@ export default function ServerCard({
         </p>
       </div>
 
-      <Link href={`/${locale}/events/${id}`} className={styles.button}>
+      <Link href={`/${locale}/projects/${id}`} className={styles.button}>
         {t("eventsPage.events.button")}
         <FaArrowRightLong />
       </Link>

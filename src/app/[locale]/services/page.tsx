@@ -1,8 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import Events from "./menuComponents/events";
+import ServicesList from "./Services/ServicesList";
 
 export async function generateMetadata() {
-  const t = await getTranslations("eventsPage.metadata");
+  const t = await getTranslations("registrationPage.metadata");
   return {
     title: t("title"),
     description: t("description"),
@@ -10,10 +10,11 @@ export async function generateMetadata() {
 }
 
 // Dynamic server-side rendering function that accepts params
-export default function MenuPage() {
+export default async function StoryPage() {
+  const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      <Events />
+      <ServicesList />
     </div>
   );
 }

@@ -1,132 +1,77 @@
-.mainWrapper {
-  overflow: hidden;
-  position: relative;
+.wrapper {
+  display: flex;
   height: 100vh;
+  position: relative;
   max-height: 1500px;
-  min-height: 844px;
+  /* max-width: 2000px; */
   margin: 0 auto;
 }
-
-.mainImage {
-  position: absolute;
-  height: 100%;
-  padding: 3% 0;
-  min-height: 600px;
-  z-index: -1;
-  max-height: 1500px;
-  left: -10%;
-  top: 0;
-}
-.overlay {
-  display: flex;
-  position: relative;
-  height: 100%;
-}
 .leftDiv {
-  margin-top: 100px;
-  width: 50%;
+  margin-top: 150px;
+  padding-right: 0;
+  width: 40%;
   z-index: 1;
+}
+.imageWrapper {
+  padding-top: 80px;
+  width: 55%;
+  object-fit: cover;
+  height: auto;
 }
 
 .leftDiv h1 {
   color: var(--color4);
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .leftDiv h2 {
   line-height: 150%;
-  color: rgba(0, 34, 64, 0.6);
 }
 .leftDiv h2:nth-child(2) {
-  color: var(--color6);
   padding-bottom: 20px;
 }
 .buttonContainer {
+  margin-top: 15%;
   display: flex;
   gap: 15px;
-  margin-top: 15%;
 }
 
-.rightDiv {
-  width: 50%;
-  height: 100%;
-}
-.topDiv {
+.vector {
   position: absolute;
-  right: 80px;
-  margin-top: -20px;
-}
-.topDiv p {
-  color: var(--color4);
-  font-size: 60px;
-  line-height: 50px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-.topDiv span {
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--gray7);
+  width: 100%;
+  bottom: 0;
+  transform: translate(0, 50%);
 }
 
-.imagesDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.imageWrapper img {
+  border-top-left-radius: 100px;
+  object-fit: cover;
+  width: 100%;
   height: 100%;
-  margin: auto 0;
-  padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
 }
 
-.blueDiv {
-  color: var(--color1);
-  max-width: max-content;
-  padding: 10px 20px;
-  background: linear-gradient(
-    100.09deg,
-    var(--color3) 7.55%,
-    var(--color5) 98.78%
-  );
-  border-radius: 11px;
+.circles img {
+  position: absolute;
 }
-.redDiv {
-  color: var(--color4);
-  margin-top: 20px;
-  padding: 10px 20px;
-  max-width: max-content;
-  background: linear-gradient(
-    100.09deg,
-    var(--color6) 7.55%,
-    rgb(205, 80, 80) 98.78%
-  );
-  border-radius: 11px;
+.circleL {
+  top: 30%;
+  left: 25%;
+  height: 50vh;
+}
+.circleM {
+  top: 10%;
+  left: -10%;
+  height: 30vh;
+}
+.circleS {
+  bottom: 10%;
+  left: -10%;
+  height: 10vh;
 }
 
 @media (max-width: 1300px) {
-  .bottomDiv {
-    display: none;
-  }
-  .topDiv {
-    display: none;
-  }
-  .imagesDiv {
-    margin-left: -100px;
-  }
-  .title {
-    max-width: 400px;
-  }
 }
 
 @media (max-width: 992px) {
-  .imagesDiv {
-    display: none;
-  }
-  .title {
-    max-width: auto;
-  }
-  .rightDiv {
-    width: 0;
-  }
-  .leftDiv {
-    width: 100%;
-  }
 }

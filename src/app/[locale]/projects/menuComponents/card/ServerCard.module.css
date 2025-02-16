@@ -1,12 +1,12 @@
 .cardWrapper {
-  width: 49%;
+  width: 32%;
   border-radius: 8px;
   margin-bottom: 4%;
 }
 
 .cardWrapper img {
   object-fit: cover;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
   width: 100%;
   border-radius: 12px;
@@ -21,11 +21,10 @@
   padding: 0 7px;
   border-radius: 4px;
 }
-.upcoming {
-  background-color: var(--color3);
-}
-.past {
-  background-color: var(--color6);
+.caption {
+  background-color: var(--color1);
+  padding: 3px 7px;
+  border-radius: 5px;
 }
 
 .topDiv {

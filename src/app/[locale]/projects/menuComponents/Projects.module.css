@@ -11,12 +11,11 @@
   justify-content: space-between;
   gap: 2%;
 }
-.iconTextDiv {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 50px;
-  align-items: end;
+.title {
+  padding-top: 16px;
+  padding-bottom: 60px;
 }
+
 .button {
   margin-left: auto;
 }

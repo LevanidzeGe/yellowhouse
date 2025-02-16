@@ -1,46 +1,30 @@
 import React from "react";
 import styles from "./Third.module.css";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-const events = [
-  {
-    date: "July 30, 2024",
-    title: "The principles of scientific cooking",
-  },
-  {
-    date: "August 08, 2024",
-    title: "Barbecue party tips for a truly amazing event",
-  },
-  {
-    date: "September 24, 2024",
-    title: "Cooking for one",
-  },
-  {
-    date: "December 24, 2024",
-    title: "Big pizza party",
-  },
-];
-interface props {
-  title: string;
-}
-export default function Third({ title }: props) {
+export default function Third() {
+  const t = useTranslations("footer");
   return (
     <section>
-      <h2 className="heading4">{title}</h2>
+      <h2 className="heading4">{t("title3")}</h2>
       <ul>
-        {events.slice(0, 3).map((event) => (
-          <li className={styles.eventWrap} key={`${event.date}-${event.title}`}>
-            <p className="captionMini">{event.date}</p>
-            <h3 className="caption">{event.title}</h3>
-          </li>
-        ))}
+        <li className={styles.eventWrap}>
+          <p className="paragraph-bold">{t("monday")}</p>
+          <h3 className="paragraph">17:30 - 19:15</h3>
+        </li>
+        <li className={styles.eventWrap}>
+          <p className="paragraph-bold">{t("wednsday")}</p>
+          <h3 className="paragraph">16:45 - 17:45</h3>
+        </li>
+        <li className={styles.eventWrap}>
+          <p className="paragraph-bold">{t("thursday")}</p>
+          <h3 className="paragraph">17:00 - 18:45</h3>
+        </li>
+        <li className={styles.eventWrap}>
+          <p className="paragraph-bold">{t("friday")}</p>
+          <h3 className="paragraph">17:00 - 19:00</h3>
+        </li>
       </ul>
-
-      <div>
-        <Link className="caption" href="/">
-          View All Posts
-        </Link>
-      </div>
     </section>
   );
 }

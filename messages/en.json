@@ -5,10 +5,8 @@
       "description": "Join Geo Judo Club de Genève for world-class judo training. Our school has been a trusted institution in Geneva for over 15 years, offering professional training for children aged 2-15."
     },
     "hero": {
-      "title1": "Study the art of judo in",
-      "title2": "Geneva",
-      "text1": "Students",
-      "text2": "Years in Geneva",
+      "title1": "Tillsammans med oss blir markskötseln enkel",
+      "title2": "Vi tillhandahåller flera typer av markunderhåll med hög kvalitet till förmånliga priser",
       "button1": "Contact",
       "button2": "Roll in"
     },
@@ -104,8 +102,10 @@
   "footer": {
     "title1": "Contact Information",
     "title2": "Navigation",
-    "title3": "Events",
-    "title4": "Instagram",
-    "title5": "View More"
+    "title3": "Working hours",
+    "monday": "Monday",
+    "wednsday": "Wednsday",
+    "thursday": "Thursday",
+    "friday": "Friday"
   }
 }

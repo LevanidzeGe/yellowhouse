@@ -2,36 +2,36 @@ import React from "react";
 import styles from "./ComponentOne.module.css";
 import Image, { StaticImageData } from "next/image";
 import { useTranslations } from "next-intl";
-import { giIconSvg, giSvg } from "@/public/image";
 interface ComponentOne {
   image: StaticImageData;
-  reverse?: boolean;
 }
 
-export default function ComponentOne({ image, reverse }: ComponentOne) {
+export default function ComponentOne({ image }: ComponentOne) {
   const t = useTranslations("homePage.componentOne");
 
   return (
-    <section className="section section-light">
-      <div className="container">
-        <div
-          className={` ${reverse ? styles.reverse : ""}  ${
-            styles.photoTextWrapper
-          }`}
-        >
-          <Image
-            className={styles.image}
-            src={image}
-            height={1500}
-            width={1000}
-            alt="ss"
-          />
-          <div className={styles.textDiv}>
-            <div className={`blueBg ${styles.iconTextDiv}`}>
-              <Image src={giSvg} width={50} height={70} alt="" />
-              <h2 className="heading2 color6">Geo Judo</h2>
+    <section className="section  ">
+      <div className="container no-padding-x">
+        <div className={styles.wrapper}>
+          <div className={styles.leftDiv}>
+            <Image width={1500} height={1000} src={image} alt={t("title1")} />
+            <div className={styles.boxOne}>
+              <h4 className="heading2 white">+200</h4>
+              <span className="heading4 white">Satisfied Client</span>
             </div>
-            <h3 className="heading3 color3">{t("title1")}</h3>
+            <div className={styles.boxTwo}>
+              <h4 className="heading2 white">+10</h4>
+              <span className="heading4 white">Years Experience</span>
+            </div>
+          </div>
+          <div className={styles.textDiv}>
+            <div className={""}>
+              <div className="sideLineWrap">
+                <div className="sideLine"></div>
+                <h2 className="heading4">Who are we?</h2>
+              </div>
+            </div>
+            <h3 className="heading2 color4">{t("title1")}</h3>
             <p className="paragraph">{t("text")}</p>
           </div>
         </div>

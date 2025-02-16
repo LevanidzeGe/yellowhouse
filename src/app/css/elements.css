@@ -32,13 +32,14 @@
 
 /* restaurant menu tags like spicy or new or vegan.... needs to add bg color */
 
-.blueBg {
-  width: max-content;
-  padding: 10px 25px;
-  background: linear-gradient(
-    100.09deg,
-    var(--color5) 27.55%,
-    var(--color3) 98.78%
-  );
-  border-radius: 11px;
+.sideLineWrap {
+  display: flex;
+  color: var(--color4-80);
+}
+.sideLine {
+  margin-left: 3px;
+  width: 5px;
+  height: 25px;
+  background-color: var(--color4-80);
+  margin-right: 20px;
 }
