@@ -1,7 +1,7 @@
 import { companyDomain } from "@/Manager/info";
 // import { fetchCategories } from "@/src/app/[locale]/events/fetchingData";
 import {
-  fireBaseRoute,
+  // fireBaseRoute,
   navItems,
   supportedLocales,
 } from "@/Manager/navigation";
