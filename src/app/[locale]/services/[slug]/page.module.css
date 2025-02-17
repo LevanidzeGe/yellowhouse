@@ -31,3 +31,26 @@
 .cardWrapper h3 {
   margin-top: 25px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    margin-top: 100px;
+  }
+  .cardTextWrap {
+    padding-bottom: 20px;
+  }
+  .cardTextWrap {
+    width: 100%;
+  }
+  .cardWrapper img {
+    width: 100%;
+    max-height: 400px;
+  }
+  .cardWrapper {
+    flex-direction: column-reverse;
+    padding: 40px 0;
+  }
+  .cardWrapper:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}

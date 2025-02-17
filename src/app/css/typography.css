@@ -113,21 +113,9 @@
   font-family: var(--font1);
 }
 
-@media (max-width: 1000px) {
-  .paragraph {
-    /* font-size: 14px; */
-  }
-}
-@media (max-width: 600px) {
-  .paragraph {
-    /* font-size: 13px; */
-  }
-}
-
-/* Break point 1200px */
 @media (max-width: 1200px) {
-  .heading1 {
-    /* font-size: 60px; */
+  .paragraph {
+    font-size: 14px;
   }
 }
 
@@ -139,8 +127,9 @@
 
 /* Break point 768px */
 @media (max-width: 768px) {
-  /* .heading1 {
-  } */
+  .paragraph {
+    font-size: 13px;
+  }
 }
 
 /* Break point 576px */
