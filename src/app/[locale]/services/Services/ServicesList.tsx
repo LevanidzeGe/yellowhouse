@@ -24,7 +24,7 @@ export default function ServicesList() {
         <div className={styles.servicesWrapper}>
           {services.map(({ slug, title, description, image }) => (
             <Link
-              href={`${locale}/services/${slug}`}
+              href={`services/${slug}`}
               key={slug}
               className={styles.serviceCard}
             >
