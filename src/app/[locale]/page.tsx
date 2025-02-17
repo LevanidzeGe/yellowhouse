@@ -1,5 +1,5 @@
 import Hero from "@/src/components/components/Hero/Hero";
-import { childrenTeam, oldImage } from "@/public/image";
+import { brush, childrenTeam, oldImage } from "@/public/image";
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
 import ComponentOne from "@/src/components/components/One/ComponentOne";
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="fadeOut">
       <Hero />
-      <ComponentOne image={childrenTeam} />
+      <ComponentOne image={brush} />
       <Projects mini={true} />
       <ServicesList />
       {/* <ComponentTwo /> */}

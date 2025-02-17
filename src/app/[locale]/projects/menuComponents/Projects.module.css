@@ -1,5 +1,4 @@
 .container {
-  margin-top: 150px;
 }
 .paddingTop {
   margin-top: 50px;
@@ -20,6 +19,10 @@
   margin-left: auto;
 }
 @media (max-width: 992px) {
+  .container {
+    margin-top: 100px;
+  }
+
   .eventsWrapper {
     flex-direction: column;
   }

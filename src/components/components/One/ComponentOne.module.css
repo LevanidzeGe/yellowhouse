@@ -32,17 +32,17 @@
   background: var(--color4-80);
   border-radius: 10px;
   transform: translate(50%, 50%);
-  right: 20%;
+  right: 25%;
   text-align: center;
   padding: 30px 40px;
   bottom: 0;
 }
 
 .textDiv h3 {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .textDiv {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,6 +59,18 @@
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .textDiv {
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .leftDiv {
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 772px) {
   .textDiv {
     width: 90%;

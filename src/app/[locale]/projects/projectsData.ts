@@ -18,36 +18,39 @@ export const projects: ProjectProps[] = [
     timestamp: 1735776000000, // 2025-01-02
     translations: {
       en: {
-        title: "International Judo Grand Prix in Lyon",
+        title: "Renovation Project in Lyon",
         description:
-          "The International Judo Grand Prix in Lyon brings together elite judokas from over 30 countries. Witness intense battles of strength, technique, and mental resilience as competitors vie for international glory. This prestigious event sets the stage for future world champions and Olympic hopefuls.",
+          "This renovation project in Lyon transformed an old building into a modern and functional space. Our team worked meticulously on restoring the structural integrity, installing new flooring, and updating the plumbing and electrical systems. The project highlights our commitment to quality craftsmanship and attention to detail.",
       },
       fr: {
-        title: "Grand Prix International de Judo à Lyon",
+        title: "Projet de Rénovation à Lyon",
         description:
-          "Le Grand Prix International de Judo à Lyon réunit des judokas d'élite de plus de 30 pays. Assistez à des combats intenses où s'affrontent force, technique et résilience mentale. Un événement prestigieux qui prépare la voie aux futurs champions du monde et espoirs olympiques.",
+          "Ce projet de rénovation à Lyon a transformé un vieux bâtiment en un espace moderne et fonctionnel. Notre équipe a travaillé avec soin sur la restauration de l'intégrité structurelle, l'installation de nouveaux sols et la mise à jour des systèmes de plomberie et d'électricité. Le projet met en valeur notre engagement envers un travail de qualité et une attention aux détails.",
       },
       de: {
-        title: "Internationaler Judo-Grand-Prix in Lyon",
+        title: "Renovierungsprojekt in Lyon",
         description:
-          "Der Internationale Judo-Grand-Prix in Lyon vereint Spitzensportler aus über 30 Ländern. Erleben Sie packende Kämpfe voller Kraft, Technik und mentaler Stärke, wenn die Athleten um internationalen Ruhm kämpfen.",
+          "Dieses Renovierungsprojekt in Lyon verwandelte ein altes Gebäude in einen modernen und funktionalen Raum. Unser Team arbeitete sorgfältig an der Wiederherstellung der strukturellen Integrität, der Verlegung neuer Böden und der Aktualisierung der Sanitär- und Elektroinstallationen. Das Projekt hebt unser Engagement für handwerkliche Qualität und Liebe zum Detail hervor.",
       },
       it: {
-        title: "Gran Premio Internazionale di Judo a Lione",
+        title: "Progetto di Ristrutturazione a Lione",
         description:
-          "Il Gran Premio Internazionale di Judo a Lione riunisce judoka d'élite provenienti da oltre 30 paesi. Vivi la tensione dei combattimenti più intensi, dove la forza fisica e la strategia mentale si fondono per la vittoria.",
+          "Questo progetto di ristrutturazione a Lione ha trasformato un vecchio edificio in uno spazio moderno e funzionale. Il nostro team ha lavorato con attenzione per ripristinare l'integrità strutturale, installare nuovi pavimenti e aggiornare gli impianti idraulici ed elettrici. Il progetto sottolinea il nostro impegno per la qualità artigianale e la cura dei dettagli.",
       },
       ge: {
-        title: "ძიუდოს საერთაშორისო გრან-პრი ლიონში",
+        title: "რემონტის პროექტი ლიონში",
         description:
-          "ძიუდოს საერთაშორისო გრან-პრი ლიონში აერთიანებს 30-ზე მეტი ქვეყნის ელიტარულ სპორტსმენებს. დააკვირდით დაძაბულ ბრძოლებს, სადაც ძალა, ტექნიკა და მენტალური სიმტკიცე ერთმანეთს ეჯახება.",
+          "ამ რემონტმა ლიონში ძველი შენობა გადატყდა თანამედროვე და ფუნქციური სივრცედ. ჩვენი გუნდი მჭიდროდ მუშაობდა სტრუქტურული მთლიანობის აღდგენაზე, ახალი იატაკის მონტაჟსა და წყალმომარაგების და ელექტროენერგიის სისტემების განახლებაზე. პროექტი ხაზს უსვამს ჩვენს ვალდებულებას ხარისხიანი ხელოსნობის და დეტალებზე ყურადღების მიმართ.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/2.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/1.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/3.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/4.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
     ],
   },
   {
@@ -55,36 +58,39 @@ export const projects: ProjectProps[] = [
     timestamp: 1735776000000, // 2025-01-02
     translations: {
       en: {
-        title: "International Judo Grand Prix in Lyon",
+        title: "Renovation Project in Paris",
         description:
-          "The International Judo Grand Prix in Lyon brings together elite judokas from over 30 countries. Witness intense battles of strength, technique, and mental resilience as competitors vie for international glory. This prestigious event sets the stage for future world champions and Olympic hopefuls.",
+          "A major renovation project in Paris has been completed, turning a dated apartment into a sophisticated and stylish living space. The project involved updating the kitchen, bathroom, and flooring while maintaining the building's historic charm. We ensured that every element was carefully selected to meet modern standards.",
       },
       fr: {
-        title: "Grand Prix International de Judo à Lyon",
+        title: "Projet de Rénovation à Paris",
         description:
-          "Le Grand Prix International de Judo à Lyon réunit des judokas d'élite de plus de 30 pays. Assistez à des combats intenses où s'affrontent force, technique et résilience mentale. Un événement prestigieux qui prépare la voie aux futurs champions du monde et espoirs olympiques.",
+          "Un projet de rénovation majeur à Paris a été réalisé, transformant un appartement vieillot en un espace de vie sophistiqué et élégant. Le projet a impliqué la mise à jour de la cuisine, de la salle de bain et des sols tout en préservant le charme historique du bâtiment. Nous avons veillé à ce que chaque élément soit soigneusement sélectionné pour répondre aux normes modernes.",
       },
       de: {
-        title: "Internationaler Judo-Grand-Prix in Lyon",
+        title: "Renovierungsprojekt in Paris",
         description:
-          "Der Internationale Judo-Grand-Prix in Lyon vereint Spitzensportler aus über 30 Ländern. Erleben Sie packende Kämpfe voller Kraft, Technik und mentaler Stärke, wenn die Athleten um internationalen Ruhm kämpfen.",
+          "Ein großes Renovierungsprojekt in Paris wurde abgeschlossen, bei dem eine veraltete Wohnung in einen eleganten und modernen Wohnraum verwandelt wurde. Das Projekt umfasste die Aktualisierung der Küche, des Badezimmers und des Bodenbelags, während der historische Charme des Gebäudes erhalten blieb. Wir haben dafür gesorgt, dass jedes Element sorgfältig ausgewählt wurde, um modernen Standards gerecht zu werden.",
       },
       it: {
-        title: "Gran Premio Internazionale di Judo a Lione",
+        title: "Progetto di Ristrutturazione a Parigi",
         description:
-          "Il Gran Premio Internazionale di Judo a Lione riunisce judoka d'élite provenienti da oltre 30 paesi. Vivi la tensione dei combattimenti più intensi, dove la forza fisica e la strategia mentale si fondono per la vittoria.",
+          "Un grande progetto di ristrutturazione a Parigi è stato completato, trasformando un appartamento datato in uno spazio di vita sofisticato ed elegante. Il progetto ha comportato l'aggiornamento della cucina, del bagno e dei pavimenti, mantenendo al contempo il fascino storico dell'edificio. Ogni elemento è stato selezionato con cura per soddisfare gli standard moderni.",
       },
       ge: {
-        title: "ძიუდოს საერთაშორისო გრან-პრი ლიონში",
+        title: "რემონტის პროექტი პარიზში",
         description:
-          "ძიუდოს საერთაშორისო გრან-პრი ლიონში აერთიანებს 30-ზე მეტი ქვეყნის ელიტარულ სპორტსმენებს. დააკვირდით დაძაბულ ბრძოლებს, სადაც ძალა, ტექნიკა და მენტალური სიმტკიცე ერთმანეთს ეჯახება.",
+          "პარიზში დასრულდა დიდი რემონტის პროექტი, რომელმაც ძველი აპარტამენტი გლამურული და თანამედროვე საცხოვრებელი სივრცედ გადააქცია. პროექტი მოიცავდა სამზარეულოს, სააბაზანოსა და იატაკის განახლებას, იმავე დროს შენობის ისტორიული ხიბლის შენარჩუნებისას. თითოეული ელემენტი ყურადღებით შეირჩა თანამედროვე სტანდარტებთან შესაბამისობაში.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/1.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/2.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/3.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/4.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
     ],
   },
   {
@@ -92,147 +98,159 @@ export const projects: ProjectProps[] = [
     timestamp: 1739577600000, // 2025-02-15
     translations: {
       en: {
-        title: "Elite Judo Training Camp in Geneva",
+        title: "Renovation of Historic Building in Geneva",
         description:
-          "This elite training camp in Geneva is designed for advanced judokas seeking to refine their technical skills, tactical awareness, and mental focus. Led by world-renowned coaches, the program includes intensive drills, sparring sessions, and strategic workshops to prepare athletes for international competitions.",
+          "This project in Geneva involved the renovation of a historic building, where we meticulously restored the original features while integrating modern amenities. Our team handled everything from structural reinforcements to interior design, ensuring that the final result preserved the building's character while offering modern functionality.",
       },
       fr: {
-        title: "Camp d'Entraînement de Judo Élite à Genève",
+        title: "Rénovation d'un Bâtiment Historique à Genève",
         description:
-          "Ce camp d'entraînement d'élite à Genève est destiné aux judokas avancés souhaitant perfectionner leurs compétences techniques et leur stratégie. Encadré par des entraîneurs de renommée mondiale, le programme comprend des séances intensives et des ateliers tactiques.",
+          "Ce projet à Genève a impliqué la rénovation d'un bâtiment historique, où nous avons minutieusement restauré les caractéristiques originales tout en intégrant des équipements modernes. Notre équipe a pris en charge tout, des renforcements structurels à la conception intérieure, assurant que le résultat final préserve le caractère du bâtiment tout en offrant une fonctionnalité moderne.",
       },
       de: {
-        title: "Elite-Judo-Trainingslager in Genf",
+        title: "Renovierung eines Historischen Gebäudes in Genf",
         description:
-          "Dieses Elite-Trainingslager in Genf richtet sich an fortgeschrittene Judokas, die ihre technischen Fähigkeiten, taktisches Verständnis und mentale Stärke verbessern möchten.",
+          "Dieses Projekt in Genf beinhaltete die Renovierung eines historischen Gebäudes, bei dem wir die ursprünglichen Merkmale sorgfältig restaurierten und gleichzeitig moderne Annehmlichkeiten integrierten. Unser Team übernahm alles, von strukturellen Verstärkungen bis hin zur Innengestaltung, um sicherzustellen, dass das Endergebnis den Charakter des Gebäudes bewahrte und gleichzeitig moderne Funktionalität bot.",
       },
       it: {
-        title: "Campo di Allenamento Elite di Judo a Ginevra",
+        title: "Ristrutturazione di un Edificio Storico a Ginevra",
         description:
-          "Questo campo di allenamento d'élite a Ginevra è progettato per judoka esperti che vogliono perfezionare le loro abilità tecniche e tattiche sotto la guida di allenatori di fama mondiale.",
+          "Questo progetto a Ginevra ha riguardato la ristrutturazione di un edificio storico, dove abbiamo restaurato meticolosamente le caratteristiche originali integrando al contempo le comodità moderne. Il nostro team ha gestito tutto, dalle rinforze strutturali al design degli interni, garantendo che il risultato finale preservasse il carattere dell'edificio offrendo al contempo funzionalità moderne.",
       },
       ge: {
-        title: "ძიუდოს ელიტარული სასწავლო ბანაკი ჟენევაში",
+        title: "ისტორიული შენობის რემონტი ჟენევაში",
         description:
-          "ჟენევაში მდებარე ეს ელიტარული სასწავლო ბანაკი განკუთვნილია გამოცდილი ძიუდოს სპორტსმენებისთვის, რომლებიც ისწრაფვიან ტექნიკური და ტაქტიკური უნარების გაუმჯობესებისკენ.",
+          "ამ პროექტში ჟენევაში იყო ისტორიული შენობის რემონტი, სადაც ჩვენ მოვახდინეთ ორიგინალური ელემენტების დაცვა, ხოლო თანამედროვე კეთილმოწყობა ინტეგრირებული შევიტანეთ. ჩვენი გუნდი დაკავებული იყო ყველაფრით, სტრუქტურული გაძლიერებისგან დაწყებული, ინტერიერის დიზაინის დასრულებამდე, რათა საბოლოო შედეგი შენობის ხასიათს შეენარჩუნებინა და თანამედროვე ფუნქციონალობა შემოერთებოდა.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/5.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/6.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/7.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/8.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
     ],
   },
   {
     id: "event3",
-    timestamp: 1742428800000, // 2025-03-20
+    timestamp: 1735776000000, // 2025-01-02
     translations: {
       en: {
-        title: "European Judo Masters in Berlin",
+        title: "Renovation Project in Lyon",
         description:
-          "The European Judo Masters in Berlin is a high-stakes tournament showcasing Europe’s finest judokas. Competitors face rigorous matches under the spotlight, demonstrating exceptional skill, endurance, and strategic mastery. This event is critical for athletes aiming to secure their ranking on the continental stage.",
+          "This renovation project in Lyon transformed an old building into a modern and functional space. Our team worked meticulously on restoring the structural integrity, installing new flooring, and updating the plumbing and electrical systems. The project highlights our commitment to quality craftsmanship and attention to detail.",
       },
       fr: {
-        title: "Masters Européens de Judo à Berlin",
+        title: "Projet de Rénovation à Lyon",
         description:
-          "Les Masters Européens de Judo à Berlin sont un tournoi de haut niveau mettant en valeur les meilleurs judokas d'Europe. Les compétiteurs s'affrontent lors de combats intenses pour améliorer leur classement.",
+          "Ce projet de rénovation à Lyon a transformé un vieux bâtiment en un espace moderne et fonctionnel. Notre équipe a travaillé avec soin sur la restauration de l'intégrité structurelle, l'installation de nouveaux sols et la mise à jour des systèmes de plomberie et d'électricité. Le projet met en valeur notre engagement envers un travail de qualité et une attention aux détails.",
       },
       de: {
-        title: "Europäische Judo-Meisterschaft in Berlin",
+        title: "Renovierungsprojekt in Lyon",
         description:
-          "Die Europäischen Judo-Meisterschaften in Berlin sind ein prestigeträchtiges Turnier, das Europas beste Judokas präsentiert. Ein entscheidendes Event für die kontinentalen Ranglisten.",
+          "Dieses Renovierungsprojekt in Lyon verwandelte ein altes Gebäude in einen modernen und funktionalen Raum. Unser Team arbeitete sorgfältig an der Wiederherstellung der strukturellen Integrität, der Verlegung neuer Böden und der Aktualisierung der Sanitär- und Elektroinstallationen. Das Projekt hebt unser Engagement für handwerkliche Qualität und Liebe zum Detail hervor.",
       },
       it: {
-        title: "Masters Europei di Judo a Berlino",
+        title: "Progetto di Ristrutturazione a Lione",
         description:
-          "I Masters Europei di Judo a Berlino rappresentano una competizione d'élite che mette in mostra i migliori judoka del continente, con incontri intensi e tatticamente impegnativi.",
+          "Questo progetto di ristrutturazione a Lione ha trasformato un vecchio edificio in uno spazio moderno e funzionale. Il nostro team ha lavorato con attenzione per ripristinare l'integrità strutturale, installare nuovi pavimenti e aggiornare gli impianti idraulici ed elettrici. Il progetto sottolinea il nostro impegno per la qualità artigianale e la cura dei dettagli.",
       },
       ge: {
-        title: "ძიუდოს ევროპის მასტერსი ბერლინში",
+        title: "რემონტის პროექტი ლიონში",
         description:
-          "ძიუდოს ევროპის მასტერსი ბერლინში არის პრესტიჟული ტურნირი, რომელიც აერთიანებს ევროპის წამყვან სპორტსმენებს რეიტინგების გასაუმჯობესებლად.",
+          "ამ რემონტმა ლიონში ძველი შენობა გადატყდა თანამედროვე და ფუნქციური სივრცედ. ჩვენი გუნდი მჭიდროდ მუშაობდა სტრუქტურული მთლიანობის აღდგენაზე, ახალი იატაკის მონტაჟსა და წყალმომარაგების და ელექტროენერგიის სისტემების განახლებაზე. პროექტი ხაზს უსვამს ჩვენს ვალდებულებას ხარისხიანი ხელოსნობის და დეტალებზე ყურადღების მიმართ.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/9.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/10.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/3.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/6.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
     ],
   },
   {
     id: "event4",
-    timestamp: 1746038400000, // 2025-04-30
+    timestamp: 1735776000000, // 2025-01-02
     translations: {
       en: {
-        title: "Youth Judo Development Program in Milan",
+        title: "Renovation Project in Paris",
         description:
-          "A specialized program for young judokas aged 10-18, focusing on technical development, sportsmanship, and competitive readiness. Participants will engage in hands-on workshops, conditioning exercises, and skill-building activities led by top coaches from around Europe.",
+          "A major renovation project in Paris has been completed, turning a dated apartment into a sophisticated and stylish living space. The project involved updating the kitchen, bathroom, and flooring while maintaining the building's historic charm. We ensured that every element was carefully selected to meet modern standards.",
       },
       fr: {
-        title: "Programme de Développement de Judo pour Jeunes à Milan",
+        title: "Projet de Rénovation à Paris",
         description:
-          "Un programme spécialisé pour les jeunes judokas axé sur le développement technique, l'esprit sportif et la préparation à la compétition, encadré par des entraîneurs européens renommés.",
+          "Un projet de rénovation majeur à Paris a été réalisé, transformant un appartement vieillot en un espace de vie sophistiqué et élégant. Le projet a impliqué la mise à jour de la cuisine, de la salle de bain et des sols tout en préservant le charme historique du bâtiment. Nous avons veillé à ce que chaque élément soit soigneusement sélectionné pour répondre aux normes modernes.",
       },
       de: {
-        title: "Judo-Nachwuchsförderprogramm in Mailand",
+        title: "Renovierungsprojekt in Paris",
         description:
-          "Ein spezielles Programm für junge Judokas zur Förderung technischer Fähigkeiten, sportlichen Verhaltens und Wettkampfbereitschaft unter der Leitung europäischer Top-Trainer.",
+          "Ein großes Renovierungsprojekt in Paris wurde abgeschlossen, bei dem eine veraltete Wohnung in einen eleganten und modernen Wohnraum verwandelt wurde. Das Projekt umfasste die Aktualisierung der Küche, des Badezimmers und des Bodenbelags, während der historische Charme des Gebäudes erhalten blieb. Wir haben dafür gesorgt, dass jedes Element sorgfältig ausgewählt wurde, um modernen Standards gerecht zu werden.",
       },
       it: {
-        title: "Programma di Sviluppo Judo per Giovani a Milano",
+        title: "Progetto di Ristrutturazione a Parigi",
         description:
-          "Un programma dedicato ai giovani judoka, finalizzato allo sviluppo tecnico e alla preparazione competitiva con il supporto dei migliori allenatori europei.",
+          "Un grande progetto di ristrutturazione a Parigi è stato completato, trasformando un appartamento datato in uno spazio di vita sofisticato ed elegante. Il progetto ha comportato l'aggiornamento della cucina, del bagno e dei pavimenti, mantenendo al contempo il fascino storico dell'edificio. Ogni elemento è stato selezionato con cura per soddisfare gli standard moderni.",
       },
       ge: {
-        title: "ძიუდოს ახალგაზრდული განვითარების პროგრამა მილანში",
+        title: "რემონტის პროექტი პარიზში",
         description:
-          "სპეციალური პროგრამა ახალგაზრდა ძიუდოკაებისთვის ტექნიკური უნარების გაუმჯობესებისა და სპორტული განვითარების მიზნით.",
+          "პარიზში დასრულდა დიდი რემონტის პროექტი, რომელმაც ძველი აპარტამენტი გლამურული და თანამედროვე საცხოვრებელი სივრცედ გადააქცია. პროექტი მოიცავდა სამზარეულოს, სააბაზანოსა და იატაკის განახლებას, იმავე დროს შენობის ისტორიული ხიბლის შენარჩუნებისას. თითოეული ელემენტი ყურადღებით შეირჩა თანამედროვე სტანდარტებთან შესაბამისობაში.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/8.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/9.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/10.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/4.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
     ],
   },
   {
     id: "event5",
-    timestamp: 1749849600000, // 2025-06-15
+    timestamp: 1739577600000, // 2025-02-15
     translations: {
       en: {
-        title: "World Judo Championships in Paris",
+        title: "Renovation of Historic Building in Geneva",
         description:
-          "The World Judo Championships in Paris is the ultimate battleground where the best judokas from across the globe compete for the prestigious world title. Experience breathtaking throws, masterful groundwork, and unmatched competitive spirit in one of the biggest judo events of the year.",
+          "This project in Geneva involved the renovation of a historic building, where we meticulously restored the original features while integrating modern amenities. Our team handled everything from structural reinforcements to interior design, ensuring that the final result preserved the building's character while offering modern functionality.",
       },
       fr: {
-        title: "Championnats du Monde de Judo à Paris",
+        title: "Rénovation d'un Bâtiment Historique à Genève",
         description:
-          "Les Championnats du Monde de Judo à Paris réunissent les meilleurs judokas du monde entier. Assistez à des combats spectaculaires et à une démonstration d'excellence technique.",
+          "Ce projet à Genève a impliqué la rénovation d'un bâtiment historique, où nous avons minutieusement restauré les caractéristiques originales tout en intégrant des équipements modernes. Notre équipe a pris en charge tout, des renforcements structurels à la conception intérieure, assurant que le résultat final préserve le caractère du bâtiment tout en offrant une fonctionnalité moderne.",
       },
       de: {
-        title: "Judo-Weltmeisterschaft in Paris",
+        title: "Renovierung eines Historischen Gebäudes in Genf",
         description:
-          "Die Judo-Weltmeisterschaft in Paris ist das ultimative Event, bei dem die besten Judokas der Welt um den Titel kämpfen. Erleben Sie spektakuläre Würfe und taktische Finesse.",
+          "Dieses Projekt in Genf beinhaltete die Renovierung eines historischen Gebäudes, bei dem wir die ursprünglichen Merkmale sorgfältig restaurierten und gleichzeitig moderne Annehmlichkeiten integrierten. Unser Team übernahm alles, von strukturellen Verstärkungen bis hin zur Innengestaltung, um sicherzustellen, dass das Endergebnis den Charakter des Gebäudes bewahrte und gleichzeitig moderne Funktionalität bot.",
       },
       it: {
-        title: "Campionati Mondiali di Judo a Parigi",
+        title: "Ristrutturazione di un Edificio Storico a Ginevra",
         description:
-          "I Campionati Mondiali di Judo a Parigi vedono protagonisti i migliori atleti del mondo. Vivi l'emozione di combattimenti di altissimo livello e tecnica straordinaria.",
+          "Questo progetto a Ginevra ha riguardato la ristrutturazione di un edificio storico, dove abbiamo restaurato meticolosamente le caratteristiche originali integrando al contempo le comodità moderne. Il nostro team ha gestito tutto, dalle rinforze strutturali al design degli interni, garantendo che il risultato finale preservasse il carattere dell'edificio offrendo al contempo funzionalità moderne.",
       },
       ge: {
-        title: "ძიუდოს მსოფლიო ჩემპიონატი პარიზში",
+        title: "ისტორიული შენობის რემონტი ჟენევაში",
         description:
-          "ძიუდოს მსოფლიო ჩემპიონატი პარიზში აერთიანებს მსოფლიოს საუკეთესო სპორტსმენებს, რომლებიც იბრძვიან მსოფლიო ტიტულის მოსაპოვებლად.",
+          "ამ პროექტში ჟენევაში იყო ისტორიული შენობის რემონტი, სადაც ჩვენ მოვახდინეთ ორიგინალური ელემენტების დაცვა, ხოლო თანამედროვე კეთილმოწყობა ინტეგრირებული შევიტანეთ. ჩვენი გუნდი დაკავებული იყო ყველაფრით, სტრუქტურული გაძლიერებისგან დაწყებული, ინტერიერის დიზაინის დასრულებამდე, რათა საბოლოო შედეგი შენობის ხასიათს შეენარჩუნებინა და თანამედროვე ფუნქციონალობა შემოერთებოდა.",
       },
     },
     images: [
-      "https://github.com/levanydze/SUP/blob/main/judo/7.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/3.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/1.png?raw=true",
-      "https://github.com/levanydze/SUP/blob/main/judo/9.png?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/6.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/3.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/1.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/2.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/4.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/5.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/7.jpg?raw=true",
     ],
   },
 ];

@@ -35,6 +35,7 @@
 .sideLineWrap {
   display: flex;
   color: var(--color4-80);
+  text-align: left;
 }
 .sideLine {
   margin-left: 3px;

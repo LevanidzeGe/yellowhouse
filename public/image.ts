@@ -16,6 +16,7 @@ import childrenTeam from "@/public/images/children-team.jpg";
 import giorgiSofia from "@/public/images/giorgi-sofia.jpg";
 import giSale1 from "@/public/images/giSale1.png";
 import giSale2 from "@/public/images/giSale2.png";
+import brush from "@/public/images/brush.jpg";
 
 //
 //
@@ -31,6 +32,7 @@ import circleL from "@/public/assets/svg/circle-large.svg";
 //
 import dishIcon from "@/public/assets/icons/dish-icon.png";
 export {
+  brush,
   renovationHero,
   circleL,
   circleS,
