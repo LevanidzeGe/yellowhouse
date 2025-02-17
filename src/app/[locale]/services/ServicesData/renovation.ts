@@ -35,7 +35,7 @@ export const renovation: Service = {
         ge: "პროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვაპროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვა პროფესიონალური კედლების და ჭერის შეღებვა.",
       },
       image:
-        "https://raw.githubusercontent.com/levanydze/SUP/refs/heads/main/ksm/Images/garden-building-10-april.webp",
+        "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/renovation.jpg?raw=true",
     },
     {
       title: {

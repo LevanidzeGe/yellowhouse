@@ -35,7 +35,7 @@ export const furniture: Service = {
         ge: "სწრაფი და საიმედო IKEA-ს ავეჯის აწყობა პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები.",
       },
       image:
-        "https://raw.githubusercontent.com/levanydze/SUP/refs/heads/main/ksm/Images/garden-building-10-april.webp",
+        "https://raw.githubusercontent.com/levanydze/SUP/refs/heads/main/Geo-Renovations/furniture.webp",
     },
     {
       title: {

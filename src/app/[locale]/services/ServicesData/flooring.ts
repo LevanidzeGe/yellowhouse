@@ -35,7 +35,7 @@ export const flooring: Service = {
         ge: "ხის იატაკის მონტაჟი და მოვლა პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები.",
       },
       image:
-        "https://raw.githubusercontent.com/levanydze/SUP/refs/heads/main/ksm/Images/garden-building-10-april.webp",
+        "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/flooring.jpg?raw=true",
     },
     {
       title: {
@@ -89,7 +89,7 @@ export const flooring: Service = {
         ge: "ხელმისაწვდომი და ელეგანტური ლამინატის იატაკის ვარიანტები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები პროფესიონალური იატაკის მონტაჟისა და შეკეთების სერვისები.",
       },
       image:
-        "https://raw.githubusercontent.com/levanydze/SUP/refs/heads/main/ksm/Images/garden-building-10-april.webp",
+        "https://github.com/levanydze/SUP/blob/main/Geo-Renovations/renovation.jpg?raw=true",
     },
   ],
 };

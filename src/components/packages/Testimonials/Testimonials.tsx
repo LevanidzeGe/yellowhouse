@@ -84,7 +84,7 @@ export default function Testimonials({
                     );
                   })}
                 </div>
-                <p className="paragraph">{info.reviews[locale]}</p>
+                <p className="paragraph gray7">{info.reviews[locale]}</p>
               </div>
 
               <div className={styles.authorInfoWrap}>
@@ -96,7 +96,7 @@ export default function Testimonials({
                   height={100}
                 />
                 <div>
-                  <h3 className="caption">{info.name}</h3>
+                  <h3 className="paragraph ">{info.name}</h3>
                   <p className="caption-mini gray5">
                     {
                       <span className="caption-mini gray5">

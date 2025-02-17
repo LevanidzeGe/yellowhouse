@@ -8,7 +8,7 @@ import { gardening } from "../ServicesData/gardening";
 import { flooring } from "../ServicesData/flooring";
 import { furniture } from "../ServicesData/furniture";
 import Link from "next/link";
-const services = [renovation, gardening, flooring, furniture, gardening];
+const services = [renovation, gardening, flooring, furniture, renovation];
 
 export default function ServicesList() {
   const locale = useLocale(); // Get current language
@@ -26,7 +26,7 @@ export default function ServicesList() {
             <Link
               href={`services/${slug}`}
               key={slug}
-              className={styles.serviceCard}
+              className={`shadow-black-s ${styles.serviceCard}`}
             >
               <Image
                 width={500}
