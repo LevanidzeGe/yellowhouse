@@ -1,10 +1,7 @@
 import styles from "./EventDetails.module.css";
-import Image from "next/image";
 import { useLocale } from "next-intl";
 import { ProjectProps } from "../../projectsData";
-import { defaultLocale } from "@/Manager/navigation";
 import AlbumSlider from "@/src/components/packages/AlbumSlider/AlbumSlider";
-import { babyIcon } from "@/public/image";
 
 interface EventDetailsProps {
   event: ProjectProps;
@@ -13,9 +10,7 @@ interface EventDetailsProps {
 export default function EventDetails({ event }: EventDetailsProps) {
   const locale = useLocale();
 
-  // Get localized content with fallback to defaultLocale
-  const translation =
-    event.translations[locale] || event.translations[defaultLocale];
+  const translation = event.translations[locale];
 
   return (
     <article className={styles.eventDetailsWrapper}>

@@ -1,97 +1,97 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo Club de Genève - Judo School in Geneva for Children",
-      "description": "Join Geo Judo Club de Genève for world-class judo training. Our school has been a trusted institution in Geneva for over 15 years, offering professional training for children aged 2-15."
+      "title": "Renovation Experts Geneva - Professional Renovation Services in Geneva",
+      "description": "Renovation Experts Geneva offers top-quality renovation services for homes and businesses. With over 15 years of experience, we provide reliable and affordable solutions for all your renovation needs."
     },
     "hero": {
-      "title1": "Tillsammans med oss blir markskötseln enkel",
-      "title2": "Vi tillhandahåller flera typer av markunderhåll med hög kvalitet till förmånliga priser",
+      "title1": "With us, renovation becomes easy",
+      "title2": "We provide high-quality renovation services at affordable prices",
       "button1": "Contact",
-      "button2": "Roll in"
+      "button2": "Get a Quote"
     },
     "componentOne": {
       "title1": "Proudly Serving Geneva Since 2010",
-      "text": "Our judo school, founded 15 years ago in Geneva, has become a significant place for young athletes. With passion and professionalism, we nurture our students, teaching them discipline, strength, and unity through the art of judo. Join our legacy today!"
+      "text": "Founded 15 years ago in Geneva, Renovation Experts has become a trusted name in home and business renovations. Our team of professionals is dedicated to delivering exceptional results with a focus on quality, efficiency, and customer satisfaction."
     },
     "componentTwo": {
-      "text1": "Why our school?",
-      "text2": "Guaranteed results, sports activities, and a friendly atmosphere",
-      "text3": "Why our school?",
-      "text4": "Guaranteed results, sports activities, and a friendly atmosphere",
-      "text5": "Friendly atmosphere",
-      "text6": "Development through friendliness, sports activities, and discipline",
-      "text7": "Competitions in the past year",
-      "text8": "In the past year, our students participated in numerous competitions and deservedly won gold, silver, and bronze medals!"
+      "text1": "Why choose us?",
+      "text2": "Guaranteed results, professional service, and a customer-focused approach",
+      "text3": "Why choose us?",
+      "text4": "Guaranteed results, professional service, and a customer-focused approach",
+      "text5": "Customer satisfaction",
+      "text6": "We prioritize customer satisfaction through quality work and clear communication",
+      "text7": "Projects completed last year",
+      "text8": "In the past year, we successfully completed over 100 renovation projects, earning praise from our clients."
     },
     "componentThree": {
-      "title1": "Teacher",
-      "title2": "Giorgi Kurtanidze",
-      "text1": "Giorgi Kurtanidze, an experienced judo instructor from Georgia, stands out with over 20 years of experience in sports. For the past 15 years, he has been teaching in Geneva, helping children aged 2-15 develop judo techniques and values such as respect and teamwork. Giorgi's dedication and professionalism have made him a respected figure in the local community.",
-      "button": "Register",
-      "title3": "100+ Active Students",
-      "text2": "The knowledge and experience accumulated over 15 years is the greatest asset of our school."
+      "title1": "Our Founder",
+      "title2": "John Doe",
+      "text1": "John Doe, a seasoned renovation expert with over 20 years of experience, leads our team. For the past 15 years, he has been transforming homes and businesses in Geneva, delivering exceptional results and building lasting relationships with clients.",
+      "button": "Contact Us",
+      "title3": "100+ Happy Clients",
+      "text2": "Our 15 years of experience and dedication to excellence are our greatest assets."
     },
     "componentFour": {
-      "title1": "Purchase Uniforms from Geo Judo",
-      "text1": "Black Judo Uniform",
-      "text2": "White Judo Uniform"
+      "title1": "Our Services",
+      "text1": "Home Renovation",
+      "text2": "Commercial Renovation"
     },
     "componentFive": {
       "title1": "Address",
-      "title2": "Write to us via email",
-      "title3": "Call us"
+      "title2": "Email Us",
+      "title3": "Call Us"
     },
     "componentSix": {},
     "componentSeven": {},
     "testimonials": {
-      "title1": "What do parents say"
+      "title1": "What our clients say"
     }
   },
   "eventsPage": {
     "metadata": {
-      "title": "Upcoming Judo Events at Geo Judo Club de Genève",
-      "description": "Explore the latest and upcoming judo events at Geo Judo Club de Genève. Stay up-to-date with our competitions and training events."
+      "title": "Upcoming Renovation Projects and Events",
+      "description": "Stay updated on our latest renovation projects and events. Explore our portfolio and see how we transform spaces."
     },
     "events": {
-      "title": "Recent Events",
-      "button": "Read more",
-      "upcomingEvents": "Upcoming events",
-      "pastEvents": "Past events",
-      "recentEvents": "Recent events",
+      "title": "Recent Projects",
+      "button": "Learn More",
+      "upcomingEvents": "Upcoming Projects",
+      "pastEvents": "Completed Projects",
+      "recentEvents": "Recent Projects",
       "upcoming": "upcoming",
-      "past": "past",
-      "seeAll": "All events"
+      "past": "completed",
+      "seeAll": "View All Projects"
     }
   },
   "contactPage": {
     "metadata": {
-      "title": "Contact Geo Judo Club de Genève",
-      "description": "Get in touch with Geo Judo Club de Genève for any inquiries or registration questions. We're here to help!"
+      "title": "Contact Renovation Experts Geneva",
+      "description": "Get in touch with Renovation Experts Geneva for inquiries or to schedule a consultation. We're here to help with all your renovation needs."
     },
     "faq": "Frequently Asked Questions"
   },
   "registrationPage": {
     "metadata": {
-      "title": "Register for Geo Judo Club de Genève",
-      "description": "Sign up for judo classes at Geo Judo Club de Genève and start your journey in the world of judo."
+      "title": "Request a Consultation with Renovation Experts Geneva",
+      "description": "Schedule a consultation with Renovation Experts Geneva and start planning your dream renovation project."
     }
   },
   "forms": {
     "contactForm": {
-      "head1": "Contact us",
-      "head2": "Registration",
+      "head1": "Contact Us",
+      "head2": "Request a Consultation",
       "name": "Full Name",
       "email": "Email",
       "phone": "Phone Number",
       "date": "Date",
       "time": "Time",
-      "quantity": "Number of People",
+      "quantity": "Number of Rooms",
       "message": "Your message here",
-      "button": "send",
-      "send": "Send Reservation Request",
-      "thankYou": "Thank you for your contact!",
-      "comfirmation": "We will contact you back, as soon as possible"
+      "button": "Send",
+      "send": "Send Consultation Request",
+      "thankYou": "Thank you for contacting us!",
+      "comfirmation": "We will get back to you as soon as possible."
     }
   },
   "notFoundPage": {
@@ -102,9 +102,9 @@
   "footer": {
     "title1": "Contact Information",
     "title2": "Navigation",
-    "title3": "Working hours",
+    "title3": "Working Hours",
     "monday": "Monday",
-    "wednsday": "Wednsday",
+    "wednsday": "Wednesday",
     "thursday": "Thursday",
     "friday": "Friday"
   }

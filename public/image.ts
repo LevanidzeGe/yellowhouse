@@ -4,6 +4,7 @@
 import judoChildren from "@/public/images/heros/judoChildren.png";
 import wave from "@/public/assets/svg/wave-vector.svg";
 import footerWave from "@/public/assets/svg/footer-vector.svg";
+import renovationHero from "@/public/images/heros/renovation-hero.png";
 
 // xxx
 
@@ -30,6 +31,7 @@ import circleL from "@/public/assets/svg/circle-large.svg";
 //
 import dishIcon from "@/public/assets/icons/dish-icon.png";
 export {
+  renovationHero,
   circleL,
   circleS,
   circleM,

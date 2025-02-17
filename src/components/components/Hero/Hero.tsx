@@ -5,7 +5,7 @@ import {
   circleL,
   circleM,
   circleS,
-  gardeningTractor,
+  renovationHero,
   wave,
 } from "@/public/image";
 import Link from "next/link";
@@ -33,7 +33,7 @@ export default function MainImage() {
         </div>
         <div className={styles.imageWrapper}>
           <Image
-            src={gardeningTractor}
+            src={renovationHero}
             width={1200}
             height={2000}
             alt="children judo"

@@ -67,7 +67,9 @@ export default function ServiceDetailsPage({ params }: Props) {
   return (
     <section className="section fadeOut">
       <div className="container">
-        <h1 className={`heading2 ${styles.title}`}>{service.title[locale]}</h1>
+        <h1 className={`heading1 color4 ${styles.title}`}>
+          {service.title[locale]}
+        </h1>
         <ul className={styles.servicesWrapper}>
           {service.subServices.map((sub) => (
             <li

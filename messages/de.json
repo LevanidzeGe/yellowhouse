@@ -1,98 +1,96 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo Club de Genève - Judo-Schule in Genf für Kinder",
-      "description": "Treten Sie dem Geo Judo Club de Genève bei und genießen Sie professionelles Judo-Training. Unsere Schule ist seit über 15 Jahren eine vertrauenswürdige Institution in Genf und bietet erstklassiges Training für Kinder im Alter von 2 bis 15 Jahren."
+      "title": "Renovierungsexperten Genf - Professionelle Renovierungsdienstleistungen in Genf",
+      "description": "Renovierungsexperten Genf bietet hochwertige Renovierungsdienstleistungen für Wohnungen und Geschäfte. Mit über 15 Jahren Erfahrung bieten wir zuverlässige und erschwingliche Lösungen für alle Ihre Renovierungsbedürfnisse."
     },
     "hero": {
-      "title1": "Lernen Sie die Kunst des Judo in",
-      "title2": "Genf",
-      "text1": "Schüler",
-      "text2": "Jahre in Genf",
+      "title1": "Mit uns wird Renovierung einfach",
+      "title2": "Wir bieten hochwertige Renovierungsdienstleistungen zu günstigen Preisen",
       "button1": "Kontakt",
-      "button2": "Jetzt anmelden"
+      "button2": "Angebot einholen"
     },
     "componentOne": {
       "title1": "Seit 2010 stolz in Genf tätig",
-      "text": "Unsere Judo-Schule, die vor 15 Jahren in Genf gegründet wurde, ist ein bedeutender Ort für junge Sportler. Mit Leidenschaft und Professionalität fördern wir unsere Schüler, indem wir ihnen Disziplin, Stärke und Einheit durch die Kunst des Judo vermitteln. Werden Sie Teil unseres Erbes!"
+      "text": "Vor 15 Jahren in Genf gegründet, hat sich Renovierungsexperten einen Namen als vertrauenswürdiger Anbieter von Wohnungs- und Geschäftsrenovierungen gemacht. Unser Team von Fachleuten ist darauf spezialisiert, hervorragende Ergebnisse mit Schwerpunkt auf Qualität, Effizienz und Kundenzufriedenheit zu liefern."
     },
     "componentTwo": {
-      "text1": "Warum unsere Schule?",
-      "text2": "Garantierte Ergebnisse, sportliche Aktivitäten und eine freundliche Atmosphäre",
-      "text3": "Warum unsere Schule?",
-      "text4": "Garantierte Ergebnisse, sportliche Aktivitäten und eine freundliche Atmosphäre",
-      "text5": "Freundliche Atmosphäre",
-      "text6": "Entwicklung durch Freundlichkeit, sportliche Aktivitäten und Disziplin",
-      "text7": "Wettkämpfe im vergangenen Jahr",
-      "text8": "Im vergangenen Jahr nahmen unsere Schüler an zahlreichen Wettkämpfen teil und gewannen verdient Gold-, Silber- und Bronzemedaillen!"
+      "text1": "Warum uns wählen?",
+      "text2": "Garantierte Ergebnisse, professioneller Service und kundenorientierte Arbeitsweise",
+      "text3": "Warum uns wählen?",
+      "text4": "Garantierte Ergebnisse, professioneller Service und kundenorientierte Arbeitsweise",
+      "text5": "Kundenzufriedenheit",
+      "text6": "Wir priorisieren Kundenzufriedenheit durch qualitativ hochwertige Arbeit und klare Kommunikation",
+      "text7": "Projekte im letzten Jahr abgeschlossen",
+      "text8": "Im vergangenen Jahr haben wir erfolgreich über 100 Renovierungsprojekte abgeschlossen und viel Lob von unseren Kunden erhalten."
     },
     "componentThree": {
-      "title1": "Lehrer",
-      "title2": "Giorgi Kurtanidze",
-      "text1": "Giorgi Kurtanidze, ein erfahrener Judo-Lehrer aus Georgien, hebt sich mit über 20 Jahren Erfahrung im Sport hervor. Seit 15 Jahren unterrichtet er in Genf und hilft Kindern im Alter von 2-15 Jahren, Judo-Techniken sowie Werte wie Respekt und Teamarbeit zu entwickeln. Giorgis Hingabe und Professionalität haben ihn zu einer respektierten Persönlichkeit in der lokalen Gemeinschaft gemacht.",
-      "button": "Anmelden",
-      "title3": "100+ Aktive Schüler",
-      "text2": "Das Wissen und die Erfahrung, die über 15 Jahre angesammelt wurden, sind der größte Schatz unserer Schule."
+      "title1": "Unser Gründer",
+      "title2": "John Doe",
+      "text1": "John Doe, ein erfahrener Renovierungsexperte mit über 20 Jahren Erfahrung, leitet unser Team. Seit 15 Jahren verwandelt er Wohnungen und Geschäfte in Genf und liefert herausragende Ergebnisse, während er langfristige Beziehungen zu seinen Kunden aufbaut.",
+      "button": "Kontaktieren Sie uns",
+      "title3": "100+ zufriedene Kunden",
+      "text2": "Unsere 15-jährige Erfahrung und unser Engagement für Exzellenz sind unsere größten Stärken."
     },
     "componentFour": {
-      "title1": "Kaufen Sie Judo-Anzüge bei Geo Judo",
-      "text1": "Schwarzer Judo-Anzug",
-      "text2": "Weißer Judo-Anzug"
+      "title1": "Unsere Dienstleistungen",
+      "text1": "Wohnungsrenovierung",
+      "text2": "Gewerberenovierung"
     },
     "componentFive": {
       "title1": "Adresse",
-      "title2": "Schreiben Sie uns per E-Mail",
+      "title2": "Schreiben Sie uns eine E-Mail",
       "title3": "Rufen Sie uns an"
     },
     "componentSix": {},
     "componentSeven": {},
     "testimonials": {
-      "title1": "Was sagen Eltern?"
+      "title1": "Was unsere Kunden sagen"
     }
   },
   "eventsPage": {
     "metadata": {
-      "title": "Bevorstehende Judo-Veranstaltungen im Geo Judo Club de Genève",
-      "description": "Entdecken Sie die neuesten und bevorstehenden Judo-Veranstaltungen im Geo Judo Club de Genève. Bleiben Sie auf dem Laufenden über unsere Wettkämpfe und Trainingsveranstaltungen."
+      "title": "Kommende Renovierungsprojekte und Veranstaltungen",
+      "description": "Bleiben Sie auf dem Laufenden über unsere neuesten Renovierungsprojekte und Veranstaltungen. Entdecken Sie unser Portfolio und sehen Sie, wie wir Räume verwandeln."
     },
     "events": {
-      "title": "Aktuelle Veranstaltungen",
-      "button": "Mehr lesen",
-      "upcomingEvents": "Bevorstehende Veranstaltungen",
-      "pastEvents": "Vergangene Veranstaltungen",
-      "recentEvents": "Aktuelle Veranstaltungen",
-      "upcoming": "bevorstehend",
-      "past": "vergangen",
-      "seeAll": "Alle Veranstaltungen"
+      "title": "Aktuelle Projekte",
+      "button": "Mehr erfahren",
+      "upcomingEvents": "Kommende Projekte",
+      "pastEvents": "Abgeschlossene Projekte",
+      "recentEvents": "Aktuelle Projekte",
+      "upcoming": "kommende",
+      "past": "abgeschlossen",
+      "seeAll": "Alle Projekte anzeigen"
     }
   },
   "contactPage": {
     "metadata": {
-      "title": "Kontakt Geo Judo Club de Genève",
-      "description": "Nehmen Sie Kontakt mit dem Geo Judo Club de Genève auf, wenn Sie Fragen haben oder sich anmelden möchten. Wir helfen Ihnen gerne weiter!"
+      "title": "Kontaktieren Sie Renovierungsexperten Genf",
+      "description": "Kontaktieren Sie Renovierungsexperten Genf für Anfragen oder um eine Beratung zu vereinbaren. Wir helfen Ihnen bei allen Renovierungsbedürfnissen."
     },
     "faq": "Häufig gestellte Fragen"
   },
   "registrationPage": {
     "metadata": {
-      "title": "Melden Sie sich beim Geo Judo Club de Genève an",
-      "description": "Melden Sie sich für Judo-Kurse im Geo Judo Club de Genève an und starten Sie Ihre Reise in die Welt des Judo."
+      "title": "Beratung bei Renovierungsexperten Genf anfordern",
+      "description": "Vereinbaren Sie eine Beratung mit Renovierungsexperten Genf und starten Sie die Planung Ihres Traumrenovierungsprojekts."
     }
   },
   "forms": {
     "contactForm": {
       "head1": "Kontaktieren Sie uns",
-      "head2": "Anmeldung",
+      "head2": "Beratung anfordern",
       "name": "Vollständiger Name",
       "email": "E-Mail",
       "phone": "Telefonnummer",
       "date": "Datum",
       "time": "Uhrzeit",
-      "quantity": "Anzahl der Personen",
+      "quantity": "Anzahl der Zimmer",
       "message": "Ihre Nachricht hier",
-      "button": "Absenden",
-      "send": "Reservierungsanfrage senden",
-      "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
+      "button": "Senden",
+      "send": "Beratungsanfrage senden",
+      "thankYou": "Vielen Dank für Ihre Nachricht!",
       "comfirmation": "Wir werden uns so schnell wie möglich bei Ihnen melden."
     }
   },
@@ -104,8 +102,10 @@
   "footer": {
     "title1": "Kontaktinformationen",
     "title2": "Navigation",
-    "title3": "Veranstaltungen",
-    "title4": "Instagram",
-    "title5": "Mehr anzeigen"
+    "title3": "Öffnungszeiten",
+    "monday": "Montag",
+    "wednsday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag"
   }
 }

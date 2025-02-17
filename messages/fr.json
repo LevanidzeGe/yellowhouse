@@ -1,111 +1,109 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Geo Judo Club de Genève - École de Judo à Genève pour Enfants",
-      "description": "Rejoignez le Geo Judo Club de Genève pour un entraînement de judo de classe mondiale. Notre école est une institution de confiance à Genève depuis plus de 15 ans, offrant une formation professionnelle pour les enfants de 2 à 15 ans."
+      "title": "Esperti di Ristrutturazione Ginevra - Servizi di Ristrutturazione Professionali",
+      "description": "Esperti di Ristrutturazione Ginevra offre servizi di ristrutturazione di alta qualità per case e aziende. Con oltre 15 anni di esperienza, forniamo soluzioni affidabili e convenienti per tutte le vostre esigenze di ristrutturazione."
     },
     "hero": {
-      "title1": "Étudiez l'art du judo à",
-      "title2": "Genève",
-      "text1": " élèves",
-      "text2": "ans à Genève",
-      "button1": "Contact",
-      "button2": "Inscrivez-vous maintenant"
+      "title1": "Con noi, la ristrutturazione diventa facile",
+      "title2": "Forniamo servizi di ristrutturazione di alta qualità a prezzi accessibili",
+      "button1": "Contatto",
+      "button2": "Richiedi un preventivo"
     },
     "componentOne": {
-      "title1": "Au service de Genève depuis 2010",
-      "text": "Notre école de judo, fondée il y a 15 ans à Genève, est un lieu important pour les jeunes athlètes. Avec passion et professionnalisme, nous cultivons nos élèves, leur enseignant la discipline, la force et l'unité à travers l'art du judo. Rejoignez notre héritage dès aujourd'hui !"
+      "title1": "Orgogliosi di servire Ginevra dal 2010",
+      "text": "Fondata 15 anni fa a Ginevra, Esperti di Ristrutturazione è diventato un nome affidabile per la ristrutturazione di case e aziende. Il nostro team di professionisti si dedica a fornire risultati eccezionali con un focus su qualità, efficienza e soddisfazione del cliente."
     },
     "componentTwo": {
-      "text1": "Pourquoi notre école ?",
-      "text2": "Résultats garantis, activités sportives et une atmosphère conviviale",
-      "text3": "Pourquoi notre école ?",
-      "text4": "Résultats garantis, activités sportives et une atmosphère conviviale",
-      "text5": "Atmosphère conviviale",
-      "text6": "Développement grâce à la convivialité, aux activités sportives et à la discipline",
-      "text7": "Compétitions de l'année dernière",
-      "text8": "L'année dernière, nos élèves ont participé à de nombreuses compétitions et ont remporté des médailles d'or, d'argent et de bronze bien méritées !"
+      "text1": "Perché scegliere noi?",
+      "text2": "Risultati garantiti, servizio professionale e un approccio orientato al cliente",
+      "text3": "Perché scegliere noi?",
+      "text4": "Risultati garantiti, servizio professionale e un approccio orientato al cliente",
+      "text5": "Soddisfazione del cliente",
+      "text6": "Diamo priorità alla soddisfazione del cliente attraverso un lavoro di qualità e una comunicazione chiara",
+      "text7": "Progetti completati lo scorso anno",
+      "text8": "Nell'ultimo anno abbiamo completato con successo oltre 100 progetti di ristrutturazione, ricevendo elogi dai nostri clienti."
     },
     "componentThree": {
-      "title1": "Enseignant",
-      "title2": "Giorgi Kurtanidze",
-      "text1": "Giorgi Kurtanidze, un instructeur de judo expérimenté en provenance de Géorgie, se distingue par plus de 20 ans d'expérience dans le sport. Depuis 15 ans, il enseigne à Genève et aide les enfants de 2 à 15 ans à développer des techniques de judo ainsi que des valeurs telles que le respect et le travail d'équipe. Le dévouement et le professionnalisme de Giorgi font de lui une figure respectée au sein de la communauté locale.",
-      "button": "Inscrivez-vous",
-      "title3": "100+ élèves actifs",
-      "text2": "Les connaissances et l'expérience acquises au cours de 15 années constituent le plus grand atout de notre école."
+      "title1": "Il Nostro Fondatore",
+      "title2": "John Doe",
+      "text1": "John Doe, un esperto di ristrutturazione con oltre 20 anni di esperienza, guida il nostro team. Negli ultimi 15 anni, ha trasformato case e aziende a Ginevra, ottenendo risultati eccezionali e costruendo rapporti duraturi con i clienti.",
+      "button": "Contattaci",
+      "title3": "100+ Clienti Soddisfatti",
+      "text2": "I nostri 15 anni di esperienza e dedizione all'eccellenza sono i nostri maggiori punti di forza."
     },
     "componentFour": {
-      "title1": "Achetez des uniformes chez Geo Judo",
-      "text1": "Uniforme de Judo Noir",
-      "text2": "Uniforme de Judo Blanc"
+      "title1": "I Nostri Servizi",
+      "text1": "Ristrutturazione Residenziale",
+      "text2": "Ristrutturazione Commerciale"
     },
     "componentFive": {
-      "title1": "Adresse",
-      "title2": "Écrivez-nous par e-mail",
-      "title3": "Appelez-nous"
+      "title1": "Indirizzo",
+      "title2": "Scrivici",
+      "title3": "Chiamaci"
     },
-    "componentSix": {},
-    "componentSeven": {},
     "testimonials": {
-      "title1": "Ce que disent les parents"
+      "title1": "Cosa dicono i nostri clienti"
     }
   },
   "eventsPage": {
     "metadata": {
-      "title": "Événements à venir au Geo Judo Club de Genève",
-      "description": "Découvrez les derniers événements à venir au Geo Judo Club de Genève. Restez informé sur nos compétitions et événements d'entraînement."
+      "title": "Progetti ed Eventi di Ristrutturazione in Arrivo",
+      "description": "Resta aggiornato sui nostri ultimi progetti di ristrutturazione ed eventi. Esplora il nostro portfolio e scopri come trasformiamo gli spazi."
     },
     "events": {
-      "title": "Événements récents",
-      "button": "Lire la suite",
-      "upcomingEvents": "Événements à venir",
-      "pastEvents": "Événements passés",
-      "recentEvents": "Événements récents",
-      "upcoming": "à venir",
-      "past": "passés",
-      "seeAll": "Tous les événements"
+      "title": "Progetti Recenti",
+      "button": "Scopri di Più",
+      "upcomingEvents": "Progetti in Arrivo",
+      "pastEvents": "Progetti Completati",
+      "recentEvents": "Progetti Recenti",
+      "upcoming": "in arrivo",
+      "past": "completati",
+      "seeAll": "Vedi Tutti i Progetti"
     }
   },
   "contactPage": {
     "metadata": {
-      "title": "Contact Geo Judo Club de Genève",
-      "description": "Contactez le Geo Judo Club de Genève pour toute question ou inscription. Nous sommes là pour vous aider !"
+      "title": "Contatta Esperti di Ristrutturazione Ginevra",
+      "description": "Mettiti in contatto con Esperti di Ristrutturazione Ginevra per richieste o per fissare una consulenza. Siamo qui per aiutarti con tutte le tue esigenze di ristrutturazione."
     },
-    "faq": "Questions fréquentes"
+    "faq": "Domande Frequenti"
   },
   "registrationPage": {
     "metadata": {
-      "title": "Inscrivez-vous au Geo Judo Club de Genève",
-      "description": "Inscrivez-vous aux cours de judo au Geo Judo Club de Genève et commencez votre voyage dans le monde du judo."
+      "title": "Richiedi una Consulenza con Esperti di Ristrutturazione Ginevra",
+      "description": "Prenota una consulenza con Esperti di Ristrutturazione Ginevra e inizia a pianificare il tuo progetto di ristrutturazione dei sogni."
     }
   },
   "forms": {
     "contactForm": {
-      "head1": "Contactez-nous",
-      "head2": "Inscription",
-      "name": "Nom complet",
-      "email": "E-mail",
-      "phone": "Numéro de téléphone",
-      "date": "Date",
-      "time": "Heure",
-      "quantity": "Nombre de personnes",
-      "message": "Votre message ici",
-      "button": "Envoyer",
-      "send": "Envoyer la demande de réservation",
-      "thankYou": "Merci pour votre contact !",
-      "comfirmation": "Nous vous contacterons dès que possible."
+      "head1": "Contattaci",
+      "head2": "Richiedi una Consulenza",
+      "name": "Nome Completo",
+      "email": "Email",
+      "phone": "Numero di Telefono",
+      "date": "Data",
+      "time": "Ora",
+      "quantity": "Numero di Stanze",
+      "message": "Il tuo messaggio qui",
+      "button": "Invia",
+      "send": "Invia Richiesta di Consulenza",
+      "thankYou": "Grazie per averci contattato!",
+      "comfirmation": "Ti risponderemo al più presto."
     }
   },
   "notFoundPage": {
-    "title1": "La page que vous recherchez n'existe pas",
-    "title2": "La page que vous recherchez n'existe pas",
-    "button": "Page d'accueil"
+    "title1": "La pagina che stai cercando non esiste",
+    "title2": "La pagina che stai cercando non esiste",
+    "button": "Pagina Iniziale"
   },
   "footer": {
-    "title1": "Informations de contact",
-    "title2": "Navigation",
-    "title3": "Événements",
-    "title4": "Instagram",
-    "title5": "Voir plus"
+    "title1": "Informazioni di Contatto",
+    "title2": "Navigazione",
+    "title3": "Orari di Lavoro",
+    "monday": "Lunedì",
+    "wednsday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì"
   }
 }

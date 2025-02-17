@@ -43,10 +43,10 @@
   font-weight: 600;
 }
 .active-link {
-  color: var(--color5);
+  color: var(--color4);
 }
 .link:hover {
-  color: var(--color5);
+  color: var(--color4);
 }
 
 /* typography */
