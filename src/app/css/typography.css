@@ -38,15 +38,16 @@
   font-family: var(--font1);
   font-size: 14px;
   transition: all 0.2s;
-  color: var(--color3);
   text-transform: uppercase;
+  color: var(--color4);
+
   font-weight: 600;
 }
 .active-link {
-  color: var(--color4);
+  color: var(--color3);
 }
 .link:hover {
-  color: var(--color4);
+  color: var(--color3);
 }
 
 /* typography */
@@ -99,7 +100,7 @@
 .caption {
   font-size: 16px;
   font-family: var(--font1);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   text-decoration: underline;
   transition: all 0.3s;
@@ -113,36 +114,98 @@
   font-family: var(--font1);
 }
 
+/* Breakpoint 1200px */
 @media (max-width: 1200px) {
+  .heading1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .heading2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .heading3 {
+    font-size: 22px;
+  }
+  .heading6 {
+    font-size: 34px;
+  }
   .paragraph {
     font-size: 14px;
   }
 }
 
-/* Break point 992px */
+/* Breakpoint 992px */
 @media (max-width: 992px) {
-  /* .heading1 {
-  } */
+  .heading1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .heading2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .heading3 {
+    font-size: 20px;
+  }
+  .heading6 {
+    font-size: 30px;
+  }
 }
 
-/* Break point 768px */
+/* Breakpoint 768px */
 @media (max-width: 768px) {
+  .heading1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .heading2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .heading3 {
+    font-size: 18px;
+  }
+  .heading6 {
+    font-size: 26px;
+  }
   .paragraph {
     font-size: 13px;
   }
 }
 
-/* Break point 576px */
+/* Breakpoint 576px */
 @media (max-width: 576px) {
-  /* .heading1 {
-  } */
+  .heading1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
   .heading2 {
-    /* font-size: 30px; */
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .heading3 {
+    font-size: 16px;
+  }
+  .heading6 {
+    font-size: 22px;
   }
 }
 
-/* Break point 400px */
+/* Breakpoint 400px */
 @media (max-width: 400px) {
-  /* .heading1 {
-  } */
+  .heading1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .heading2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .heading3 {
+    font-size: 14px;
+  }
+  .heading6 {
+    font-size: 20px;
+  }
 }

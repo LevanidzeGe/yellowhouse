@@ -2,6 +2,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"; //  npm install --save @emailjs/browser
 import styles from "./ContactForm.module.css";
+import TopBorder from "../../components/borderShapes/TopBorder";
+import BottomBorder from "../../components/borderShapes/BottomBorder";
 
 interface FormValues {
   user_name: string;
@@ -14,7 +16,6 @@ interface FormValues {
 }
 
 interface reservProps {
-  head: string;
   name: string;
   email: string;
   phone: string;
@@ -22,18 +23,15 @@ interface reservProps {
   text: string;
   button: string;
   thank: string;
-  wait: string;
 }
 
 export default function ContactForm({
-  head,
   name,
   email,
   phone,
   text,
   button,
   thank,
-  wait,
 }: reservProps) {
   const [nameValue, setNameValue] = useState<string>("");
   const [nameError, setNameError] = useState<boolean>(false);
@@ -88,72 +86,93 @@ export default function ContactForm({
   };
 
   return (
-    <section className="section ">
-      <div className="container ">
-        <div className={styles.reservationWrapper}>
-          <div className={styles.reservation}>
-            <form
-              className={`${styles.form} ${emailSent ? styles.none : ""}`}
-              ref={form}
-              onSubmit={sendEmail}
-            >
-              <input
-                className={`${styles.input} ${styles.miniInput} ${
-                  nameError ? styles.inputRed : ""
-                }`}
-                type="text"
-                name="user_name"
-                placeholder={name}
-                value={nameValue}
-                onChange={(e) => setNameValue(e.target.value)}
-              />
-              <div>
+    <>
+      <TopBorder />
+      <section className="section section-medium no-padding-y">
+        <div className="container ">
+          <div className={styles.reservationWrapper}>
+            <div className={styles.textDiv}>
+              <div className="sideLineWrap">
+                <div className="sideLine"></div>
+                <h3 className="heading4">
+                  Skräddarsydda lösningar för dina behov
+                </h3>
+              </div>
+              <h4 className="heading2 color4">
+                Vi är alltid redo för nya utmaningar
+              </h4>
+              <p className="paragraph gray7">
+                Med vår expertis inom trädgårds- och landskapsarbete ser vi till
+                att alla fel och brister hanteras snabbt och effektivt. Vi
+                strävar alltid efter att överträffa dina förväntningar genom
+                skräddarsydda lösningar som säkerställer att din utemiljö
+                fungerar som den ska.
+              </p>
+            </div>
+            <div className={styles.reservation}>
+              <form
+                className={`${styles.form} ${emailSent ? styles.none : ""}`}
+                ref={form}
+                onSubmit={sendEmail}
+              >
                 <input
                   className={`${styles.input} ${styles.miniInput} ${
-                    emailError ? styles.inputRed : ""
+                    nameError ? styles.inputRed : ""
                   }`}
-                  type="email"
-                  name="user_email"
-                  placeholder={email}
-                  value={emailValue}
-                  onChange={(e) => setEmailValue(e.target.value)}
+                  type="text"
+                  name="user_name"
+                  placeholder={name}
+                  value={nameValue}
+                  onChange={(e) => setNameValue(e.target.value)}
                 />
-                <input
-                  className={`${styles.input}`}
-                  type="tel"
-                  name="user_phone"
-                  placeholder={phone}
-                />
-              </div>
+                <div>
+                  <input
+                    className={`${styles.input} ${styles.miniInput} ${
+                      emailError ? styles.inputRed : ""
+                    }`}
+                    type="email"
+                    name="user_email"
+                    placeholder={email}
+                    value={emailValue}
+                    onChange={(e) => setEmailValue(e.target.value)}
+                  />
+                  <input
+                    className={`${styles.input}`}
+                    type="tel"
+                    name="user_phone"
+                    placeholder={phone}
+                  />
+                </div>
 
-              <textarea
-                className={`${styles.textArea} ${styles.input}`}
-                name="message"
-                placeholder={text}
-              />
-              <button
-                type={nameValue && emailValue ? "submit" : "button"}
-                className={`button-reverse ${styles.button} ${
-                  !buttonDisable ? "button" : "button1Disabled"
-                } w-full
+                <textarea
+                  className={`${styles.textArea} ${styles.input}`}
+                  name="message"
+                  placeholder={text}
+                />
+                <button
+                  type={nameValue && emailValue ? "submit" : "button"}
+                  className={`button-reverse ${styles.button} ${
+                    !buttonDisable ? "button" : "button1Disabled"
+                  } w-full
                 styles.buttonSend
               `}
-                onClick={
-                  !nameValue || !emailValue
-                    ? handleErrors
-                    : () => setButtonDisable(true)
-                }
-              >
-                {button}
-              </button>
-            </form>
-            <div className={emailSent ? styles.formSent : styles.hide}>
-              <h6>{thank}</h6>
-              <h5>{wait}</h5>
+                  onClick={
+                    !nameValue || !emailValue
+                      ? handleErrors
+                      : () => setButtonDisable(true)
+                  }
+                >
+                  {button}
+                </button>
+              </form>
+              <div className={emailSent ? styles.formSent : styles.hide}>
+                <h6>{thank}</h6>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <BottomBorder />
+    </>
   );
 }

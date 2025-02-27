@@ -36,7 +36,8 @@ export default function MainImage() {
             src={renovationHero}
             width={1200}
             height={2000}
-            alt="children judo"
+            alt="renovation hero image "
+            priority
           />
         </div>
         <Image

@@ -4,7 +4,6 @@ import styles from "./BurgerNav.module.css";
 import { navItems, NavItemProps } from "@/Manager/navigation";
 import { IoClose } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // Icons for toggling
 import { useLocale } from "next-intl";
 import { useState } from "react";
 
@@ -20,8 +19,8 @@ export default function BurgerNav({
   navToggler,
 }: BurgerNavProps) {
   const pathname = usePathname();
-  const locale = useLocale(); // Get the current locale
-  const items: NavItemProps[] = navItems[locale]; // Get items for the current locale
+  const locale = useLocale();
+  const items: NavItemProps[] = navItems[locale];
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   const toggleDropdown = (title: string) => {
@@ -50,7 +49,6 @@ export default function BurgerNav({
             return (
               <li key={localizedUrl} className={styles.burgerLi}>
                 <div className={styles.burgerItemWrapper}>
-                  {/* If dropdown exists, use a toggler button */}
                   {hasDropdown ? (
                     <div className={styles.burgerDropdownHeader}>
                       <span

@@ -15,6 +15,12 @@
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
+  box-shadow: -3px 5px 7px -3px var(--color4-40),
+    -1px 1px 3px -2px var(--color4);
+}
+.button:active {
+  transform: translateY(4px); /* Move the button down by 4px */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
 }
 .button-small {
   padding: 5px 10px;
@@ -24,6 +30,9 @@
 .button:hover {
   background-color: var(--color4);
   color: var(--white);
+  transform: translateY(-3px); /* Lifts the card up by 10px */
+  box-shadow: -5px 10px 15px -5px var(--color4-40),
+    -1px 2px 6px -3px var(--color4);
 }
 
 .button-reverse {
@@ -34,7 +43,7 @@
 .button-reverse:hover {
   background-color: var(--color1);
 
-  color: var(--color4);
+  color: var(--color5);
 }
 
 .button-bold {

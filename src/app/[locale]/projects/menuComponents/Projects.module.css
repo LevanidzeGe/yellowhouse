@@ -1,9 +1,6 @@
-.container {
+.paddingBottom {
+  padding-bottom: 70px;
 }
-.paddingTop {
-  margin-top: 50px;
-}
-
 .eventsWrapper {
   display: flex;
   flex-wrap: wrap;

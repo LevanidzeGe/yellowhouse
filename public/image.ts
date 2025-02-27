@@ -2,10 +2,12 @@
 //
 // hero images
 import judoChildren from "@/public/images/heros/judoChildren.png";
-import wave from "@/public/assets/svg/wave-vector.svg";
-import footerWave from "@/public/assets/svg/footer-vector.svg";
-import pageHead from "@/public/assets/svg/pageHead.svg";
+import wave from "@/public/assets/svg/vectors/wave-vector.svg";
+import footerWave from "@/public/assets/svg/vectors/footer-vector.svg";
+import pageHead from "@/public/assets/svg/vectors/pageHead.svg";
 import renovationHero from "@/public/images/heros/renovation-hero.png";
+import topVector from "@/public/assets/svg/vectors/top-vector.svg";
+import bottomVector from "@/public/assets/svg/vectors/bottom-vector.svg";
 
 // xxx
 
@@ -34,6 +36,8 @@ import circleL from "@/public/assets/svg/circle-large.svg";
 //
 import dishIcon from "@/public/assets/icons/dish-icon.png";
 export {
+  topVector,
+  bottomVector,
   pageHead,
   team,
   brush,

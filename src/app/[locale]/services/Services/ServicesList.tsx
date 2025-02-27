@@ -8,7 +8,9 @@ import { gardening } from "../ServicesData/gardening";
 import { flooring } from "../ServicesData/flooring";
 import { furniture } from "../ServicesData/furniture";
 import Link from "next/link";
-const services = [renovation, gardening, flooring, furniture, renovation];
+import TopBorder from "@/src/components/components/borderShapes/TopBorder";
+import BottomBorder from "@/src/components/components/borderShapes/BottomBorder";
+const services = [renovation, gardening, flooring, furniture];
 
 export default function ServicesList() {
   const locale = useLocale(); // Get current language

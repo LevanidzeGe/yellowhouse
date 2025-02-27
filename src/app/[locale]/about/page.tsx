@@ -22,7 +22,6 @@ export default async function AboutPage() {
       <ComponentSix />
       <ComponentSeven />
       <OurTeam />
-      <Testimonials title1={t("homePage.testimonials.title1")} />
     </div>
   );
 }

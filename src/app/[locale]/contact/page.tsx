@@ -1,7 +1,5 @@
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
-import { childrenTeam } from "@/public/image";
-import PageHeadImage from "@/src/components/old components/PageHeadImage/PageHeadImage";
 import ContactForm from "@/src/components/packages/ContactForm/ContactForm";
 import Accordion from "@/src/components/packages/Accordion/Accordion";
 import Pageshead from "@/src/components/components/PagesHead/Pageshead";
@@ -22,7 +20,6 @@ export default async function ContactPage() {
       <Pageshead value1="Contact us" value2="everythhing that we do" />
 
       <ContactForm
-        head={t("forms.contactForm.head1")}
         name={t("forms.contactForm.name")}
         email={t("forms.contactForm.email")}
         phone={t("forms.contactForm.phone")}
@@ -30,7 +27,6 @@ export default async function ContactPage() {
         text={t("forms.contactForm.message")}
         button={t("forms.contactForm.button")}
         thank={t("forms.contactForm.thank")}
-        wait={t("forms.contactForm.wait")}
       />
       <Accordion title={t("contactPage.faq")} />
 
