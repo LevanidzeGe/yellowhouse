@@ -1,3 +1,6 @@
+.eachWrapper {
+  max-width: 280px;
+}
 .contactInfo {
   padding-bottom: 30px;
   display: flex;
@@ -6,6 +9,5 @@
 }
 
 .email {
-  color: var(--color1);
   margin: 15px 0;
 }

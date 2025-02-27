@@ -7,6 +7,8 @@ import Third from "./fotComponents/Third";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { footerWave } from "@/public/image";
+import { companyName } from "@/Manager/info";
+import Fourth from "./fotComponents/Fourth";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -23,9 +25,13 @@ export default function Footer() {
         <div className="container">
           <div className={styles.footWrapper}>
             <First title={t("title1")} />
+            <Fourth />
             <Second title={t("title2")} />
-            <Third />
-            {/* <Fourth title={t("title4")} subTitle={t("title5")} /> */}
+            {/* <Third /> */}
+          </div>
+          <div className={styles.copyRgiht}>
+            <p className="heading5 white">Copyright </p>
+            <span className="heading5 white">{companyName}</span>
           </div>
         </div>
       </section>

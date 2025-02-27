@@ -5,7 +5,7 @@ export default function BottomBorder() {
   return (
     <Image
       style={{
-        width: "100%",
+        width: "100vwgit ",
         marginTop: "-1px",
       }}
       src={bottomVector}

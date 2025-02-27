@@ -11,10 +11,9 @@ export default function Second({ title }: props) {
   const locale = useLocale(); // Get the current locale
   const items: NavItemProps[] = navItems[locale]; // Get items for the current locale
   return (
-    <section>
+    <div className={styles.eachWrapper}>
       <h2 className="heading4">{title}</h2>
-
-      <div className={styles.menuWrap}>
+      <ul className={styles.menuWrap}>
         {items.map((item: NavItemProps) => {
           const localizedUrl =
             item.url === "/" ? `/${locale}` : `/${locale}${item.url}`;
@@ -24,7 +23,7 @@ export default function Second({ title }: props) {
             </Link>
           );
         })}
-      </div>
-    </section>
+      </ul>
+    </div>
   );
 }

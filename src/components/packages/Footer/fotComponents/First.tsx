@@ -16,7 +16,7 @@ interface props {
 
 export default function First({ title }: props) {
   return (
-    <section>
+    <div className={styles.eachWrapper}>
       <h2 className="heading4">{title}</h2>
       <address className={styles.contactInfo}>
         <Link target="_blank" href={addressLink} className="paragraph ">
@@ -25,10 +25,16 @@ export default function First({ title }: props) {
         <Link target="_blank" href={addressLink} className="paragraph ">
           {address2}
         </Link>
-        <Link href={`mailto:${email}`} className={styles.email}>
+        <Link
+          href={`mailto:${email}`}
+          className={` caption color1 ${styles.email}`}
+        >
           {email}
         </Link>
-        <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
+        <Link
+          className="caption pargrapht-bold color1"
+          href={`tel:${phoneNumber}`}
+        >
           {phoneNumber}
         </Link>
         <Link className="caption pargrapht-bold" href={`tel:${phoneNumber2}`}>
@@ -36,6 +42,6 @@ export default function First({ title }: props) {
         </Link>
       </address>
       <SocialMedia />
-    </section>
+    </div>
   );
 }

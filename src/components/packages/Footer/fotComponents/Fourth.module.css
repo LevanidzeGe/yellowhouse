@@ -1,16 +1,17 @@
-.imageWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5%;
-  max-width: 300px;
+.eachWrapper {
+  max-width: 280px;
 }
-.imageWrapper img {
-  margin-bottom: 5%;
-  height: 70px;
-  width: 70px;
-  object-fit: cover;
+.menuWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-transform: capitalize;
 }
 
-.wrapper p {
-  text-decoration: underline;
+.reserv {
+  color: var(--primaryColor);
+}
+.menu {
+  display: flex;
+  color: var(--textLight);
 }

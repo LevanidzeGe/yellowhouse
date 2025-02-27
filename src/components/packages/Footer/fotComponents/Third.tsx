@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 export default function Third() {
   const t = useTranslations("footer");
   return (
-    <section>
+    <div className={styles.eachWrapper}>
       <h2 className="heading4">{t("title3")}</h2>
       <ul>
         <li className={styles.eventWrap}>
@@ -25,6 +25,6 @@ export default function Third() {
           <h3 className="paragraph">17:00 - 19:00</h3>
         </li>
       </ul>
-    </section>
+    </div>
   );
 }

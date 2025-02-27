@@ -1,40 +1,36 @@
-import { instagramUrl } from "@/Manager/info";
-import styles from "./Fourth.module.css";
+import { navItems, NavItemProps } from "@/Manager/navigation";
+import { useLocale } from "next-intl";
 import Link from "next/link";
-import {} from "@/public/image";
-import Image from "next/image";
+import styles from "./Fourth.module.css"; // Assuming you have a Footer module CSS
 
-// const defaultImages = [pizza, pizza2, heroMenu, heroReservation, heroStory];
-interface props {
-  title: string;
-  subTitle: string;
-}
-export default function Fourth({ title, subTitle }: props) {
+export default function Fourth() {
+  const locale = useLocale();
+  const items: NavItemProps[] = navItems[locale] || [];
+
+  // Filter items that have a dropdown
+  const serviceItems = items.filter((item) => item.dropdown);
+
   return (
-    <section className={styles.wrapper}>
-      <h2 className="heading4">{title}</h2>
-      <div className={styles.imageWrapper}>
-        {/* {defaultImages.slice(0, 6).map((img, index) => (
-          <Image
-            key={img.src || index}
-            className={styles.image}
-            alt={`Instagram photo ${index + 1}`}
-            width={70}
-            height={70}
-            src={img.src}
-          />
-        ))} */}
-      </div>
-
-      <Link
-        href={instagramUrl}
-        passHref
-        target="_blank"
-        rel="noopener noreferrer"
-        className="caption"
-      >
-        <p>{subTitle}</p>
-      </Link>
-    </section>
+    <div className={styles.eachWrapper}>
+      {serviceItems.map((item) => {
+        return (
+          <div key={item.url} className={styles.footerSection}>
+            <h2 className="heading4">{item.title}</h2>
+            <ul className={styles.menuWrap}>
+              {item.dropdown?.map((subItem) => (
+                <li key={subItem.url}>
+                  <Link
+                    className="caption"
+                    href={`/${locale}${item.url}${subItem.url}`}
+                  >
+                    {subItem.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
   );
 }
