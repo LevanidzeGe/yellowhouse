@@ -12,11 +12,15 @@ export async function generateMetadata() {
 
 // Dynamic server-side rendering function that accepts params
 export default async function ServicesPage() {
-  const t = await getTranslations("");
+  const t = await getTranslations("servicesPage");
   return (
     <div className="fadeOut">
-      <Pageshead value1="Services" value2="everythhing that we do" />
-      <ServicesList />
+      <Pageshead value1={t("pageHead.title1")} value2={t("pageHead.title2")} />
+
+      <ServicesList
+        title1={t("services.title1")}
+        title2={t("services.title2")}
+      />
     </div>
   );
 }

@@ -5,7 +5,13 @@ export default function TopBorder() {
   return (
     <div className="section no-padding-x no-padding-y">
       <Image
-        style={{ width: "100vw", marginBottom: "-2px", marginTop: "100px" }}
+        style={{
+          width: "100vw",
+          marginBottom: "-2px",
+          marginTop: "100px",
+          position: "relative",
+          zIndex: "-1",
+        }}
         src={topVector}
         alt=""
         width={1400}

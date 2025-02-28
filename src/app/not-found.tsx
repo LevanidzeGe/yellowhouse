@@ -7,8 +7,8 @@ export default function NotFoundPage() {
     <html>
       <body
         style={{
-          backgroundColor: "var(--color4)", // Dark blue background
-          color: "var(--color2)", // Yellow text color
+          backgroundColor: "var(--color5)", // Dark blue background
+          color: "var(--color1)", // Yellow text color
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",

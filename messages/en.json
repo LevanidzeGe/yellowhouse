@@ -1,114 +1,133 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Renovation Experts Geneva - Professional Renovation Services in Geneva",
-      "description": "Renovation Experts Geneva offers top-quality renovation services for homes and businesses. With over 15 years of experience, we provide reliable and affordable solutions for all your renovation needs."
+      "title": "Geo Renovations - Sandblasting, Flooring & Gardening",
+      "description": "Geo Renovations specializes in sandblasting, air pressure paint removal, flooring, and gardening services. Located in France near the Geneva border, we provide reliable and affordable solutions for clients in both France and Geneva."
     },
     "hero": {
-      "title1": "With us, renovation becomes easy",
-      "title2": "We provide high-quality renovation services at affordable prices",
+      "title1": "With us, renovation is effortless",
+      "title2": "Top-notch sandblasting, flooring & gardening at fair rates",
       "button1": "Contact",
       "button2": "Get a Quote"
     },
     "componentOne": {
-      "title1": "Proudly Serving Geneva Since 2010",
-      "text": "Founded 15 years ago in Geneva, Renovation Experts has become a trusted name in home and business renovations. Our team of professionals is dedicated to delivering exceptional results with a focus on quality, efficiency, and customer satisfaction."
+      "title2": "Who we are",
+      "title3": "Happy Clients",
+      "title4": "Years in Business",
+      "text1": "Expert Services Near Geneva Since 2010",
+      "text2": "For 15 years, Geo Renovations has been a trusted name in home and business renovations. Based in France near the Geneva border, we excel in sandblasting, flooring, and gardening, ensuring quality, efficiency, and customer satisfaction."
     },
-    "componentTwo": {
-      "text1": "Why choose us?",
-      "text2": "Guaranteed results, professional service, and a customer-focused approach",
-      "text3": "Why choose us?",
-      "text4": "Guaranteed results, professional service, and a customer-focused approach",
-      "text5": "Customer satisfaction",
-      "text6": "We prioritize customer satisfaction through quality work and clear communication",
-      "text7": "Projects completed last year",
-      "text8": "In the past year, we successfully completed over 100 renovation projects, earning praise from our clients."
+    "projects": {
+      "title1": "our work",
+      "title2": "recent jobs"
     },
-    "componentThree": {
-      "title1": "Our Founder",
-      "title2": "John Doe",
-      "text1": "John Doe, a seasoned renovation expert with over 20 years of experience, leads our team. For the past 15 years, he has been transforming homes and businesses in Geneva, delivering exceptional results and building lasting relationships with clients.",
-      "button": "Contact Us",
-      "title3": "100+ Happy Clients",
-      "text2": "Our 15 years of experience and dedication to excellence are our greatest assets."
-    },
-    "componentFour": {
-      "title1": "Our Services",
-      "text1": "Home Renovation",
-      "text2": "Commercial Renovation"
+    "services": {
+      "title1": "What we do",
+      "title2": "Our Specialties",
+      "readMore": "Learn More",
+      "seeAll": "View All Works"
     },
     "componentFive": {
       "title1": "Address",
       "title2": "Email Us",
-      "title3": "Call Us"
+      "title3": "Call Now"
     },
-    "componentSix": {},
+    "componentSix": {
+      "title1": "Join us",
+      "title2": "Our Crew",
+      "title3": "We always welcome skilled workers",
+      "text": "We believe in building a dedicated team where everyone contributes with their expertise and passion. Join us to work in an inspiring environment and grow your skills!",
+      "button": "Contact us"
+    },
     "componentSeven": {},
     "testimonials": {
-      "title1": "What our clients say"
+      "title1": "Our customers say"
     }
   },
   "projectsPage": {
     "metadata": {
-      "title": "Upcoming Renovation Projects and Events",
-      "description": "Stay updated on our latest renovation projects and events. Explore our portfolio and see how we transform spaces."
+      "title": "Latest Sandblasting & Flooring Projects",
+      "description": "Stay updated on our recent renovation projects, including sandblasting, flooring, and gardening. See how we bring spaces back to life."
     },
-    "events": {
-      "title": "Recent Projects",
-      "button": "Learn More",
-      "upcomingEvents": "Upcoming Projects",
-      "pastEvents": "Completed Projects",
-      "recentEvents": "Recent Projects",
-      "upcoming": "upcoming",
-      "past": "completed",
-      "seeAll": "View All Projects"
+    "pageHead": {
+      "title1": "Projects",
+      "title2": "Latest Works"
+    },
+    "projects": {
+      "title1": "Recent Works",
+      "title2": "Our Portfolio",
+      "readMore": "Learn More",
+      "seeAll": "View More"
     }
   },
   "servicesPage": {
     "metadata": {
-      "title": "Contact Renovation Experts Geneva",
-      "description": "Get in touch with Renovation Experts Geneva for inquiries or to schedule a consultation. We're here to help with all your renovation needs."
+      "title": "Expert Renovation Services",
+      "description": "Get in touch for professional sandblasting, flooring installation, and gardening solutions tailored to your needs in France and Geneva."
     },
-    "faq": "Frequently Asked Questions"
+    "pageHead": {
+      "title1": "Services",
+      "title2": "What We Offer"
+    },
+    "services": {
+      "title1": "Our Work",
+      "title2": "What We Do",
+      "readMore": "Discover More",
+      "seeAll": "All Services"
+    },
+    "faq": "Common Questions"
   },
   "contactPage": {
     "metadata": {
-      "title": "Contact Renovation Experts Geneva",
-      "description": "Get in touch with Renovation Experts Geneva for inquiries or to schedule a consultation. We're here to help with all your renovation needs."
+      "title": "Contact Geo Renovations",
+      "description": "Reach out to us for consultations or inquiries regarding sandblasting, flooring, and gardening services in France and Geneva."
     },
-    "faq": "Frequently Asked Questions"
+    "pageHead": {
+      "title1": "Contact",
+      "title2": "Get in Touch"
+    },
+    "contactForm": {
+      "title1": "Custom Solutions for Your Needs",
+      "title2": "Always Ready for New Challenges",
+      "title3": "With our expertise in flooring and gardening, we ensure every detail is handled efficiently. Our tailored solutions are designed to exceed expectations and create functional outdoor spaces."
+    },
+    "faq": "Common Questions"
   },
   "aboutPage": {
     "metadata": {
-      "title": "Request a Consultation with Renovation Experts Geneva",
-      "description": "Schedule a consultation with Renovation Experts Geneva and start planning your dream renovation project."
+      "title": "Consult Geo Renovations",
+      "description": "Book a consultation with Geo Renovations and start transforming your property with our specialized services."
+    },
+    "pageHead": {
+      "title1": "About Us",
+      "title2": "Our Story"
     }
   },
   "forms": {
     "contactForm": {
-      "head1": "Contact Us",
-      "head2": "Request a Consultation",
+      "head1": "Get in Touch",
+      "head2": "Request a Quote",
       "name": "Full Name",
       "email": "Email",
-      "phone": "Phone Number",
+      "phone": "Phone",
       "date": "Date",
       "time": "Time",
-      "quantity": "Number of Rooms",
-      "message": "Your message here",
-      "button": "Send",
-      "send": "Send Consultation Request",
-      "thankYou": "Thank you for contacting us!",
-      "comfirmation": "We will get back to you as soon as possible."
+      "quantity": "Rooms Needed",
+      "message": "Your request here",
+      "button": "Submit",
+      "send": "Send Inquiry",
+      "thankYou": "Thanks for reaching out!",
+      "comfirmation": "We'll respond as soon as possible."
     }
   },
   "notFoundPage": {
-    "title1": "The page you are looking for does not exist",
-    "title2": "The page you are looking for does not exist",
-    "button": "Home Page"
+    "title1": "Page Not Found",
+    "title2": "This page does not exist",
+    "button": "Go Home"
   },
   "footer": {
-    "title1": "Contact Information",
-    "title2": "Navigation",
+    "title1": "Contact Us",
+    "title2": "Quick Links",
     "title3": "Working Hours",
     "monday": "Monday",
     "wednsday": "Wednesday",

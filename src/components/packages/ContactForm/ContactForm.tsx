@@ -23,6 +23,9 @@ interface reservProps {
   text: string;
   button: string;
   thank: string;
+  title1: string;
+  title2: string;
+  title3: string;
 }
 
 export default function ContactForm({
@@ -32,6 +35,9 @@ export default function ContactForm({
   text,
   button,
   thank,
+  title1,
+  title2,
+  title3,
 }: reservProps) {
   const [nameValue, setNameValue] = useState<string>("");
   const [nameError, setNameError] = useState<boolean>(false);
@@ -94,20 +100,10 @@ export default function ContactForm({
             <div className={styles.textDiv}>
               <div className="sideLineWrap">
                 <div className="sideLine"></div>
-                <h3 className="heading4">
-                  Skräddarsydda lösningar för dina behov
-                </h3>
+                <h3 className="heading4">{title1}</h3>
               </div>
-              <h4 className="heading2 color4">
-                Vi är alltid redo för nya utmaningar
-              </h4>
-              <p className="paragraph gray7">
-                Med vår expertis inom trädgårds- och landskapsarbete ser vi till
-                att alla fel och brister hanteras snabbt och effektivt. Vi
-                strävar alltid efter att överträffa dina förväntningar genom
-                skräddarsydda lösningar som säkerställer att din utemiljö
-                fungerar som den ska.
-              </p>
+              <h4 className="heading2 color4">{title2}</h4>
+              <p className="paragraph gray7">{title3}</p>
             </div>
             <div className={styles.reservation}>
               <form

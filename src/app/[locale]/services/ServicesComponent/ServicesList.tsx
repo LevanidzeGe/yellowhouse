@@ -10,7 +10,13 @@ import { furniture } from "../ServicesData/furniture";
 import Link from "next/link";
 const services = [renovation, gardening, flooring, furniture];
 
-export default function ServicesList() {
+export default function ServicesList({
+  title1,
+  title2,
+}: {
+  title1: string;
+  title2: string;
+}) {
   const locale = useLocale(); // Get current language
 
   return (
@@ -18,9 +24,9 @@ export default function ServicesList() {
       <div className="container">
         <div className="sideLineWrap">
           <div className="sideLine"></div>
-          <h3 className="heading4">What We Do</h3>
+          <h3 className="heading4">{title1}</h3>
         </div>
-        <h1 className={`${styles.title} heading2 color4`}>Our services</h1>
+        <h1 className={`${styles.title} heading2 color4`}>{title2}</h1>
         <div className={styles.servicesWrapper}>
           {services.map(({ slug, title, description, image }) => (
             <Link

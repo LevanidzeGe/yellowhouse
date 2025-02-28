@@ -1,108 +1,134 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Experts en Rénovation Genève - Services Professionnels de Rénovation à Genève",
-      "description": "Experts en Rénovation Genève propose des services de rénovation de haute qualité pour les maisons et les entreprises. Avec plus de 15 ans d'expérience, nous offrons des solutions fiables et abordables pour tous vos besoins de rénovation."
+      "title": "Geo Rénovations - Sablage, Revêtements de Sol & Jardinage",
+      "description": "Geo Rénovations est spécialisé dans le sablage, l’enlèvement de peinture sous pression, les revêtements de sol et le jardinage. Situé en France à la frontière de Genève, nous proposons des solutions fiables et abordables pour nos clients en France et à Genève."
     },
     "hero": {
-      "title1": "Avec nous, la rénovation devient facile",
-      "title2": "Nous fournissons des services de rénovation de haute qualité à des prix abordables",
+      "title1": "Avec nous, la rénovation est facile",
+      "title2": "Sablage, revêtements de sol & jardinage de qualité à prix justes",
       "button1": "Contact",
-      "button2": "Obtenir un Devis"
+      "button2": "Obtenir un devis"
     },
     "componentOne": {
-      "title1": "Au Service de Genève Depuis 2010",
-      "text": "Fondé il y a 15 ans à Genève, Experts en Rénovation est devenu un nom de confiance dans la rénovation de maisons et d'entreprises. Notre équipe de professionnels est dédiée à fournir des résultats exceptionnels en mettant l'accent sur la qualité, l'efficacité et la satisfaction client."
+      "title2": "Qui sommes-nous",
+      "title3": "Clients satisfaits",
+      "title4": "Années d’expérience",
+      "text1": "Services experts près de Genève depuis 2010",
+      "text2": "Depuis 15 ans, Geo Rénovations est un acteur de confiance dans la rénovation de maisons et d'entreprises. Basés en France près de Genève, nous excellons dans le sablage, les revêtements de sol et le jardinage, garantissant qualité, efficacité et satisfaction client."
     },
-    "componentTwo": {
-      "text1": "Pourquoi nous choisir ?",
-      "text2": "Résultats garantis, service professionnel et approche centrée sur le client",
-      "text3": "Pourquoi nous choisir ?",
-      "text4": "Résultats garantis, service professionnel et approche centrée sur le client",
-      "text5": "Satisfaction client",
-      "text6": "Nous priorisons la satisfaction client grâce à un travail de qualité et une communication claire",
-      "text7": "Projets réalisés l'année dernière",
-      "text8": "L'année dernière, nous avons mené à bien plus de 100 projets de rénovation, recevant des éloges de nos clients."
+    "projects": {
+      "title1": "nos travaux",
+      "title2": "réalisations récentes"
     },
-    "componentThree": {
-      "title1": "Notre Fondateur",
-      "title2": "John Doe",
-      "text1": "John Doe, un expert en rénovation chevronné avec plus de 20 ans d'expérience, dirige notre équipe. Depuis 15 ans, il transforme des maisons et des entreprises à Genève, offrant des résultats exceptionnels et établissant des relations durables avec ses clients.",
-      "button": "Nous Contacter",
-      "title3": "100+ Clients Satisfaits",
-      "text2": "Nos 15 ans d'expérience et notre engagement envers l'excellence sont nos plus grands atouts."
-    },
-    "componentFour": {
-      "title1": "Nos Services",
-      "text1": "Rénovation Résidentielle",
-      "text2": "Rénovation Commerciale"
+    "services": {
+      "title1": "Nos services",
+      "title2": "Nos spécialités",
+      "readMore": "En savoir plus",
+      "seeAll": "Voir tous les travaux"
     },
     "componentFive": {
       "title1": "Adresse",
-      "title2": "Envoyez-nous un Email",
+      "title2": "Email",
       "title3": "Appelez-nous"
     },
-    "componentSix": {},
+    "componentSix": {
+      "title1": "Rejoignez-nous",
+      "title2": "Notre équipe",
+      "title3": "Nous accueillons toujours des professionnels qualifiés",
+      "text": "Nous croyons en la construction d'une équipe dédiée où chacun apporte son expertise et sa passion. Rejoignez-nous pour travailler dans un environnement inspirant et développer vos compétences !",
+      "button": "Contactez-nous"
+    },
     "componentSeven": {},
     "testimonials": {
-      "title1": "Ce que disent nos clients"
+      "title1": "Nos clients témoignent"
     }
   },
-  "eventsPage": {
+  "projectsPage": {
     "metadata": {
-      "title": "Projets et Événements de Rénovation à Venir",
-      "description": "Restez informé sur nos derniers projets et événements de rénovation. Découvrez notre portfolio et voyez comment nous transformons les espaces."
+      "title": "Derniers projets de sablage & revêtements de sol",
+      "description": "Restez informé de nos récents projets de rénovation, incluant le sablage, les revêtements de sol et le jardinage. Découvrez comment nous redonnons vie aux espaces."
     },
-    "events": {
-      "title": "Projets Récents",
-      "button": "En Savoir Plus",
-      "upcomingEvents": "Projets à Venir",
-      "pastEvents": "Projets Terminés",
-      "recentEvents": "Projets Récents",
-      "upcoming": "à venir",
-      "past": "terminés",
-      "seeAll": "Voir Tous les Projets"
+    "pageHead": {
+      "title1": "Projets",
+      "title2": "Nos réalisations"
+    },
+    "projects": {
+      "title1": "Travaux récents",
+      "title2": "Notre portfolio",
+      "readMore": "En savoir plus",
+      "seeAll": "Voir plus"
     }
+  },
+  "servicesPage": {
+    "metadata": {
+      "title": "Services de rénovation professionnelle",
+      "description": "Contactez-nous pour des solutions professionnelles de sablage, de revêtements de sol et de jardinage adaptées à vos besoins en France et à Genève."
+    },
+    "pageHead": {
+      "title1": "Services",
+      "title2": "Nos prestations"
+    },
+    "services": {
+      "title1": "Nos prestations",
+      "title2": "Ce que nous faisons",
+      "readMore": "Découvrir",
+      "seeAll": "Tous les services"
+    },
+    "faq": "Questions fréquentes"
   },
   "contactPage": {
     "metadata": {
-      "title": "Contactez Experts en Rénovation Genève",
-      "description": "Contactez Experts en Rénovation Genève pour des questions ou pour planifier une consultation. Nous sommes là pour vous aider avec tous vos besoins de rénovation."
+      "title": "Contactez Geo Rénovations",
+      "description": "Contactez-nous pour une consultation ou toute demande concernant nos services de sablage, revêtements de sol et jardinage en France et à Genève."
     },
-    "faq": "Questions Fréquemment Posées"
+    "pageHead": {
+      "title1": "Contact",
+      "title2": "Nous contacter"
+    },
+    "contactForm": {
+      "title1": "Solutions sur mesure pour vos besoins",
+      "title2": "Toujours prêts pour de nouveaux défis",
+      "title3": "Avec notre expertise en revêtements de sol et jardinage, nous nous assurons que chaque détail est pris en charge efficacement. Nos solutions personnalisées sont conçues pour dépasser vos attentes et créer des espaces fonctionnels."
+    },
+    "faq": "Questions fréquentes"
   },
-  "registrationPage": {
+  "aboutPage": {
     "metadata": {
-      "title": "Demandez une Consultation avec Experts en Rénovation Genève",
-      "description": "Planifiez une consultation avec Experts en Rénovation Genève et commencez à planifier votre projet de rénovation de rêve."
+      "title": "Consultez Geo Rénovations",
+      "description": "Prenez rendez-vous avec Geo Rénovations et commencez à transformer votre propriété avec nos services spécialisés."
+    },
+    "pageHead": {
+      "title1": "À propos",
+      "title2": "Notre histoire"
     }
   },
   "forms": {
     "contactForm": {
-      "head1": "Contactez-nous",
-      "head2": "Demandez une Consultation",
-      "name": "Nom Complet",
+      "head1": "Nous contacter",
+      "head2": "Demander un devis",
+      "name": "Nom complet",
       "email": "Email",
-      "phone": "Numéro de Téléphone",
+      "phone": "Téléphone",
       "date": "Date",
       "time": "Heure",
-      "quantity": "Nombre de Pièces",
-      "message": "Votre message ici",
+      "quantity": "Nombre de pièces",
+      "message": "Votre demande ici",
       "button": "Envoyer",
-      "send": "Envoyer une Demande de Consultation",
+      "send": "Envoyer la demande",
       "thankYou": "Merci de nous avoir contactés !",
       "comfirmation": "Nous vous répondrons dès que possible."
     }
   },
   "notFoundPage": {
-    "title1": "La page que vous recherchez n'existe pas",
-    "title2": "La page que vous recherchez n'existe pas",
-    "button": "Page d'Accueil"
+    "title1": "Page non trouvée",
+    "title2": "Cette page n’existe pas",
+    "button": "Retour à l'accueil"
   },
   "footer": {
-    "title1": "Informations de Contact",
-    "title2": "Navigation",
-    "title3": "Heures d'Ouverture",
+    "title1": "Contactez-nous",
+    "title2": "Liens rapides",
+    "title3": "Horaires d'ouverture",
     "monday": "Lundi",
     "wednsday": "Mercredi",
     "thursday": "Jeudi",

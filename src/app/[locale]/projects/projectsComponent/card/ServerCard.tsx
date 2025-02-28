@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ServerCard.module.css";
 import Image from "next/image";
 import { ProjectProps } from "../../projectsData";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
 
@@ -13,7 +13,8 @@ export default function ServerCard({
   description,
   timestamp,
   category,
-}: ProjectProps) {
+  readMore,
+}: ProjectProps & { readMore: string }) {
   const locale = useLocale();
 
   // Fallback to the default locale if the translation is not available
@@ -56,7 +57,7 @@ export default function ServerCard({
       </div>
 
       <Link href={`/${locale}/projects/${id}`} className={styles.button}>
-        eventsPage.events.button
+        {readMore}
         <FaArrowRightLong />
       </Link>
     </div>

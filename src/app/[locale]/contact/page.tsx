@@ -17,7 +17,10 @@ export default async function ContactPage() {
   const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      <Pageshead value1="Contact us" value2="everythhing that we do" />
+      <Pageshead
+        value1={t("contactPage.pageHead.title1")}
+        value2={t("contactPage.pageHead.title2")}
+      />
 
       <ContactForm
         name={t("forms.contactForm.name")}
@@ -27,6 +30,9 @@ export default async function ContactPage() {
         text={t("forms.contactForm.message")}
         button={t("forms.contactForm.button")}
         thank={t("forms.contactForm.thank")}
+        title1={t("contactPage.contactForm.title1")}
+        title2={t("contactPage.contactForm.title2")}
+        title3={t("contactPage.contactForm.title3")}
       />
       <Accordion title={t("contactPage.faq")} />
 

@@ -7,14 +7,29 @@ import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import TopBorder from "@/src/components/components/borderShapes/TopBorder";
 import BottomBorder from "@/src/components/components/borderShapes/BottomBorder";
 import Pagination from "@/src/components/packages/Pagination/Pagination";
+import Link from "next/link";
+import { useLocale } from "next-intl";
 
 export const revalidate = 86400; // Revalidate once a day
 const ITEMS_PER_PAGE = 9; // Number of projects per page
 
-export default function Projects({ mini }: { mini?: boolean }) {
+export default function Projects({
+  mini,
+  title1,
+  title2,
+  readMore,
+  seeAll,
+}: {
+  mini?: boolean;
+  title1: string;
+  title2: string;
+  readMore: string;
+  seeAll?: string;
+}) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
+  const locale = useLocale();
 
   // Get the current page from URL or default to 1
   const currentPage = Number(searchParams.get("page")) || 1;
@@ -45,18 +60,24 @@ export default function Projects({ mini }: { mini?: boolean }) {
           <div className={`${!mini && styles.paddingBottom}`}>
             <div className="sideLineWrap">
               <div className="sideLine"></div>
-              <h2 className="heading4">Our work</h2>
+              <h2 className="heading4">{title1}</h2>
             </div>
-            <h3 className={`heading2 color4 ${styles.title}`}>
-              Completed Projects
-            </h3>
+            <h3 className={`heading2 color4 ${styles.title}`}>{title2}</h3>
             <div className={styles.eventsWrapper}>
               {(mini ? paginatedProjects.slice(0, 3) : paginatedProjects).map(
                 (event: ProjectProps) => (
-                  <ServerCard key={event.id} {...event} />
+                  <ServerCard key={event.id} {...event} readMore={readMore} />
                 )
               )}
             </div>
+            {mini && (
+              <Link
+                className={` button button-reverse button-small ${styles.button} `}
+                href={`/${locale}/projects`}
+              >
+                {seeAll}
+              </Link>
+            )}
             {/* Pagination Controls */}
             {!mini && (
               <Pagination

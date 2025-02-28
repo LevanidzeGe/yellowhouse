@@ -8,6 +8,8 @@ export default function BottomBorder() {
         style={{
           width: "100vw ",
           marginTop: "-2px",
+          position: "relative",
+          zIndex: "-1",
         }}
         src={bottomVector}
         alt=""

@@ -1,107 +1,133 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Renovierungsexperten Genf - Professionelle Renovierungsdienstleistungen in Genf",
-      "description": "Renovierungsexperten Genf bietet hochwertige Renovierungsdienstleistungen für Wohnungen und Geschäfte. Mit über 15 Jahren Erfahrung bieten wir zuverlässige und erschwingliche Lösungen für alle Ihre Renovierungsbedürfnisse."
+      "title": "Geo Renovations - Sandstrahlen, Bodenbeläge & Gartenarbeit",
+      "description": "Geo Renovations ist spezialisiert auf Sandstrahlen, Hochdruck-Farbenentfernung, Bodenbeläge und Gartenarbeit. Mit Sitz in Frankreich an der Grenze zu Genf bieten wir zuverlässige und erschwingliche Lösungen für Kunden in Frankreich und Genf."
     },
     "hero": {
-      "title1": "Mit uns wird Renovierung einfach",
-      "title2": "Wir bieten hochwertige Renovierungsdienstleistungen zu günstigen Preisen",
+      "title1": "Mit uns wird Renovieren einfach",
+      "title2": "Hochwertiges Sandstrahlen, Bodenbeläge & Gartenarbeit zu fairen Preisen",
       "button1": "Kontakt",
-      "button2": "Angebot einholen"
+      "button2": "Angebot anfordern"
     },
     "componentOne": {
-      "title1": "Seit 2010 stolz in Genf tätig",
-      "text": "Vor 15 Jahren in Genf gegründet, hat sich Renovierungsexperten einen Namen als vertrauenswürdiger Anbieter von Wohnungs- und Geschäftsrenovierungen gemacht. Unser Team von Fachleuten ist darauf spezialisiert, hervorragende Ergebnisse mit Schwerpunkt auf Qualität, Effizienz und Kundenzufriedenheit zu liefern."
+      "title2": "Wer wir sind",
+      "title3": "Zufriedene Kunden",
+      "title4": "Jahre Erfahrung",
+      "text1": "Fachmännische Dienstleistungen nahe Genf seit 2010",
+      "text2": "Seit 15 Jahren ist Geo Renovierungen ein vertrauenswürdiger Name in der Renovierung von Wohn- und Geschäftsgebäuden. Mit Sitz in Frankreich nahe Genf sind wir Experten im Sandstrahlen, Bodenbeläge und Gartenarbeit und garantieren Qualität, Effizienz und Kundenzufriedenheit."
     },
-    "componentTwo": {
-      "text1": "Warum uns wählen?",
-      "text2": "Garantierte Ergebnisse, professioneller Service und kundenorientierte Arbeitsweise",
-      "text3": "Warum uns wählen?",
-      "text4": "Garantierte Ergebnisse, professioneller Service und kundenorientierte Arbeitsweise",
-      "text5": "Kundenzufriedenheit",
-      "text6": "Wir priorisieren Kundenzufriedenheit durch qualitativ hochwertige Arbeit und klare Kommunikation",
-      "text7": "Projekte im letzten Jahr abgeschlossen",
-      "text8": "Im vergangenen Jahr haben wir erfolgreich über 100 Renovierungsprojekte abgeschlossen und viel Lob von unseren Kunden erhalten."
+    "projects": {
+      "title1": "unsere Arbeiten",
+      "title2": "aktuelle Projekte"
     },
-    "componentThree": {
-      "title1": "Unser Gründer",
-      "title2": "John Doe",
-      "text1": "John Doe, ein erfahrener Renovierungsexperte mit über 20 Jahren Erfahrung, leitet unser Team. Seit 15 Jahren verwandelt er Wohnungen und Geschäfte in Genf und liefert herausragende Ergebnisse, während er langfristige Beziehungen zu seinen Kunden aufbaut.",
-      "button": "Kontaktieren Sie uns",
-      "title3": "100+ zufriedene Kunden",
-      "text2": "Unsere 15-jährige Erfahrung und unser Engagement für Exzellenz sind unsere größten Stärken."
-    },
-    "componentFour": {
+    "services": {
       "title1": "Unsere Dienstleistungen",
-      "text1": "Wohnungsrenovierung",
-      "text2": "Gewerberenovierung"
+      "title2": "Unsere Fachgebiete",
+      "readMore": "Mehr erfahren",
+      "seeAll": "Alle Arbeiten anzeigen"
     },
     "componentFive": {
       "title1": "Adresse",
-      "title2": "Schreiben Sie uns eine E-Mail",
-      "title3": "Rufen Sie uns an"
+      "title2": "E-Mail",
+      "title3": "Anrufen"
     },
-    "componentSix": {},
+    "componentSix": {
+      "title1": "Arbeite mit uns",
+      "title2": "Unser Team",
+      "title3": "Wir heißen qualifizierte Fachkräfte willkommen",
+      "text": "Wir glauben an den Aufbau eines engagierten Teams, in dem jeder mit Fachwissen und Leidenschaft beiträgt. Werde Teil unseres Teams, arbeite in einer inspirierenden Umgebung und entwickle deine Fähigkeiten weiter!",
+      "button": "Kontaktiere uns"
+    },
     "componentSeven": {},
     "testimonials": {
       "title1": "Was unsere Kunden sagen"
     }
   },
-  "eventsPage": {
+  "projectsPage": {
     "metadata": {
-      "title": "Kommende Renovierungsprojekte und Veranstaltungen",
-      "description": "Bleiben Sie auf dem Laufenden über unsere neuesten Renovierungsprojekte und Veranstaltungen. Entdecken Sie unser Portfolio und sehen Sie, wie wir Räume verwandeln."
+      "title": "Neueste Sandstrahl- & Bodenbelagsprojekte",
+      "description": "Bleiben Sie auf dem Laufenden über unsere neuesten Renovierungsprojekte, darunter Sandstrahlen, Bodenbeläge und Gartenarbeit. Entdecken Sie, wie wir Räume verwandeln."
     },
-    "events": {
-      "title": "Aktuelle Projekte",
-      "button": "Mehr erfahren",
-      "upcomingEvents": "Kommende Projekte",
-      "pastEvents": "Abgeschlossene Projekte",
-      "recentEvents": "Aktuelle Projekte",
-      "upcoming": "kommende",
-      "past": "abgeschlossen",
-      "seeAll": "Alle Projekte anzeigen"
+    "pageHead": {
+      "title1": "Projekte",
+      "title2": "Unsere Arbeiten"
+    },
+    "projects": {
+      "title1": "Letzte Arbeiten",
+      "title2": "Unser Portfolio",
+      "readMore": "Mehr erfahren",
+      "seeAll": "Mehr anzeigen"
     }
+  },
+  "servicesPage": {
+    "metadata": {
+      "title": "Professionelle Renovierungsdienstleistungen",
+      "description": "Kontaktieren Sie uns für professionelle Lösungen im Bereich Sandstrahlen, Bodenbeläge und Gartenarbeit, maßgeschneidert für Ihre Bedürfnisse in Frankreich und Genf."
+    },
+    "pageHead": {
+      "title1": "Dienstleistungen",
+      "title2": "Was wir bieten"
+    },
+    "services": {
+      "title1": "Unsere Arbeiten",
+      "title2": "Was wir tun",
+      "readMore": "Entdecken",
+      "seeAll": "Alle Dienstleistungen"
+    },
+    "faq": "Häufige Fragen"
   },
   "contactPage": {
     "metadata": {
-      "title": "Kontaktieren Sie Renovierungsexperten Genf",
-      "description": "Kontaktieren Sie Renovierungsexperten Genf für Anfragen oder um eine Beratung zu vereinbaren. Wir helfen Ihnen bei allen Renovierungsbedürfnissen."
+      "title": "Kontaktieren Sie Geo Renovierungen",
+      "description": "Kontaktieren Sie uns für eine Beratung oder Anfragen zu unseren Sandstrahl-, Bodenbelags- und Gartenarbeiten in Frankreich und Genf."
     },
-    "faq": "Häufig gestellte Fragen"
+    "pageHead": {
+      "title1": "Kontakt",
+      "title2": "Nehmen Sie Kontakt auf"
+    },
+    "contactForm": {
+      "title1": "Maßgeschneiderte Lösungen für Ihre Bedürfnisse",
+      "title2": "Immer bereit für neue Herausforderungen",
+      "title3": "Mit unserer Erfahrung in Bodenbelägen und Gartenarbeit stellen wir sicher, dass jedes Detail effizient gehandhabt wird. Unsere maßgeschneiderten Lösungen sind darauf ausgelegt, Erwartungen zu übertreffen und funktionale Räume zu schaffen."
+    },
+    "faq": "Häufige Fragen"
   },
-  "registrationPage": {
+  "aboutPage": {
     "metadata": {
-      "title": "Beratung bei Renovierungsexperten Genf anfordern",
-      "description": "Vereinbaren Sie eine Beratung mit Renovierungsexperten Genf und starten Sie die Planung Ihres Traumrenovierungsprojekts."
+      "title": "Beratung mit Geo Renovierungen",
+      "description": "Vereinbaren Sie eine Beratung mit Geo Renovierungen und beginnen Sie mit der Transformation Ihrer Immobilie mit unseren spezialisierten Dienstleistungen."
+    },
+    "pageHead": {
+      "title1": "Über uns",
+      "title2": "Unsere Geschichte"
     }
   },
   "forms": {
     "contactForm": {
       "head1": "Kontaktieren Sie uns",
-      "head2": "Beratung anfordern",
+      "head2": "Angebot anfordern",
       "name": "Vollständiger Name",
       "email": "E-Mail",
       "phone": "Telefonnummer",
       "date": "Datum",
       "time": "Uhrzeit",
-      "quantity": "Anzahl der Zimmer",
-      "message": "Ihre Nachricht hier",
+      "quantity": "Anzahl der Räume",
+      "message": "Ihre Anfrage hier eingeben",
       "button": "Senden",
-      "send": "Beratungsanfrage senden",
-      "thankYou": "Vielen Dank für Ihre Nachricht!",
-      "comfirmation": "Wir werden uns so schnell wie möglich bei Ihnen melden."
+      "send": "Anfrage senden",
+      "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
+      "comfirmation": "Wir melden uns so schnell wie möglich bei Ihnen."
     }
   },
   "notFoundPage": {
-    "title1": "Die gesuchte Seite existiert nicht",
-    "title2": "Die gesuchte Seite existiert nicht",
-    "button": "Startseite"
+    "title1": "Seite nicht gefunden",
+    "title2": "Diese Seite existiert nicht",
+    "button": "Zur Startseite"
   },
   "footer": {
-    "title1": "Kontaktinformationen",
-    "title2": "Navigation",
+    "title1": "Kontakt",
+    "title2": "Schnellzugriff",
     "title3": "Öffnungszeiten",
     "monday": "Montag",
     "wednsday": "Mittwoch",
