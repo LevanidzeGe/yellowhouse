@@ -95,12 +95,19 @@
   },
   "aboutPage": {
     "metadata": {
-      "title": "Consultez Geo Rénovations",
-      "description": "Prenez rendez-vous avec Geo Rénovations et commencez à transformer votre propriété avec nos services spécialisés."
+      "title": "Consult Geo Renovations",
+      "description": "Réservez une consultation avec Geo Renovations et commencez à transformer votre propriété avec nos services spécialisés."
     },
     "pageHead": {
-      "title1": "À propos",
+      "title1": "À propos de nous",
       "title2": "Notre histoire"
+    },
+    "componentSeven": {
+      "title1": "Histoire de l'entreprise",
+      "title2": "Votre partenaire de confiance pour des rénovations expertes, le sablage, les revêtements de sol et l'aménagement paysager."
+    },
+    "ourTeam": {
+      "team": "Membres de l'équipe"
     }
   },
   "forms": {

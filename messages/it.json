@@ -95,12 +95,19 @@
   },
   "aboutPage": {
     "metadata": {
-      "title": "Consulta Geo Ristrutturazioni",
-      "description": "Prenota una consulenza con Geo Ristrutturazioni e inizia a trasformare la tua proprietà con i nostri servizi specializzati."
+      "title": "Consult Geo Renovations",
+      "description": "Prenota una consulenza con Geo Renovations e inizia a trasformare la tua proprietà con i nostri servizi specializzati."
     },
     "pageHead": {
       "title1": "Chi siamo",
       "title2": "La nostra storia"
+    },
+    "componentSeven": {
+      "title1": "Storia dell'azienda",
+      "title2": "Il tuo partner affidabile per ristrutturazioni esperte, sabbiatura, pavimentazione e paesaggistica."
+    },
+    "ourTeam": {
+      "team": "Membri del team"
     }
   },
   "forms": {

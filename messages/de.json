@@ -95,12 +95,19 @@
   },
   "aboutPage": {
     "metadata": {
-      "title": "Beratung mit Geo Renovierungen",
-      "description": "Vereinbaren Sie eine Beratung mit Geo Renovierungen und beginnen Sie mit der Transformation Ihrer Immobilie mit unseren spezialisierten Dienstleistungen."
+      "title": "Consult Geo Renovations",
+      "description": "Buchen Sie eine Beratung mit Geo Renovations und beginnen Sie, Ihre Immobilie mit unseren spezialisierten Dienstleistungen zu transformieren."
     },
     "pageHead": {
       "title1": "Über uns",
       "title2": "Unsere Geschichte"
+    },
+    "componentSeven": {
+      "title1": "Geschichte des Unternehmens",
+      "title2": "Ihr verlässlicher Partner für fachgerechte Renovierungen, Sandstrahlen, Bodenbeläge und Landschaftsgestaltung."
+    },
+    "ourTeam": {
+      "team": "Teammitglieder"
     }
   },
   "forms": {

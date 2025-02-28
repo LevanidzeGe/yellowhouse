@@ -27,7 +27,6 @@ interface reservProps {
   title2: string;
   title3: string;
 }
-//
 
 export default function ContactForm({
   name,

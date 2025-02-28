@@ -101,6 +101,13 @@
     "pageHead": {
       "title1": "About Us",
       "title2": "Our Story"
+    },
+    "componentSeven": {
+      "title1": "History of the company",
+      "title2": "Your reliable partner for expert renovation, sandblasting, flooring, and landscaping services."
+    },
+    "ourTeam": {
+      "team": "Team Members"
     }
   },
   "forms": {
