@@ -1,92 +1,122 @@
 /* ============================== */
-/* Base Lift Effect */
+/* Modern Two-Layer Shadow Variables */
+/* ============================== */
+:root {
+  --shadow1-hard: rgba(0, 0, 0, 0.15); /* Close hard shadow */
+  --shadow1-soft: rgba(0, 0, 0, 0.08); /* Widened soft shadow */
+
+  --shadow2-hard: rgba(0, 0, 0, 0.25);
+  --shadow2-soft: rgba(0, 0, 0, 0.15);
+
+  --shadow3-hard: rgba(0, 0, 0, 0.35);
+  --shadow3-soft: rgba(0, 0, 0, 0.2);
+
+  --shadow4-hard: rgba(0, 0, 0, 0.45);
+  --shadow4-soft: rgba(0, 0, 0, 0.25);
+
+  --shadow5-hard: rgba(0, 0, 0, 0.55);
+  --shadow5-soft: rgba(0, 0, 0, 0.35);
+}
+
+/* ============================== */
+/* Base Lift Effect (Smoother & More Elegant) */
 /* ============================== */
 .lift {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .lift:hover {
-  transform: translateY(-10px) scale(1.02);
+  transform: translateY(-6px) scale(1.02);
 }
 
 /* ============================== */
-/* Left-Bottom Shadows with Darker Gradation & Reduced Growth */
+/* Modern, Deep Two-Layer Shadows with Enhanced Hover */
 /* ============================== */
 
-/* Small Shadow (70% dark) */
+/* Small Shadow (Increased Width) */
 .shadow1 {
-  box-shadow: -8px 12px 15px -5px rgba(0, 0, 0, 0.7),
-    -4px 6px 8px -3px var(--color5);
+  box-shadow: -3px 5px 10px var(--shadow1-hard),
+    -6px 10px 20px var(--shadow1-soft);
+  filter: drop-shadow(0 10px 7px rgba(0, 0, 0, 0.08));
 }
 .shadow1:hover {
-  box-shadow: -9px 14px 20px -6px rgba(0, 0, 0, 0.75),
-    -5px 8px 10px -4px var(--color5), inset 0 3px 6px var(--color2-10);
+  box-shadow: -4px 7px 14px var(--shadow2-hard),
+    -8px 12px 25px var(--shadow2-soft);
+  filter: drop-shadow(0 12px 9px rgba(0, 0, 0, 0.1));
 }
 
-/* Medium Shadow (80% dark) */
+/* Medium Shadow (Increased Width) */
 .shadow2 {
-  box-shadow: -12px 18px 22px -6px rgba(0, 0, 0, 0.8),
-    -6px 9px 12px -5px var(--color5);
+  box-shadow: -5px 8px 15px var(--shadow2-hard),
+    -8px 12px 28px var(--shadow2-soft);
+  filter: drop-shadow(0 12px 9px rgba(0, 0, 0, 0.1));
 }
 .shadow2:hover {
-  box-shadow: -14px 22px 30px -7px rgba(0, 0, 0, 0.85),
-    -7px 11px 16px -6px var(--color5), inset 0 5px 10px var(--color2-10);
+  box-shadow: -6px 10px 18px var(--shadow3-hard),
+    -10px 15px 32px var(--shadow3-soft);
+  filter: drop-shadow(0 15px 12px rgba(0, 0, 0, 0.12));
 }
 
-/* Large Shadow (90% dark) */
+/* Large Shadow (Kept Same) */
 .shadow3 {
-  box-shadow: -18px 24px 30px -8px rgba(0, 0, 0, 0.9),
-    -8px 12px 16px -6px var(--color5);
+  box-shadow: -6px 10px 18px var(--shadow3-hard),
+    -10px 15px 32px var(--shadow3-soft);
+  filter: drop-shadow(0 15px 12px rgba(0, 0, 0, 0.12));
 }
 .shadow3:hover {
-  box-shadow: -20px 28px 40px -9px rgba(0, 0, 0, 0.95),
-    -10px 15px 22px -7px var(--color5), inset 0 7px 14px var(--color2-10);
+  box-shadow: -8px 12px 20px var(--shadow4-hard),
+    -12px 18px 38px var(--shadow4-soft);
+  filter: drop-shadow(0 18px 15px rgba(0, 0, 0, 0.15));
 }
 
-/* Extra Large Shadow (95% dark) */
+/* Extra Large Shadow (Kept Same) */
 .shadow4 {
-  box-shadow: -24px 30px 38px -10px rgba(0, 0, 0, 0.95),
-    -10px 15px 20px -8px var(--color5);
+  box-shadow: -8px 12px 20px var(--shadow4-hard),
+    -12px 18px 38px var(--shadow4-soft);
+  filter: drop-shadow(0 18px 15px rgba(0, 0, 0, 0.15));
 }
 .shadow4:hover {
-  box-shadow: -26px 35px 50px -11px rgba(0, 0, 0, 1),
-    -12px 18px 28px -9px var(--color5), inset 0 8px 16px var(--color2-10);
+  box-shadow: -10px 14px 24px var(--shadow5-hard),
+    -14px 22px 45px var(--shadow5-soft);
+  filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.18));
 }
 
-/* Ultra Large Shadow (100% dark) */
+/* Ultra Large Shadow (Kept Same) */
 .shadow5 {
-  box-shadow: -30px 36px 45px -12px var(--black),
-    -12px 18px 22px -9px var(--color5);
+  box-shadow: -10px 14px 24px var(--shadow5-hard),
+    -14px 22px 45px var(--shadow5-soft);
+  filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.18));
 }
 .shadow5:hover {
-  box-shadow: -32px 40px 60px -13px var(--black),
-    -14px 22px 30px -10px var(--color5), inset 0 10px 20px var(--color2-10);
+  box-shadow: -12px 16px 28px var(--shadow5-hard),
+    -16px 26px 50px var(--shadow5-soft);
+  filter: drop-shadow(0 25px 20px rgba(0, 0, 0, 0.22));
 }
 
 /* ============================== */
-/* Keep Original Shadow on Hover After 772px */
+/* Keep Shadows Soft on Smaller Screens */
 /* ============================== */
 @media (max-width: 772px) {
   .lift:hover {
     transform: none !important; /* Prevents movement */
   }
   .shadow1:hover {
-    box-shadow: -8px 12px 15px -5px rgba(0, 0, 0, 0.7),
-      -4px 6px 8px -3px var(--color5);
+    box-shadow: -3px 5px 10px var(--shadow1-hard),
+      -6px 10px 20px var(--shadow1-soft);
   }
   .shadow2:hover {
-    box-shadow: -12px 18px 22px -6px rgba(0, 0, 0, 0.8),
-      -6px 9px 12px -5px var(--color5);
+    box-shadow: -5px 8px 15px var(--shadow2-hard),
+      -8px 12px 28px var(--shadow2-soft);
   }
   .shadow3:hover {
-    box-shadow: -18px 24px 30px -8px rgba(0, 0, 0, 0.9),
-      -8px 12px 16px -6px var(--color5);
+    box-shadow: -6px 10px 18px var(--shadow3-hard),
+      -10px 15px 32px var(--shadow3-soft);
   }
   .shadow4:hover {
-    box-shadow: -24px 30px 38px -10px rgba(0, 0, 0, 0.95),
-      -10px 15px 20px -8px var(--color5);
+    box-shadow: -8px 12px 20px var(--shadow4-hard),
+      -12px 18px 38px var(--shadow4-soft);
   }
   .shadow5:hover {
-    box-shadow: -30px 36px 45px -12px var(--black),
-      -12px 18px 22px -9px var(--color5);
+    box-shadow: -10px 14px 24px var(--shadow5-hard),
+      -14px 22px 45px var(--shadow5-soft);
   }
 }

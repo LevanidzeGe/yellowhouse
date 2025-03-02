@@ -19,22 +19,16 @@ export default function ContactInfo({ title }: props) {
     <div className={styles.eachWrapper}>
       <h2 className="heading4">{title}</h2>
       <address className={styles.contactInfo}>
-        <Link target="_blank" href={addressLink} className="paragraph ">
+        <Link target="_blank" href={addressLink} className="caption ">
           {address}
         </Link>
-        <Link target="_blank" href={addressLink} className="paragraph ">
+        <Link target="_blank" href={addressLink} className="caption ">
           {address2}
         </Link>
-        <Link
-          href={`mailto:${email}`}
-          className={` caption color1 ${styles.email}`}
-        >
+        <Link href={`mailto:${email}`} className={` caption  ${styles.email}`}>
           {email}
         </Link>
-        <Link
-          className="caption pargrapht-bold color1"
-          href={`tel:${phoneNumber}`}
-        >
+        <Link className="caption pargrapht-bold " href={`tel:${phoneNumber}`}>
           {phoneNumber}
         </Link>
         <Link className="caption pargrapht-bold" href={`tel:${phoneNumber2}`}>

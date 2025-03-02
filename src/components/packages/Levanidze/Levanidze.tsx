@@ -5,8 +5,10 @@ import bg from "./bg.svg";
 import logo from "./logo.png";
 import photo from "./photo.jpg";
 import web from "./web.jpg";
+import { useTranslations } from "next-intl";
 
 export default function Levanidze() {
+  const t = useTranslations("levanidze");
   return (
     <div className={styles.mainWrapper}>
       <Image
@@ -21,12 +23,17 @@ export default function Levanidze() {
           <div className={styles.wrapper}>
             <div className={styles.textDiv}>
               <h2>
-                Our <p> website </p> and <p> photography </p> provided by
-                <p> Levanidze </p>
+                {t("title1")}
+                <p> {t("title2")} </p>
+                {t("title3")} <p> {t("title4")} </p> {t("title5")}
               </h2>
-              <div className={`${styles.domainWrapper} lift shadow2`}>
-                <Link className={styles.domain} href="https://levanidze.com">
-                  <h3 className="heading2">
+              <div className={`${styles.domainWrapper} lift shadow3`}>
+                <Link
+                  className={styles.domain}
+                  href="https://levanidze.com"
+                  target="_blank"
+                >
+                  <h3>
                     www.<span className="">Levanidze</span>.com
                   </h3>
                   <Image
@@ -40,11 +47,11 @@ export default function Levanidze() {
               </div>
             </div>
             <div className={styles.cardDiv}>
-              <Link href="https://levanidze.com">
+              <Link href="https://levanidze.com" target="_blank">
                 <div className={styles.cardInner}>
                   <div className={styles.cardFront}>
                     <Image
-                      className="lift shadow2"
+                      className="lift shadow5"
                       src={photo}
                       width={600}
                       height={400}
@@ -53,7 +60,7 @@ export default function Levanidze() {
                   </div>
                   <div className={styles.cardBack}>
                     <Image
-                      className="lift shadow2"
+                      className="lift shadow5"
                       src={web}
                       width={600}
                       height={400}

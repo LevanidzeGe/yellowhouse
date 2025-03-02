@@ -74,7 +74,7 @@ export default function Testimonials({
           </div>
           <div className={styles.reviewsWrapper} ref={reviewsWrapperRef}>
             {reviewsData.map((info, index) => (
-              <div key={index} className={`shadow-4-m ${styles.card}`}>
+              <div key={index} className={`lift shadow1 ${styles.card}`}>
                 <div className={styles.starsReview}>
                   <div className={styles.stars}>
                     {[...Array(5)].map((_, starIndex) => {

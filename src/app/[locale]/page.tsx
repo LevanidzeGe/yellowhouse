@@ -7,7 +7,7 @@ import ComponentFive from "@/src/components/components/Five/ComponentFive";
 import ServicesList from "./services/ServicesComponent/ServicesList";
 import Projects from "./projects/projectsComponent/Projects";
 import ComponentSix from "@/src/components/components/Six/ComponentSix";
-import Levanidze from "@/src/components/packages/Levanidze.com/Levanidze";
+import Levanidze from "@/src/components/packages/Levanidze/Levanidze";
 
 export default function Home() {
   const t = useTranslations();

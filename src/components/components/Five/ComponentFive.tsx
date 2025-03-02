@@ -41,7 +41,7 @@ export default function ComponentFive() {
             </Link>
 
             {/* phone number box */}
-            <Link href={`tel: ${phoneNumber}`} className="shadow2 lift">
+            <Link href={`tel: ${phoneNumber}`} className="shadow1 lift">
               <Image src={phoneIcon} width={70} height={70} alt="Mobile Icon" />
               <h3 className="heading4">{t("title3")}</h3>
               <p className="paragraph gray7">{phoneNumber}</p>

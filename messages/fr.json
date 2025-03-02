@@ -18,8 +18,8 @@
       "text2": "Depuis 15 ans, Geo Rénovations est un acteur de confiance dans la rénovation de maisons et d'entreprises. Basés en France près de Genève, nous excellons dans le sablage, les revêtements de sol et le jardinage, garantissant qualité, efficacité et satisfaction client."
     },
     "projects": {
-      "title1": "nos travaux",
-      "title2": "réalisations récentes"
+      "title1": "Nos travaux",
+      "title2": "Réalisations récentes"
     },
     "services": {
       "title1": "Nos services",
@@ -140,5 +140,12 @@
     "wednsday": "Mercredi",
     "thursday": "Jeudi",
     "friday": "Vendredi"
+  },
+  "levanidze": {
+    "title1": "Notre",
+    "title2": "site web",
+    "title3": "et",
+    "title4": "photographie",
+    "title5": "fournisseur"
   }
 }
