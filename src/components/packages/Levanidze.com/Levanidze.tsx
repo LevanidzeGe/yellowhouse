@@ -33,9 +33,7 @@ export default function Levanidze() {
                   height={50}
                 />
               </Link>
-              <p className="paragraph gray9">
-                Our website and photography are provider
-              </p>
+
               <Link className="caption" href="https://levanidze.com">
                 www.Levanidze.com
               </Link>
