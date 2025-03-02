@@ -21,22 +21,23 @@ export default function Levanidze() {
           <div className={styles.wrapper}>
             <div className={styles.textDiv}>
               <h2 className="heading1 gray7 ">In Collaboration With</h2>
-              <Link className={styles.domain} href="https://levanidze.com">
-                <h3 className="heading2">
-                  www.<span className="">Levanidze</span>.com
-                </h3>
-                <Image
-                  className={styles.logo}
-                  src={logo}
-                  alt="Levanidze Logo"
-                  width={50}
-                  height={50}
-                />
-              </Link>
-
-              <Link className="caption" href="https://levanidze.com">
-                www.Levanidze.com
-              </Link>
+              <p className="heading5 gray9">
+                Our website and photography are provider
+              </p>
+              <div className={styles.domainWrapper}>
+                <Link className={styles.domain} href="https://levanidze.com">
+                  <h3 className="heading2">
+                    www.<span className="">Levanidze</span>.com
+                  </h3>
+                  <Image
+                    className={styles.logo}
+                    src={logo}
+                    alt="Levanidze Logo"
+                    width={50}
+                    height={50}
+                  />
+                </Link>
+              </div>
             </div>
             <div className={styles.cardDiv}>
               <Link href="https://levanidze.com">

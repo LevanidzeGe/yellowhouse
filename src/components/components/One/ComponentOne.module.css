@@ -49,8 +49,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 50px;
-  margin-left: 50px;
+  padding-left: 50px;
+  margin-right: -50px;
+
   text-align: left;
 }
 
@@ -70,6 +71,7 @@
   .textDiv {
     padding-bottom: 50px;
     width: 100%;
+    padding-left: 0;
   }
   .leftDiv img {
     width: 100vw;
@@ -84,7 +86,6 @@
 @media (max-width: 772px) {
   .textDiv {
     width: 90%;
-    margin: 0 auto;
     width: 100%;
   }
 }

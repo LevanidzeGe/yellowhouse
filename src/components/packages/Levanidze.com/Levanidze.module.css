@@ -19,7 +19,20 @@
   display: flex;
   justify-content: space-between;
 }
+.domainWrapper {
+  /* margin: 0 auto; */
+  background: #1a1a1a; /* Dark background for contrast */
+  padding: 10px 20px;
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
 
+/* Hover Effect - Lifts the element with a stronger shadow */
+.domainWrapper:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9), 0 4px 15px rgba(0, 0, 0, 0.6);
+  transform: translateY(-5px); /* Slightly moves up */
+}
 .textDiv span {
   font-size: 30px;
   text-transform: uppercase;
@@ -53,6 +66,13 @@
 }
 .domain {
   display: flex;
+  .domain {
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.5);
+    background: #1a1a1a; /* Dark background for contrast */
+    padding: 20px;
+    border-radius: 10px; /* Smooth edges */
+  }
 }
 .logo {
   object-fit: contain;
