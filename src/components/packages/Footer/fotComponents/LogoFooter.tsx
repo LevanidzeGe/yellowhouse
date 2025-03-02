@@ -6,15 +6,7 @@ import styles from "./LogoFooter.module.css";
 
 export default function LogoFooter() {
   return (
-    <div
-      // className={styles.eachWrapper}
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        paddingTop: "3%",
-        paddingBottom: "40px",
-      }}
-    >
+    <div className={styles.eachWrapper}>
       <Link href="/">
         <Image
           style={{
