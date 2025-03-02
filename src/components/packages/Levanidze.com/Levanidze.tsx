@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import bg from "./bg.svg";
 import logo from "./logo.png";
-import photo from "./photo.png";
-import web from "./web.png";
+import photo from "./photo.jpg";
+import web from "./web.jpg";
 
 export default function Levanidze() {
   return (
@@ -20,10 +20,10 @@ export default function Levanidze() {
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.textDiv}>
-              <h2 className="heading1 gray7 ">In Collaboration With</h2>
-              <p className="heading5 gray9">
-                Our website and photography are provider
-              </p>
+              <h2>
+                Our <p> website </p> and <p> photography </p> provided by
+                <p> Levanidze </p>
+              </h2>
               <div className={styles.domainWrapper}>
                 <Link className={styles.domain} href="https://levanidze.com">
                   <h3 className="heading2">
