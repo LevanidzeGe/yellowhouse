@@ -27,7 +27,7 @@ export default function Levanidze() {
                 <p> {t("title2")} </p>
                 {t("title3")} <p> {t("title4")} </p> {t("title5")}
               </h2>
-              <div className={`${styles.domainWrapper} lift shadow3`}>
+              <div className={`${styles.domainWrapper} lift shadow2`}>
                 <Link
                   className={styles.domain}
                   href="https://levanidze.com"
@@ -51,7 +51,7 @@ export default function Levanidze() {
                 <div className={styles.cardInner}>
                   <div className={styles.cardFront}>
                     <Image
-                      className="lift shadow5"
+                      className="lift shadow3"
                       src={photo}
                       width={600}
                       height={400}
@@ -60,7 +60,7 @@ export default function Levanidze() {
                   </div>
                   <div className={styles.cardBack}>
                     <Image
-                      className="lift shadow5"
+                      className="lift shadow3"
                       src={web}
                       width={600}
                       height={400}
