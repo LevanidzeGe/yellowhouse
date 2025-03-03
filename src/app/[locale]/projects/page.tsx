@@ -17,7 +17,6 @@ export default function ProjectsPage() {
   return (
     <div className="fadeOut">
       <Pageshead value1={t("pageHead.title1")} value2={t("pageHead.title2")} />
-
       <Projects
         title1={t("projects.title1")}
         title2={t("projects.title2")}

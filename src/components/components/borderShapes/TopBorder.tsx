@@ -6,7 +6,7 @@ export default function TopBorder() {
     <div className="section no-padding-x no-padding-y">
       <Image
         style={{
-          width: "100vw",
+          width: "100%",
           marginBottom: "-2px",
           marginTop: "100px",
           position: "relative",
