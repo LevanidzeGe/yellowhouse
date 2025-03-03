@@ -8,7 +8,7 @@ import { gardening } from "../ServicesData/gardening";
 import { flooring } from "../ServicesData/flooring";
 import { furniture } from "../ServicesData/furniture";
 import Link from "next/link";
-const services = [renovation, gardening, flooring, furniture];
+const services = [renovation, gardening, flooring, furniture, gardening];
 
 export default function ServicesList({
   title1,
