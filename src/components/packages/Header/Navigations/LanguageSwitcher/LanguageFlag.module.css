@@ -1,7 +1,6 @@
 .languageSwitcher {
   margin: auto 0;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 5px;
 }
 
@@ -37,8 +36,8 @@
 }
 
 .flags {
-  width: 30px;
-  height: 20px;
+  width: 22px;
+  height: 14px;
   border: 0.5px solid var(--gray5);
   object-fit: cover;
 }

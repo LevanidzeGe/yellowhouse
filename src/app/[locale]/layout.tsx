@@ -40,7 +40,7 @@ export async function generateMetadata({
 }
 
 //fonts
-import { Poppins, Roboto } from "next/font/google";
+import { Bebas_Neue, Poppins, Roboto } from "next/font/google";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -51,36 +51,46 @@ const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600", "700"],
   variable: "--font1",
 });
+const bebas = Bebas_Neue({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font3",
+});
 
 import Header from "@/src/components/packages/Header/Header";
-import Footer from "@/src/components/packages/Footer/Footer";
+// import Footer from "@/src/components/packages/Footer/Footer";
 import LowerFoot from "@/src/components/packages/LowerFooter/LowerFoot";
 import { redirect } from "next/navigation";
 import { defaultLocale, supportedLocales } from "@/Manager/navigation"; // Import supported locales
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getLocale } from "next-intl/server";
 
 interface RootLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
 }
 
-export default function LangLayout({
+export default async function LangLayout({
   children,
   params: { locale },
 }: RootLayoutProps) {
   if (!supportedLocales.includes(locale)) {
     return redirect(`/${defaultLocale}`);
   }
+  const messages = await getMessages();
 
   return (
     <html lang={locale || defaultLocale}>
-      <body className={` ${roboto.className} ${poppins.variable}    `}>
-        <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
-          <Header />
-          {children}
-          <Analytics />
-          <Footer />
-          <LowerFoot />
-        </div>
+      <body className={` ${bebas.className} ${poppins.variable}    `}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
+            <Header />
+            {children}
+            <Analytics />
+            {/* <Footer /> */}
+            <LowerFoot />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

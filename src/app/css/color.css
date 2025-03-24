@@ -1,5 +1,7 @@
 /* Variables */
 :root {
+  --bodyBackgroundColor: #111213;
+  --bodyColor: #ffffff;
   --blue: #007bff;
   --green: #28a745;
   --red: #dc1c2f;
@@ -21,11 +23,18 @@
   /* project colors */
   /* color1 = bright color */
   /* color5 = dark color */
-  --color1: #c7e1ff;
+  --color1: #62b3c5;
   --color2: #5ca3ff;
-  --color3: #006ac7;
-  --color4: #003f75;
-  --color5: #002342;
+  --color3: #1d6894;
+  --color4: rgb(0, 47, 88);
+  --color5: rgb(0, 21, 40);
+
+  --blue1: #2d9bdb;
+  --blue2: #1d6894;
+  --red1: #e73026;
+  --red2: #c71107;
+  --yellow1: #ddac2f;
+  --yellow2: #d7782d;
 
   --color2-10: #f0f6ff1a;
   --color4-10: #003f751a;

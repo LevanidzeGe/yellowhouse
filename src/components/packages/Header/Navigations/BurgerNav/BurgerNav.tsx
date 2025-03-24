@@ -2,29 +2,29 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./BurgerNav.module.css";
 import { navItems, NavItemProps } from "@/Manager/navigation";
-import { IoClose } from "react-icons/io5";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useLocale } from "next-intl";
-import { useState } from "react";
 
 interface BurgerNavProps {
   isNavOpen: boolean;
   navClose: () => void;
   navToggler: () => void;
+  setOpenDropdown: (dropdown: string | null) => void;
+  openDropdown: string | null;
 }
 
 export default function BurgerNav({
   isNavOpen,
   navClose,
   navToggler,
+  setOpenDropdown,
+  openDropdown,
 }: BurgerNavProps) {
   const pathname = usePathname();
   const locale = useLocale();
   const items: NavItemProps[] = navItems[locale];
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   const toggleDropdown = (title: string) => {
-    setOpenDropdown((prev) => (prev === title ? null : title));
+    setOpenDropdown(openDropdown === title ? null : title);
   };
 
   return (
@@ -98,21 +98,6 @@ export default function BurgerNav({
             );
           })}
         </ul>
-      </div>
-
-      {/* Burger Menu Open/Close Icons */}
-      <div
-        className={styles.openCloseIconDiv}
-        onClick={() => {
-          setOpenDropdown(null);
-          navToggler();
-        }}
-      >
-        {isNavOpen ? (
-          <IoClose className={styles.openCloseIcon} />
-        ) : (
-          <GiHamburgerMenu className={styles.openCloseIcon} />
-        )}
       </div>
     </div>
   );

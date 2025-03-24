@@ -53,9 +53,9 @@ export default function StandartNav() {
                   className={`${
                     item.button && "button button-small button-reverse"
                   }
-                  ${!item.button && "link link-animate"}
+                  ${!item.button && "link"}
 
-                   ${isActive && !item.button ? "active-link " : ""}`}
+                   ${isActive && !item.button ? "active-link" : ""}`}
                 >
                   {item.title}
                 </Link>

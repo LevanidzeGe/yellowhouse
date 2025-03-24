@@ -51,7 +51,7 @@ export default function Projects({
   };
 
   return (
-    <section className="section  no-padding-y">
+    <section className="section section-medium no-padding-y">
       <div className={`container ${!mini && styles.container}`}>
         <div className={`${!mini && styles.paddingBottom}`}>
           <div className="sideLineWrap">

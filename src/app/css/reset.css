@@ -86,7 +86,6 @@ a {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   width: auto;
   display: block;
@@ -136,10 +135,6 @@ pre {
 /* Custom reset for specific elements */
 address {
   font-style: normal;
-}
-
-strong {
-  font-weight: bold;
 }
 
 em {

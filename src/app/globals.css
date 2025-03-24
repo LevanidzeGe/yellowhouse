@@ -13,5 +13,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: var(--white);
+  background-color: var(--bodyBackgroundColor);
+  color: var(--bodyColor);
 }
