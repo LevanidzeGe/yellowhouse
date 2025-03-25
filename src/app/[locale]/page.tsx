@@ -9,13 +9,13 @@ export default function Home() {
 
   return (
     <div className="fadeOut">
-      {/* <Hero /> */}
+      <Hero />
       <Projects
         readMore={t("projectsPage.projects.readMore")}
         seeAll={t("projectsPage.projects.seeAll")}
         mini
       />
-      {/* <Levanidze /> */}
+      <Levanidze />
       <Photography
         readMore={t("photographyPage.photography.readMore")}
         seeAll={t("photographyPage.photography.seeAll")}

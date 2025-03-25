@@ -77,7 +77,9 @@ export default async function LangLayout({
 
   return (
     <html lang={locale || defaultLocale}>
-      <body className={` ${bebas.className} ${poppins.variable}    `}>
+      <body
+        className={` ${bebas.variable} ${poppins.variable} ${poppins.className}    `}
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}

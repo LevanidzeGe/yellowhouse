@@ -49,7 +49,8 @@
 
 .navImagesWrapper img {
   /* max-height: 100px; */
-  height: 80px;
   max-width: 100%;
+  /* height: 80px; */
+  aspect-ratio: 2 / 1.1;
   object-fit: cover;
 }

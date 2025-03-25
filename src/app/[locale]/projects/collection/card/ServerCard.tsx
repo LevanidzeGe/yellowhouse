@@ -26,9 +26,9 @@ export default function ServerCard({
   return (
     <div className={styles.mainWrap}>
       <div className={styles.textWrap}>
-        <span className={styles.date}>{noTransDate}</span>
-        <p className="header5">{transTag}</p>
-        <h2 className="header2 font1">{transTitle}</h2>
+        <span className={` gray5 ${styles.date}`}>{noTransDate}</span>
+        <p className="heading2 gray5">{transTag}</p>
+        <h2 className="paragraph gray5">{transTitle}</h2>
         <div className={styles.spans}>
           {boolOption1 && <span>Web Design</span>}
           {boolOption2 && <span>Next Js</span>}

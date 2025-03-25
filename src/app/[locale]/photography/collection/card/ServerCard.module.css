@@ -19,14 +19,22 @@
 .textWrap p {
   max-width: 400px;
 }
+.textWrap span {
+  font-weight: 600;
+  letter-spacing: 13px;
+}
 .textWrap h2 {
   width: 350px;
   font-weight: 900;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 
-.textWrap a {
+.buttonPhoto {
   margin-top: 40px;
+}
+.textWrap a {
+  border: 1px solid gray;
+  padding: 4px 8px;
 }
 
 .date {

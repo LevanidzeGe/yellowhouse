@@ -30,12 +30,12 @@ export default function ServerCard({
 
       {/* </Link> */}
       <div className={styles.textWrap}>
-        <span className={styles.date}>{noTransDate}</span>
-        <h2 className="header2 font1">{transTitle}</h2>
-        <p className="paragraph">{transDescription}</p>
-        <Link className="button " href={`/${locale}/photography/${id}`}>
-          {readMore}
-        </Link>
+        <span className={`gray7  ${styles.date}`}>{noTransDate}</span>
+        <h2 className="heading2 gray7">{transTitle}</h2>
+        <p className="paragraph gray5">{transDescription}</p>
+        <div className={styles.buttonPhoto}>
+          <Link href={`/${locale}/photography/${id}`}>{readMore}</Link>
+        </div>
       </div>
     </div>
   );
