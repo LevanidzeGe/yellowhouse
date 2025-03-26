@@ -7,32 +7,30 @@ interface FormFields {
 }
 
 export const sendEmail =
-  (form: React.RefObject<HTMLFormElement>, handleEmailSent: () => void) =>
+  (form: HTMLFormElement, handleEmailSent: () => void) =>
   (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (form.current) {
-      const formData: FormFields = {
-        user_name: form.current.user_name.value,
-        user_email: form.current.user_email.value,
-        message: form.current.message.value,
-      };
+    const formData: FormFields = {
+      user_name: form.user_name.value,
+      user_email: form.user_email.value,
+      message: form.message.value,
+    };
 
-      emailjs
-        .sendForm(
-          process.env.NEXT_PUBLIC_EMAIL_SERVICE!,
-          process.env.NEXT_PUBLIC_EMAIL_TEMPLATE!,
-          form.current,
-          process.env.NEXT_PUBLIC_EMAIL_FORM
-        )
-        .then(
-          (response: EmailJSResponseStatus) => {
-            console.log("Email sent successfully:", response);
-            handleEmailSent();
-          },
-          (error: any) => {
-            console.error("Failed to send email:", error);
-          }
-        );
-    }
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE!,
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE!,
+        form,
+        process.env.NEXT_PUBLIC_EMAIL_FORM
+      )
+      .then(
+        (response: EmailJSResponseStatus) => {
+          console.log("Email sent successfully:", response);
+          handleEmailSent();
+        },
+        (error: any) => {
+          console.error("Failed to send email:", error);
+        }
+      );
   };

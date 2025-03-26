@@ -110,22 +110,20 @@
       "team": "Teammitglieder"
     }
   },
-  "forms": {
-    "contactForm": {
-      "head1": "Kontaktieren Sie uns",
-      "head2": "Angebot anfordern",
-      "name": "Vollständiger Name",
-      "email": "E-Mail",
-      "phone": "Telefonnummer",
-      "date": "Datum",
-      "time": "Uhrzeit",
-      "quantity": "Anzahl der Räume",
-      "message": "Ihre Anfrage hier eingeben",
-      "button": "Senden",
-      "send": "Anfrage senden",
-      "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
-      "comfirmation": "Wir melden uns so schnell wie möglich bei Ihnen."
-    }
+  "contactForm": {
+    "head1": "Kontaktieren Sie uns",
+    "head2": "Angebot anfordern",
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "quantity": "Anzahl der Räume",
+    "message": "Ihre Anfrage hier eingeben",
+    "button": "Senden",
+    "send": "Anfrage senden",
+    "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
+    "comfirmation": "Wir melden uns so schnell wie möglich bei Ihnen."
   },
   "notFoundPage": {
     "title1": "Seite nicht gefunden",

@@ -4,6 +4,7 @@ import Photography from "./photography/collection/Collection";
 import Levanidze from "@/src/components/packages/Levanidze/Levanidze";
 import Hero from "@/src/components/components/Hero/Hero";
 import SayHi from "@/src/components/packages/ContactForm/SayHi";
+import WhatIDo from "@/src/components/components/WhatIDo/WhatIDo";
 
 export default function Home() {
   const t = useTranslations();
@@ -16,12 +17,13 @@ export default function Home() {
         seeAll={t("projectsPage.projects.seeAll")}
         mini
       />
-      <Levanidze />
       <Photography
         readMore={t("photographyPage.photography.readMore")}
         seeAll={t("photographyPage.photography.seeAll")}
         mini
       />
+      <WhatIDo />
+      <Levanidze />
       <SayHi />
     </div>
   );

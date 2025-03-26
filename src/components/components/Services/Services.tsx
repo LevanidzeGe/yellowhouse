@@ -1,38 +1,41 @@
 import Image from "next/image";
 import styles from "./Services.module.css";
 import { camera, development, meCactus, monitor } from "@/public/image";
-import instagram from "@/public/assets/icons/instagram.png";
-import facebook from "@/public/assets/icons/facebook.png";
-import linkdin from "@/public/assets/icons/linkdin.png";
 import Link from "next/link";
-import { facebookUrl, instagramUrl, linkedinUrl } from "@/Manager/info";
 
 const services = [
   {
     id: 1,
     title: "Website",
     icon: development,
+    link: "/projects",
   },
   {
     id: 2,
     title: "Photography",
     icon: camera,
+    link: "/photography",
   },
   {
     id: 3,
     title: "Branding",
     icon: monitor,
+    link: "/branding",
   },
 ];
 
 export default function Services() {
   return (
     <div className={styles.mainWrapper}>
-      <h2 className="heading4 ">Our Services</h2>
+      <h2 className="heading4 font3 ">Our Services</h2>
       <div className={styles.socialCard}>
         <div className={styles.cardsWrapper}>
           {services.map((service) => (
-            <div key={service.id} className={`shadow5 lift ${styles.card}`}>
+            <Link
+              href={service.link}
+              key={service.id}
+              className={`shadow5 lift ${styles.card}`}
+            >
               <Image
                 src={service.icon}
                 alt={`${service.title} icon`}
@@ -41,10 +44,9 @@ export default function Services() {
               />
 
               <div>
-                <h3>{service.title}</h3>
-                <button>See Examples</button>
+                <h3 className="font2">{service.title}</h3>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -110,22 +110,20 @@
       "team": "Membri del team"
     }
   },
-  "forms": {
-    "contactForm": {
-      "head1": "Contattaci",
-      "head2": "Richiedi un preventivo",
-      "name": "Nome completo",
-      "email": "Email",
-      "phone": "Telefono",
-      "date": "Data",
-      "time": "Ora",
-      "quantity": "Numero di stanze",
-      "message": "Inserisci qui la tua richiesta",
-      "button": "Invia",
-      "send": "Invia richiesta",
-      "thankYou": "Grazie per averci contattato!",
-      "comfirmation": "Ti risponderemo al più presto."
-    }
+  "contactForm": {
+    "head1": "Contattaci",
+    "head2": "Richiedi un preventivo",
+    "name": "Nome completo",
+    "email": "Email",
+    "phone": "Telefono",
+    "date": "Data",
+    "time": "Ora",
+    "quantity": "Numero di stanze",
+    "message": "Inserisci qui la tua richiesta",
+    "button": "Invia",
+    "send": "Invia richiesta",
+    "thankYou": "Grazie per averci contattato!",
+    "comfirmation": "Ti risponderemo al più presto."
   },
   "notFoundPage": {
     "title1": "Pagina non trovata",

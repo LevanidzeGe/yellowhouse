@@ -74,22 +74,20 @@
       "team": "Membres de l'équipe"
     }
   },
-  "forms": {
-    "contactForm": {
-      "head1": "Nous contacter",
-      "head2": "Demander un devis",
-      "name": "Nom complet",
-      "email": "Email",
-      "phone": "Téléphone",
-      "date": "Date",
-      "time": "Heure",
-      "quantity": "Nombre de pièces",
-      "message": "Votre demande ici",
-      "button": "Envoyer",
-      "send": "Envoyer la demande",
-      "thankYou": "Merci de nous avoir contactés !",
-      "comfirmation": "Nous vous répondrons dès que possible."
-    }
+  "contactForm": {
+    "head1": "Nous contacter",
+    "head2": "Demander un devis",
+    "name": "Nom complet",
+    "email": "Email",
+    "phone": "Téléphone",
+    "date": "Date",
+    "time": "Heure",
+    "quantity": "Nombre de pièces",
+    "message": "Votre demande ici",
+    "button": "Envoyer",
+    "send": "Envoyer la demande",
+    "thankYou": "Merci de nous avoir contactés !",
+    "comfirmation": "Nous vous répondrons dès que possible."
   },
   "notFoundPage": {
     "title1": "Page non trouvée",

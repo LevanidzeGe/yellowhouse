@@ -27,22 +27,20 @@
     }
   },
 
-  "forms": {
-    "contactForm": {
-      "head1": "Get in Touch",
-      "head2": "Request a Quote",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone",
-      "date": "Date",
-      "time": "Time",
-      "quantity": "Rooms Needed",
-      "message": "Your request here",
-      "button": "Submit",
-      "send": "Send Inquiry",
-      "thankYou": "Thanks for reaching out!",
-      "comfirmation": "We'll respond as soon as possible."
-    }
+  "contactForm": {
+    "head1": "Get in Touch",
+    "head2": "Request a Quote",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "quantity": "Rooms Needed",
+    "message": "Your request here",
+    "button": "Submit",
+    "send": "Send Inquiry",
+    "thankYou": "Thanks for reaching out!",
+    "comfirmation": "We'll respond as soon as possible."
   },
   "notFoundPage": {
     "title1": "Page Not Found",
