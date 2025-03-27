@@ -66,6 +66,7 @@ export default async function Collection({
         height={220}
         alt="levanidze cartoon"
         className={styles.meCamera}
+        unoptimized
       />
       <div className={styles.collectionWrapper}>
         {(mini ? paginatedCollection.slice(0, 1) : paginatedCollection).map(

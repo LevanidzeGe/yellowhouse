@@ -55,7 +55,13 @@ export default async function Collection({
     <div className={` ${!mini && styles.container}`}>
       <div className={`${!mini && styles.paddingBottom}`}>
         <h2 className={`heading2 font2 ${styles.title}`}>web projects</h2>
-        <Image src={meMonitor2} alt="" width={300} height={250} />
+        <Image
+          src="/meCamera2.png"
+          width={256}
+          height={256}
+          unoptimized
+          alt="Camera"
+        />
         <div className={styles.collectionWrapper}>
           {(mini ? paginatedCollection.slice(0, 3) : paginatedCollection).map(
             (item) => (
