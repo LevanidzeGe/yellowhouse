@@ -6,7 +6,7 @@ import styles from "./Collection.module.css";
 import { extractCollectionFields } from "../../../../../lib/firebase/types";
 import { getLocale } from "next-intl/server";
 import Image from "next/image";
-import { meCamera2, meMonitor } from "@/public/image";
+import { meCamera2 } from "@/public/image";
 
 export default async function Collection({
   mini,
