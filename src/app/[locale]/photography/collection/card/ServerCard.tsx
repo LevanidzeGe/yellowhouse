@@ -19,7 +19,7 @@ export default function ServerCard({
 
   return (
     <>
-      <section className="section">
+      <section className="section no-padding-x">
         <div className="container">
           <div className={styles.mainWrap}>
             {/* <Link href={`/${locale}/photography/${id}`}> */}

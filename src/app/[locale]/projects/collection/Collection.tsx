@@ -52,24 +52,27 @@ export default async function Collection({
     : sortedCollection;
 
   return (
-    <div className={` ${!mini && styles.container}`}>
-      <div className={`${!mini && styles.paddingBottom}`}>
-        <h2 className={`heading2 font2 ${styles.title}`}>web projects</h2>
-        <Image
-          src={meMonitor2}
-          alt=""
-          width={130}
-          height={150}
-          className={styles.meMonitor}
-        />
-        <div className={styles.collectionWrapper}>
-          {(mini ? paginatedCollection.slice(0, 3) : paginatedCollection).map(
-            (item) => (
-              <ServerCard key={item.id} {...item} readMore={readMore} />
-            )
-          )}
-        </div>
-        {/* {mini && (
+    <section className="section relative">
+      <div className="container ">
+        <div className={` ${!mini && styles.container}`}>
+          <div className={`${!mini && styles.paddingBottom}`}>
+            <h2 className={`heading2 font2 ${styles.title}`}>web projects</h2>
+            <Image
+              src={meMonitor2}
+              alt=""
+              width={130}
+              height={150}
+              className={styles.meMonitor}
+            />
+            <div className={styles.collectionWrapper}>
+              {(mini
+                ? paginatedCollection.slice(0, 3)
+                : paginatedCollection
+              ).map((item) => (
+                <ServerCard key={item.id} {...item} readMore={readMore} />
+              ))}
+            </div>
+            {/* {mini && (
             <Link
               className={` button  button-small ${styles.button} `}
               href={`/${locale}/projects`}
@@ -77,7 +80,9 @@ export default async function Collection({
               {seeAll}
             </Link>
           )} */}
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

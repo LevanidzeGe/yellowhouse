@@ -19,7 +19,7 @@ export interface Feature {
   available: boolean;
 }
 
-export interface Plan {
+export interface PlanProps {
   id: string;
   name: Record<Locale, string>;
   price?: string;
@@ -45,7 +45,7 @@ const available = (
   available: true,
 });
 
-export const plans: Plan[] = [
+export const plans: PlanProps[] = [
   {
     id: "starter",
     name: { en: "Starter", fr: "Débutant" },
@@ -142,7 +142,7 @@ export const plans: Plan[] = [
     id: "elite",
     name: { en: "Elite", fr: "Élite" },
     subtitle: {
-      en: "Advanced features and premium customization",
+      en: "For dvanced features and premium customization feel freee to contact us we can make all you need for",
       fr: "Fonctionnalités avancées et personnalisation premium",
     },
     main: [
@@ -161,11 +161,11 @@ export const plans: Plan[] = [
     ],
     features: [
       available(<FaProjectDiagram />, {
-        en: "Multiple dashboards",
+        en: "Unlimited dashboards",
         fr: "Tableaux de bord multiples",
       }),
       available(<FaCogs />, {
-        en: "Blog/News/Project page",
+        en: "Blog/News/Project  etc...",
         fr: "Page Blog/Actualités/Projets",
       }),
       available(<FaCalendarCheck />, {

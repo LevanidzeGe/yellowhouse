@@ -1,10 +1,12 @@
 .contactWrapper {
   display: flex;
-  padding: 30px 50px;
+  padding: 30px 0px;
   justify-content: space-evenly;
   gap: 2%;
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
+  max-width: 80vw;
 }
 
 .rightSide {
@@ -59,6 +61,7 @@
   border-color: var(--yellow1);
 }
 .input {
+  margin-top: 20px;
   height: 50px;
   letter-spacing: 1px;
   width: 100%;
@@ -84,7 +87,7 @@
 }
 .messageDiv {
   width: 100%;
-  padding: 20px 0 15px 0;
+  padding: 0px 0 15px 0;
 }
 
 .buttonSend {

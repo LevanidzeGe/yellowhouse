@@ -19,17 +19,21 @@
 .container {
   display: flex;
   justify-content: center;
-  gap: 2%;
   flex-wrap: wrap;
   margin-top: 100px;
   cursor: default;
 }
-
+.cardWrap {
+  position: relative;
+  width: 250px;
+}
+.card:hover {
+  z-index: 1;
+}
 .card {
-  background-color: rgba(2, 18, 25, 0.656);
+  background-color: rgba(3, 23, 31, 0.656);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   padding: 25px;
   border-radius: 15px;
@@ -41,12 +45,16 @@
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
-  margin: 40px 0;
+  height: max-content;
+  margin: 10% 0;
 }
-.card:nth-child(2) {
+.cardWrap:nth-child(2) .card {
+  justify-content: space-between;
+
   padding: 40px;
-  width: 340px;
-  margin: 0;
+  /* width: 350px; */
+  margin: 0 0;
+  gap: 6px;
 }
 
 .svgLogo {
@@ -79,21 +87,15 @@
   color: var(--gray3);
   position: relative;
 }
-.price span {
+.saleBg {
   position: absolute;
-  width: 120px;
+  width: 150px;
   height: 8px;
   background-color: red;
   opacity: 0.8;
-  left: 0;
-  top: 8px;
-  transform: rotate(-7deg);
-}
-.card:nth-child(1) > div > .price span {
-  background-color: var(--blue2);
-}
-.card:nth-child(2) > div > .price span {
-  background-color: var(--yellow2);
+  left: -20px;
+  top: 10px;
+  transform: rotate(-5deg);
 }
 
 .subtitle {
@@ -154,9 +156,12 @@
 .features svg {
 }
 
-.button {
+.button1 {
   margin-top: 30px;
   width: 100%;
+}
+.button2 {
+  display: none;
 }
 
 .blue {
@@ -167,4 +172,95 @@
 }
 .red {
   color: var(--red2);
+}
+.bgBlue {
+  background-color: var(--blue2);
+}
+.bgYellow {
+  background-color: var(--yellow2);
+}
+.bgRed {
+  background-color: var(--red2);
+}
+@media (max-width: 992px) {
+  .features,
+  .dividerWrapper {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .cardWrap {
+    width: 100%;
+  }
+
+  .button1 {
+    display: none;
+  }
+  .button2 {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    width: 200px;
+    z-index: 3;
+  }
+  .subtitle {
+    max-width: 80%;
+  }
+  .cardWrap:nth-child(2) .card,
+  .card {
+    justify-content: space-between;
+    padding: 25px;
+    margin: 5% 0;
+    height: max-content;
+    gap: 0;
+    width: 100%;
+    aspect-ratio: 2 / 1.2;
+  }
+  .priceWrap {
+    display: flex;
+    gap: 40px;
+    margin-top: 0;
+  }
+  .title {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardWrap:nth-child(2) .card,
+  .card {
+    padding: 15px;
+    /* height: 220px; */
+    margin: 20px 0;
+  }
+
+  .subtitle {
+    max-width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 18px;
+  }
+  .mainFeatures {
+    color: var(--gray5);
+  }
+  .title {
+    position: static;
+    width: 100%;
+    text-align: center;
+    height: 5px;
+    margin-top: -10px;
+  }
+  .priceWrap {
+    display: flex;
+    margin-top: 10px;
+  }
+  .price {
+    margin-bottom: 0;
+  }
+  .button {
+    bottom: 0;
+    width: max-content;
+  }
 }

@@ -3,6 +3,9 @@
 import { useLocale } from "next-intl";
 import styles from "./SayHi.module.css";
 import ContactForm from "./cotactForm/ContactForm";
+import { MdOutlineClose } from "react-icons/md";
+import { Dispatch, SetStateAction } from "react";
+import { PlanProps } from "../priceData";
 
 const sayHiData = {
   en: {
@@ -79,39 +82,53 @@ const sayHiData = {
   },
 };
 
-export default function SayHi() {
+export default function SayHi({
+  plan,
+  setModal,
+  index,
+}: {
+  plan: PlanProps;
+  setModal: Dispatch<SetStateAction<boolean>>;
+  index: number;
+}) {
   const locale = useLocale();
   const translates = sayHiData[locale as keyof typeof sayHiData];
 
   return (
-    <section className="section">
-      <div className="container">
-        <div className={styles.sayHiWrapper}>
-          <div className={styles.sayHiLeo}>
-            <span className={`heading2 font2 gray7`}>{translates.title1}</span>
-            <span className={`heading2 font2 ${styles.levani}`}>
-              {translates.title2}
-            </span>
-          </div>
-          <p className="header6">{translates.sub}</p>
-        </div>
-      </div>
+    <div className={styles.mainWrapper}>
+      <div className={styles.sayHiWrapper}>
+        <MdOutlineClose onClick={() => setModal(false)} />
 
-      <ContactForm
-        head1={translates.head1}
-        head2={translates.head2}
-        name={translates.name}
-        email={translates.email}
-        phone={translates.phone}
-        date={translates.date}
-        time={translates.time}
-        quantity={translates.quantity}
-        message={translates.message}
-        button={translates.button}
-        send={translates.send}
-        thankYou={translates.thankYou}
-        comfirmation={translates.comfirmation}
-      />
-    </section>
+        <h3
+          className={`heading2 font2 ${styles.title} ${
+            plan.name.en === "Starter"
+              ? styles.blue
+              : plan.name.en === "Pro"
+              ? styles.yellow
+              : styles.red
+          }`}
+        >
+          {plan.name[locale]}
+        </h3>
+
+        <ContactForm
+          plan={plan.name[locale] || ""}
+          budget={plan.salePrice || plan.price || ""}
+          head1={translates.head1}
+          head2={translates.head2}
+          name={translates.name}
+          email={translates.email}
+          phone={translates.phone}
+          date={translates.date}
+          time={translates.time}
+          quantity={translates.quantity}
+          message={translates.message}
+          button={translates.button}
+          send={translates.send}
+          thankYou={translates.thankYou}
+          comfirmation={translates.comfirmation}
+        />
+      </div>
+    </div>
   );
 }

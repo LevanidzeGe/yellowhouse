@@ -19,12 +19,13 @@ export default function ServerCard({
   boolOption3,
   boolOption4,
   boolOption5,
+  boolOption6,
 }: ReturnTypeOfExtract & { readMore: string }) {
   const locale = useLocale();
 
   return (
     <>
-      <section className="section">
+      <section className="section no-padding-x">
         <div className="container">
           <div className={styles.mainWrap}>
             <div className={styles.textWrap}>
@@ -34,11 +35,11 @@ export default function ServerCard({
               <p className="parargraph font1 gray5">{transTag}</p>
               <h2 className="heading3 gray7">{transTitle}</h2>
               <div className={styles.spans}>
-                {boolOption1 && <span>Web Design</span>}
-                {boolOption2 && <span>Next Js</span>}
-                {boolOption3 && <span>Photography</span>}
-                {boolOption4 && <span>Webflow</span>}
-                {boolOption5 && <span>Copyright</span>}
+                {boolOption2 && <span>Web Design</span>}
+                {boolOption3 && <span>Next Js</span>}
+                {boolOption4 && <span>Photography</span>}
+                {boolOption5 && <span>Webflow</span>}
+                {boolOption6 && <span>Copyright</span>}
               </div>
               <Link className="button " href={`/${locale}/projects/${id}`}>
                 {readMore}

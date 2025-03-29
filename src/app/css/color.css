@@ -62,6 +62,26 @@
 .black {
   color: var(--black);
 }
+
+.blue2 {
+  color: var(--blue2);
+}
+.blue1 {
+  color: var(--blue1);
+}
+.yellow2 {
+  color: var(--yellow2);
+}
+.yellow1 {
+  color: var(--yellow1);
+}
+.red1 {
+  color: var(--red1);
+}
+.red2 {
+  color: var(--red2);
+}
+
 .color1 {
   color: var(--color1);
 }
