@@ -16,9 +16,11 @@ interface Props {
 }
 
 // SEO Metadata
-export const generateMetadata = async ({
+export async function generateMetadata({
   params,
-}: Props): Promise<Metadata> => {
+}: {
+  params: { itemId: string; locale: string };
+}): Promise<Metadata> {
   const collection = await fetchCollectionIfUpdated(
     companyRoute,
     collectionRoute1
@@ -57,7 +59,7 @@ export const generateMetadata = async ({
       ],
     },
   };
-};
+}
 
 export default async function EventDetailsPage({ params }: Props) {
   const collection = await fetchCollectionIfUpdated(
