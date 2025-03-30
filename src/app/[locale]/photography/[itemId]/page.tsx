@@ -6,13 +6,6 @@ import { extractCollectionFields } from "../../../../../lib/firebase/types";
 import styles from "./page.module.css";
 import AlbumSlider from "../collection/AlbumSlider/AlbumSlider";
 
-interface Props {
-  params: {
-    itemId: string;
-    locale: string;
-  };
-}
-
 // SEO Metadata
 export async function generateMetadata({
   params,
