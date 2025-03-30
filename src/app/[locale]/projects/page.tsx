@@ -18,6 +18,7 @@ export default function ProjectsPage() {
       <Collection
         readMore={t("projectsPage.projects.readMore")}
         seeAll={t("projectsPage.projects.seeAll")}
+        title1={t("projectsPage.projects.title1")}
       />
     </div>
   );
