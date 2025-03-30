@@ -1,9 +1,6 @@
 .collectionWrapper section {
   border-bottom: 1px solid var(--gray-700);
 }
-.paddingBottom {
-  padding-bottom: 70px;
-}
 .collectionWrapper {
   display: flex;
   flex-wrap: wrap;

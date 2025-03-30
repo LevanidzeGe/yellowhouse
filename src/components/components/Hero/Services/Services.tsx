@@ -17,7 +17,7 @@ export default async function Services() {
             className={`shadow5 lift ${styles.card}`}
           >
             <Image
-              src={development}
+              src={monitor}
               alt="development icon"
               width={80}
               height={80}
@@ -39,7 +39,7 @@ export default async function Services() {
             href={`/${locale}/projects`}
             className={`shadow5 lift ${styles.card}`}
           >
-            <Image src={monitor} alt="  icon" width={80} height={80} />
+            <Image src={development} alt="  icon" width={80} height={80} />
             <div>
               <h3 className="font2"> {t("title6")}</h3>
             </div>

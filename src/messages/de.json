@@ -1,56 +1,65 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Levanidze – Webdesigner & Fotograf in Genf",
-      "description": "Ich bin Levani, UX/UI-Designer, Webflow/Next.js-Entwickler und professioneller Fotograf mit über 13 Jahren Erfahrung. Ich helfe Unternehmen, insbesondere Restaurants in Genf und der ganzen Schweiz, ihre Online-Präsenz durch moderne Websites und professionelle Fotos zu verbessern."
+      "title": "Webentwickler & Fotograf in Genf, Schweiz",
+      "description": "Steigern Sie Ihre Online-Präsenz mit modernen Webseiten und professioneller Fotografie in Genf und der ganzen Schweiz."
     },
-    "hero": {}
+    "hero": {
+      "span1": "Hallo!",
+      "title1": "Levanidze",
+      "title2": "für Ihren Erfolg",
+      "title3": "im Web",
+      "text1": "Langjährige Erfahrung in Webdesign und professioneller Fotografie für attraktive, responsive Websites und überzeugende visuelle Inhalte.",
+      "button1": "Kontakt aufnehmen",
+      "span2": "Unsere Leistungen",
+      "title4": "Webseiten",
+      "title5": "Fotografie",
+      "title6": "Branding"
+    },
+    "whatIdo": {
+      "title1": "Was ich",
+      "title2": "mache."
+    }
   },
   "projectsPage": {
     "metadata": {
-      "title": "Neueste Web- & Fotoprojekte in Genf",
-      "description": "Entdecken Sie meine neuesten Website- und Fotografieprojekte in Genf und der Schweiz. Design, Leistung und visuelle Qualität für Ihr Unternehmen."
+      "title": "Moderne, responsive Webseiten | Aktuelle Projekte",
+      "description": "Entdecken Sie aktuelle Web-Projekte aus Genf und der Schweiz. Moderne und responsive Websites, die für Unternehmen optimiert sind."
+    },
+    "pageHero": {
+      "title1": "Webentwicklung & Design",
+      "title2": "Ich erstelle benutzerfreundliche, responsive Webseiten mit Webflow und Next.js und lege besonderen Wert auf intuitives UX/UI-Design – spezialisiert auf Unternehmen und Restaurants in der Schweiz."
     },
     "projects": {
       "readMore": "Projekt ansehen",
-      "seeAll": "Alle anzeigen"
+      "seeAll": "Mehr anzeigen",
+      "title1": "Web-Projekte",
+      "title2": "Projektübersicht",
+      "title3": "Individuelle Lösungen",
+      "button3": "Website ansehen"
     }
   },
   "photographyPage": {
     "metadata": {
-      "title": "Fotografieprojekte – Genf & Schweiz",
-      "description": "Professionelle Fotografie für Unternehmen, Restaurants und Marken in Genf und der Schweiz. Sehen Sie sich aktuelle Arbeiten an."
+      "title": "Professionelle Business-Fotografie in Genf",
+      "description": "Professionelle Fotografie für Unternehmen in Genf und der Schweiz. Hochwertige Bilder für Ihre Webseite, Marke und Kundenbindung."
+    },
+    "pageHero": {
+      "title1": "Professionelle Fotografie",
+      "title2": "Professioneller Fotograf mit über 13 Jahren Erfahrung in Genf. Gewinner der Golden Camera (FEP 2017). Hochwertige Fotos für Ihren Geschäftserfolg."
     },
     "photography": {
-      "readMore": "Projekt ansehen",
-      "seeAll": "Alle anzeigen"
+      "readMore": "Galerie ansehen",
+      "seeAll": "Mehr anzeigen",
+      "title1": "Fotografie"
     }
-  },
-  "contactForm": {
-    "head1": "Kontaktieren Sie mich",
-    "head2": "Angebot anfordern",
-    "name": "Vollständiger Name",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "date": "Datum",
-    "time": "Uhrzeit",
-    "quantity": "Anzahl der Räume",
-    "message": "Ihre Anfrage hier",
-    "button": "Senden",
-    "send": "Anfrage senden",
-    "thankYou": "Vielen Dank für Ihre Nachricht!",
-    "comfirmation": "Ich werde mich so bald wie möglich bei Ihnen melden."
   },
   "notFoundPage": {
     "title1": "Seite nicht gefunden",
     "title2": "Diese Seite existiert nicht",
-    "button": "Zur Startseite"
+    "button": "Startseite"
   },
   "levanidze": {
-    "title1": "Hallo. Ich bin Levani.",
-    "title2": "UX/UI-Designer, Webflow/Next.js-Entwickler und Fotograf",
-    "title3": "Ich gestalte moderne, stilvolle und benutzerfreundliche Websites.",
-    "title4": "Fotografie in Genf",
-    "title5": "Über 13 Jahre Erfahrung & Gewinner der Goldenen Kamera (FEP 2017)."
+    "title1": "Digitale Visitenkarte"
   }
 }

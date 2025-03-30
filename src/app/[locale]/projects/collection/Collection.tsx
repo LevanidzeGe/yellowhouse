@@ -75,7 +75,7 @@ export default async function Collection({
                   key={item.id}
                   {...item}
                   readMore={readMore}
-                  isLast={index === arr.length - 1} // 👈 add this
+                  isLast={index === arr.length - 1}
                 />
               ))}
             </div>

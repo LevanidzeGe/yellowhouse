@@ -3,10 +3,7 @@ import { fetchCollectionIfUpdated } from "@/lib/firebase/getFirebaseData";
 import { collectionRoute1, companyRoute, companyDomain } from "@/Manager/info";
 import { defaultLocale } from "@/Manager/navigation";
 import { extractCollectionFields } from "@/lib/firebase/types";
-import styles from "./page.module.css";
-import Image from "next/image";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import Link from "next/link";
+import ItemJsx from "./Item/Item";
 
 // ✅ SEO Metadata
 export async function generateMetadata({
@@ -63,7 +60,6 @@ export default async function Page({
   params: Promise<{ itemId: string; locale: string }>;
 }) {
   const { itemId, locale } = await params;
-
   const collection = await fetchCollectionIfUpdated(
     companyRoute,
     collectionRoute1
@@ -78,47 +74,8 @@ export default async function Page({
   const item = extractCollectionFields(raw, locale);
 
   return (
-    <section className={`section ${styles.eventDetailsWrapper}`}>
-      <div>
-        <div className={styles.container}>
-          <div className={styles.mainWrapper}>
-            <h1 className="header4">{item.transTag}</h1>
-            <div className={styles.textWrapper}>
-              <div>
-                <h3 className="header6 font2">Project Overview</h3>
-                <p className="paragraph">{item.transText1}</p>
-              </div>
-              <div>
-                <h3 className="header6 font2">Innovative Solutions</h3>
-                <p className="paragraph">{item.transText2}</p>
-              </div>
-            </div>
-            <div className={styles.liveButtonWrapper}>
-              {item.noTransLink1 && (
-                <Link
-                  className={`button ${styles.liveButton}`}
-                  href={item.noTransLink1}
-                  target="_blank"
-                >
-                  Preview in browser
-                  <HiOutlineArrowNarrowRight />
-                </Link>
-              )}
-            </div>
-
-            <div className={styles.imageWrapper}>
-              <Image
-                width={1000}
-                height={3000}
-                alt={item.transTitle}
-                src={item.images[1]}
-                title={item.transTitle}
-                priority
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <>
+      <ItemJsx item={item} />
+    </>
   );
 }

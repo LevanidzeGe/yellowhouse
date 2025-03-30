@@ -13,9 +13,6 @@
   justify-content: center;
 }
 
-.paddingBottom {
-  padding-bottom: 70px;
-}
 .meCamera {
   position: absolute;
   right: 10vw;

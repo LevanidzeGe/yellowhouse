@@ -1,56 +1,65 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Levanidze – Web designer e fotografo a Ginevra",
-      "description": "Ciao, sono Levani. Sono un designer UX/UI, sviluppatore Webflow/Next.js e fotografo professionista con oltre 13 anni di esperienza. Aiuto le aziende, soprattutto i ristoranti a Ginevra e in tutta la Svizzera, a migliorare la loro presenza online attraverso siti moderni e immagini di qualità."
+      "title": "Sviluppatore web e fotografo a Ginevra, Svizzera",
+      "description": "Migliora la tua presenza online con siti web moderni e fotografia professionale a Ginevra e in tutta la Svizzera."
     },
-    "hero": {}
+    "hero": {
+      "span1": "Ciao!",
+      "title1": "Levanidze",
+      "title2": "per far crescere",
+      "title3": "la tua presenza online",
+      "text1": "Anni di esperienza nel web design e nella fotografia professionale per creare siti web moderni, efficaci e immagini che valorizzano il tuo brand.",
+      "button1": "Contattami",
+      "span2": "I miei servizi",
+      "title4": "Siti web",
+      "title5": "Fotografia",
+      "title6": "Branding"
+    },
+    "whatIdo": {
+      "title1": "Cosa",
+      "title2": "faccio."
+    }
   },
   "projectsPage": {
     "metadata": {
-      "title": "Ultimi progetti web e fotografici a Ginevra",
-      "description": "Scopri i progetti più recenti di siti web e fotografia professionale per ristoranti e aziende in Svizzera. Qualità, design e visibilità online per il tuo business."
+      "title": "Progetti recenti di siti web moderni e responsive",
+      "description": "Scopri gli ultimi progetti di web design realizzati a Ginevra e in Svizzera. Siti web moderni, responsive e pensati per il successo della tua attività."
+    },
+    "pageHero": {
+      "title1": "Web design & sviluppo",
+      "title2": "Realizzo siti web intuitivi e responsive con Webflow e Next.js, specializzato in UX/UI design per aziende e ristoranti in tutta la Svizzera."
     },
     "projects": {
       "readMore": "Vedi progetto",
-      "seeAll": "Vedi tutti"
+      "seeAll": "Vedi tutto",
+      "title1": "Progetti web",
+      "title2": "Dettagli del progetto",
+      "title3": "Soluzioni innovative",
+      "button3": "Anteprima online"
     }
   },
   "photographyPage": {
     "metadata": {
-      "title": "Progetti fotografici – Ginevra e Svizzera",
-      "description": "Servizi fotografici professionali per ristoranti, aziende e marchi. Guarda gli ultimi lavori realizzati a Ginevra e in tutta la Svizzera."
+      "title": "Fotografia professionale per aziende a Ginevra",
+      "description": "Fotografia professionale per attività commerciali e aziende a Ginevra e in Svizzera. Immagini di alta qualità per il tuo sito web e il tuo brand."
+    },
+    "pageHero": {
+      "title1": "Fotografia professionale",
+      "title2": "Oltre 13 anni di esperienza nella fotografia aziendale a Ginevra. Vincitore della Golden Camera (FEP 2017). Creo immagini di alta qualità che valorizzano la tua attività e attirano nuovi clienti."
     },
     "photography": {
-      "readMore": "Vedi progetto",
-      "seeAll": "Vedi tutti"
+      "readMore": "Vedi galleria",
+      "seeAll": "Vedi tutto",
+      "title1": "Fotografia"
     }
-  },
-  "contactForm": {
-    "head1": "Contattami",
-    "head2": "Richiedi un preventivo",
-    "name": "Nome completo",
-    "email": "Email",
-    "phone": "Telefono",
-    "date": "Data",
-    "time": "Ora",
-    "quantity": "Numero di ambienti",
-    "message": "Scrivi la tua richiesta qui",
-    "button": "Invia",
-    "send": "Invia richiesta",
-    "thankYou": "Grazie per avermi contattato!",
-    "comfirmation": "Risponderò il prima possibile."
   },
   "notFoundPage": {
     "title1": "Pagina non trovata",
     "title2": "Questa pagina non esiste",
-    "button": "Torna alla home"
+    "button": "Vai alla home"
   },
   "levanidze": {
-    "title1": "Ciao! Sono Levani.",
-    "title2": "UX/UI designer, sviluppatore Webflow/Next.js e fotografo",
-    "title3": "Creo siti moderni, eleganti e facili da usare su ogni dispositivo.",
-    "title4": "Fotografia a Ginevra",
-    "title5": "13+ anni di esperienza & vincitore della Golden Camera (FEP 2017)"
+    "title1": "Biglietto da visita digitale"
   }
 }

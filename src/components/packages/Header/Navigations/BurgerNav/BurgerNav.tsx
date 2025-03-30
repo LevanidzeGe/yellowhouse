@@ -49,11 +49,28 @@ export default function BurgerNav({
             return (
               <li key={localizedUrl} className={styles.burgerLi}>
                 <div className={styles.burgerItemWrapper}>
-                  {hasDropdown ? (
+                  {item.url === "/contact" ? (
+                    <span
+                      className={`burger-link ${
+                        isActive ? "active-burger-link" : ""
+                      }`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        navClose();
+                        window.scrollTo({
+                          top: document.body.scrollHeight,
+                          behavior: "smooth",
+                        });
+                      }}
+                      style={{ cursor: "pointer" }}
+                    >
+                      {item.title}
+                    </span>
+                  ) : hasDropdown ? (
                     <div className={styles.burgerDropdownHeader}>
                       <span
                         onClick={() => toggleDropdown(item.title)}
-                        className={` burger-link ${
+                        className={`burger-link ${
                           isActive ? "active-burger-link" : ""
                         }`}
                       >

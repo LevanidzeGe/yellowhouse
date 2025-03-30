@@ -60,7 +60,7 @@ export default async function Collection({
     : sortedCollection;
 
   return (
-    <section className="section relative">
+    <section className="section relative no-padding-y">
       <div className="container">
         <div className={`${!mini && styles.paddingBottom}`}>
           <h2 className={`heading2 font2 ${styles.title}`}>{title1}</h2>

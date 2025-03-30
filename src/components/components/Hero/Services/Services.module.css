@@ -12,7 +12,7 @@
   position: relative;
 }
 .mainWrapper h2 {
-  margin: 10vh 0 2vh;
+  margin-bottom: 20px;
 }
 
 /************** Cards Container **************/
@@ -55,8 +55,6 @@
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-}
-.card:hover {
 }
 
 /************** Subtle Glowing Effect on Hover **************/

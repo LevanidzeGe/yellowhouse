@@ -21,16 +21,9 @@ export default function PagesHero({
       <div className="container ">
         <div className={styles.wrapper}>
           <div className={styles.sectionWrapper}>
-            <div className={styles.mainWrapper}>
+            <div className={styles.textWrapper}>
               <h1 className="heading2 font2">{title1}</h1>
               <h2 className={`paragraph gray5 ${styles.title}`}>{title2}</h2>
-              {/* <ScrollingButton
-                value={buttonValue}
-                viewHeight={true}
-                className="button"
-                button={true}
-                pixels={20}
-              /> */}
             </div>
             <div>
               <Image

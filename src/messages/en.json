@@ -1,20 +1,20 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Levani Levanidze – Web Developer & Photographer in Switzerland",
-      "description": "Boost your online presence with Levani – expert in Webflow/Next.js websites and professional photography. Serving businesses across Geneva and Switzerland."
+      "title": "Web Developer & Photographer in Geneva, Switzerland",
+      "description": "Grow your business online with user-friendly websites and professional photography services based in Geneva, Switzerland."
     },
     "hero": {
-      "span1": "hi, there!",
+      "span1": "Hi there!",
       "title1": "Levanidze",
-      "title2": "here to increase",
-      "title3": "your online presence",
-      "text1": " gained skills years of experience in web design and photography are helping me to be doing high standard service in online world",
-      "button1": "get in touch",
-      "span2": "our services",
-      "title4": "Websites",
+      "title2": "here to grow",
+      "title3": "your business online",
+      "text1": "Years of experience in web design and professional photography, creating modern, responsive websites and compelling visuals.",
+      "button1": "Get in touch",
+      "span2": "Our services",
+      "title4": "web design",
       "title5": "photography",
-      "title6": "branding"
+      "title6": "development"
     },
     "whatIdo": {
       "title1": "What I",
@@ -23,30 +23,33 @@
   },
   "projectsPage": {
     "metadata": {
-      "title": "Latest Web Design & Photography Projects",
-      "description": "Explore recent website and photography projects by Levani. Modern, responsive, and tailored for businesses in Switzerland."
+      "title": "Modern & Responsive Websites | Recent Projects",
+      "description": "Browse recent website projects designed and developed in Geneva, Switzerland. Specializing in modern, responsive, user-friendly web solutions."
     },
     "pageHero": {
-      "title1": "me as a webdeveloper",
-      "title2": "I’m a UX/UI designer, Webflow/Next.js developer, and professional photographer specializing in creating user-friendly and responsive websites for businesses, with a focus on helping restaurants across Switzerland."
+      "title1": "Web development services",
+      "title2": "I design and build user-friendly, responsive websites using Webflow and Next.js, focusing on intuitive UX/UI for businesses and restaurants across Switzerland."
     },
     "projects": {
-      "readMore": "See project",
+      "readMore": "View project",
       "seeAll": "See more",
-      "title1": "web projects"
+      "title1": "Web projects",
+      "title2": "Project overview",
+      "title3": "Custom solutions",
+      "button3": "View live site"
     }
   },
   "photographyPage": {
     "metadata": {
-      "title": "Professional Photography in Geneva & Switzerland",
-      "description": "Levani offers high-end business photography across Geneva and Switzerland. Enhance your website and branding with impactful visuals."
+      "title": "Professional Business Photography in Geneva",
+      "description": "Professional photography services for businesses in Geneva and Switzerland. Quality images that build trust and attract customers."
     },
     "pageHero": {
-      "title1": "me as a photographer",
-      "title2": "Supporting businesses across Geneva and whole Switzerland with over 13 years of experience in professional photography. Winner of the Golden Camera by FEP in 2017, I specialize in creating stunning visuals that enhance your brand's online presence and attract more customers."
+      "title1": "Photography services",
+      "title2": "Professional business photography with over 13 years of experience in Geneva. Winner of the Golden Camera (FEP 2017). Creating impactful images for your business."
     },
     "photography": {
-      "readMore": "See gallery",
+      "readMore": "View gallery",
       "seeAll": "See more",
       "title1": "photography"
     }
@@ -57,6 +60,6 @@
     "button": "Go Home"
   },
   "levanidze": {
-    "title1": "digital business card"
+    "title1": "Digital business card"
   }
 }

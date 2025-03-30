@@ -1,56 +1,65 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Levanidze - Créateur de sites Web & Photographe à Genève",
-      "description": "Je suis Levani, développeur Webflow/Next.js et photographe professionnel avec plus de 13 ans d'expérience. J'aide les entreprises, en particulier les restaurants à Genève et en Suisse, à améliorer leur présence en ligne grâce à des sites modernes et des photos professionnelles."
+      "title": "Développeur Web & Photographe à Genève, Suisse",
+      "description": "Développez votre activité en ligne grâce à des sites web modernes et des services photo professionnels basés à Genève, Suisse."
     },
-    "hero": {}
+    "hero": {
+      "span1": "Salut!",
+      "title1": "Levanidze",
+      "title2": "pour développer",
+      "title3": "votre activité en ligne",
+      "text1": "Des années d’expérience en création de sites web et en photographie professionnelle, pour des sites modernes et responsive accompagnés de visuels attractifs.",
+      "button1": "Me contacter",
+      "span2": "Nos services",
+      "title4": "Sites Web",
+      "title5": "Photographie",
+      "title6": "Branding"
+    },
+    "whatIdo": {
+      "title1": "Ce que je",
+      "title2": "fais."
+    }
   },
   "projectsPage": {
     "metadata": {
-      "title": "Derniers Projets Web & Photos à Genève",
-      "description": "Découvrez nos derniers projets de création de sites web et de photographie à Genève et en Suisse. Qualité, design, performance."
+      "title": "Sites Web modernes et responsive | Projets récents",
+      "description": "Découvrez les récents projets de sites web réalisés à Genève, Suisse. Spécialisé en solutions web modernes, responsive et conviviales."
+    },
+    "pageHero": {
+      "title1": "Services de création web",
+      "title2": "Je conçois et développe des sites web conviviaux et responsive avec Webflow et Next.js, avec une approche UX/UI intuitive pour les entreprises et restaurants en Suisse."
     },
     "projects": {
-      "readMore": "voir projet web",
-      "seeAll": "voir plus"
+      "readMore": "Voir le projet",
+      "seeAll": "Voir plus",
+      "title1": "Projets web",
+      "title2": "Aperçu du projet",
+      "title3": "Solutions sur mesure",
+      "button3": "Voir le site"
     }
   },
   "photographyPage": {
     "metadata": {
-      "title": "Photographe à Genève - Projets Récents",
-      "description": "Découvrez les projets récents de photographie professionnelle pour les entreprises, restaurants, et marques locales à Genève et en Suisse."
+      "title": "Photographie professionnelle d'entreprise à Genève",
+      "description": "Services de photographie professionnelle pour entreprises à Genève et en Suisse. Des images de qualité pour renforcer votre activité et attirer des clients."
+    },
+    "pageHero": {
+      "title1": "Services de photographie",
+      "title2": "Photographe professionnel avec plus de 13 ans d'expérience à Genève. Lauréat de la Golden Camera (FEP 2017). Création d'images professionnelles au service de votre entreprise."
     },
     "photography": {
-      "readMore": "voir projet",
-      "seeAll": "voir plus"
+      "readMore": "Voir la galerie",
+      "seeAll": "Voir plus",
+      "title1": "Photographie"
     }
-  },
-  "contactForm": {
-    "head1": "Contactez-moi",
-    "head2": "Demander un devis",
-    "name": "Nom complet",
-    "email": "E-mail",
-    "phone": "Téléphone",
-    "date": "Date",
-    "time": "Heure",
-    "quantity": "Nombre de pièces",
-    "message": "Votre demande ici",
-    "button": "Envoyer",
-    "send": "Soumettre la demande",
-    "thankYou": "Merci pour votre message !",
-    "comfirmation": "Je vous répondrai dès que possible."
   },
   "notFoundPage": {
     "title1": "Page introuvable",
-    "title2": "Cette page n'existe pas",
-    "button": "Retour à l'accueil"
+    "title2": "Cette page n’existe pas",
+    "button": "Accueil"
   },
   "levanidze": {
-    "title1": "Bonjour. Je suis Levani.",
-    "title2": "Designer UX/UI, développeur Webflow/Next.js, photographe",
-    "title3": "Je conçois des sites web modernes, responsives et sur mesure.",
-    "title4": "Photographie à Genève",
-    "title5": "Plus de 13 ans d’expérience, gagnant de la Golden Camera par la FEP (2017)."
+    "title1": "Carte de visite digitale"
   }
 }
