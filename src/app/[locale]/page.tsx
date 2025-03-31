@@ -10,8 +10,7 @@ import Collection from "@/src/app/[locale]/events/collection/Collection";
 import Levanidze from "@/src/components/packages/Levanidze/Levanidze";
 import { getTranslations } from "next-intl/server";
 import Album from "@/src/components/packages/Album/Album";
-import { GoogleMapsEmbed } from "@next/third-parties/google";
-import { googleAnaliticId } from "@/Manager/info";
+import { GoogleMapsEmbed, YouTubeEmbed } from "@next/third-parties/google";
 
 export default async function Home() {
   const t = await getTranslations("homePage");
@@ -36,6 +35,7 @@ export default async function Home() {
         maptype="satellite"
         q="LevaniDze - Web Agency Geneva"
       />
+      {/* <YouTubeEmbed videoid="ogfYd705cRs" height={800} /> */}
     </div>
   );
 }
