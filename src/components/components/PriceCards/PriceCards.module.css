@@ -243,7 +243,12 @@
     margin-bottom: 0;
   }
 }
-
+@media (max-width: 768px) {
+  .saleBg {
+    top: 7px;
+    height: 5px;
+  }
+}
 @media (max-width: 576px) {
   .cardWrap:nth-child(2) .card,
   .card {

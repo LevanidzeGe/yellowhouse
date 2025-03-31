@@ -1,7 +1,7 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Web Developer & Photographer in Geneva, Switzerland",
+      "title": "Levanidze Web Developer & Photographer in Geneva, Switzerland",
       "description": "Grow your business online with user-friendly websites and professional photography services based in Geneva, Switzerland."
     },
     "hero": {
@@ -64,5 +64,10 @@
   },
   "levanidze": {
     "title1": "Digital business card"
+  },
+  "contactForm": {
+    "title1": "Say hi to",
+    "title2": "levani",
+    "title3": "Ready to level up your online presence? Let's talk about how I can help!"
   }
 }

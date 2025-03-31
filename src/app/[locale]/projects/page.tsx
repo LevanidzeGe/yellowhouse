@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Collection from "./collection/Collection";
 import { useTranslations } from "next-intl";
 import PagesHero from "@/src/components/components/PagesHero/PagesHero";
-import { meCamera2, projectHero } from "@/public/image";
+import { projectHero } from "@/public/image";
 
 export async function generateMetadata() {
   const t = await getTranslations("projectsPage.metadata");

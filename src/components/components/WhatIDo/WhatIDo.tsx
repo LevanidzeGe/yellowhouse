@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { services } from "./dataWhatIdo";
+import { companyDomain } from "@/Manager/info";
 
 export default async function WhatIDo() {
   const locale = await getLocale(); // ✅
@@ -18,7 +19,12 @@ export default async function WhatIDo() {
           <div className={styles.sections}>
             {services.map((section, index) => (
               <div key={index}>
-                <Image src={section.image} width={100} height={100} alt="" />
+                <Image
+                  src={section.image}
+                  width={100}
+                  height={100}
+                  alt={`${companyDomain} ${section.subtitle}`}
+                />
                 <h4 className="heading5">{section.subtitle[locale]}</h4>
                 <p className="paragraph gray5">
                   {section.description[locale]}

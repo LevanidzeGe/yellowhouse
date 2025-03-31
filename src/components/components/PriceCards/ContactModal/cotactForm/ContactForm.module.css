@@ -19,6 +19,10 @@
   /* border-bottom: 1px solid var(--textMedium); */
   width: 100%;
 }
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--gray7);
+}
 .form p {
   color: var(--gray5);
   font-size: 17px;

@@ -12,14 +12,14 @@ export default async function ItemJsx({ item }: { item: ReturnTypeOfExtract }) {
       <div>
         <div className={styles.container}>
           <div className={styles.mainWrapper}>
-            <h1 className="header4">{item.transTag}</h1>
+            <h1 className="heading3">{item.transTag}</h1>
             <div className={styles.textWrapper}>
               <div>
-                <h3 className="header6 font2">{t("title2")}</h3>
+                <h3 className="heading5 gray5 font2">{t("title2")}</h3>
                 <p className="paragraph">{item.transText1}</p>
               </div>
               <div>
-                <h3 className="header6 font2">{t("title3")}</h3>
+                <h3 className="heading5 font2 gray5">{t("title3")}</h3>
                 <p className="paragraph">{item.transText2}</p>
               </div>
             </div>

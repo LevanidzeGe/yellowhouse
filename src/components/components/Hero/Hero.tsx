@@ -60,7 +60,7 @@ export default async function Hero() {
                 src={heroScreens}
                 width={1500}
                 height={700}
-                alt={`${companyDomain} hero design`}
+                alt={`${companyDomain} hero responsive design `}
               />
               <div className={styles.cameraCactus}>
                 <Image
@@ -68,7 +68,7 @@ export default async function Hero() {
                   src={meCamera}
                   width={250}
                   height={250}
-                  alt={`${companyDomain} hero design`}
+                  alt={`${companyDomain} levanidze cartoon`}
                 />
                 <Image
                   className={styles.cactus}

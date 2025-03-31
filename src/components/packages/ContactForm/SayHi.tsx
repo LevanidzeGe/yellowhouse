@@ -1,16 +1,9 @@
-"use client";
-
-import { useLocale } from "next-intl";
 import styles from "./SayHi.module.css";
 import ContactForm from "./cotactForm/ContactForm";
+import { getLocale, getTranslations } from "next-intl/server";
 
 const sayHiData = {
   en: {
-    title1: "Say hi to",
-    title2: "levani",
-    sub: "If you need a designer for your project send me an email.",
-    head1: "Get in Touch",
-    head2: "Request a Quote",
     name: "Full Name",
     email: "Email",
     phone: "Phone",
@@ -24,11 +17,6 @@ const sayHiData = {
     comfirmation: "We'll respond as soon as possible.",
   },
   fr: {
-    title1: "Dites bonjour à",
-    title2: "levani",
-    sub: "Si vous avez besoin d’un designer pour votre projet, envoyez-moi un message.",
-    head1: "Contactez-moi",
-    head2: "Demandez un devis",
     name: "Nom complet",
     email: "Email",
     phone: "Téléphone",
@@ -42,11 +30,6 @@ const sayHiData = {
     comfirmation: "Je vous répondrai dès que possible.",
   },
   de: {
-    title1: "Sag hallo zu",
-    title2: "levani",
-    sub: "Wenn du einen Designer für dein Projekt brauchst, schick mir eine Nachricht.",
-    head1: "Kontakt aufnehmen",
-    head2: "Angebot anfordern",
     name: "Vollständiger Name",
     email: "E-Mail",
     phone: "Telefon",
@@ -60,11 +43,6 @@ const sayHiData = {
     comfirmation: "Ich melde mich so schnell wie möglich bei dir.",
   },
   it: {
-    title1: "Saluta",
-    title2: "levani",
-    sub: "Se hai bisogno di un designer per il tuo progetto, scrivimi.",
-    head1: "Contattami",
-    head2: "Richiedi un preventivo",
     name: "Nome completo",
     email: "Email",
     phone: "Telefono",
@@ -79,27 +57,26 @@ const sayHiData = {
   },
 };
 
-export default function SayHi() {
-  const locale = useLocale();
+export default async function SayHi() {
+  const locale = await getLocale();
   const translates = sayHiData[locale as keyof typeof sayHiData];
+  const t = await getTranslations("contactForm");
 
   return (
     <section className="section">
       <div className="container">
         <div className={styles.sayHiWrapper}>
           <div className={styles.sayHiLeo}>
-            <span className={`heading2 font2 gray5`}>{translates.title1}</span>
+            <span className={`heading2 font2 gray5`}>{t("title1")}</span>
             <span className={`heading2 font2 ${styles.levani}`}>
-              {translates.title2}
+              {t("title2")}
             </span>
           </div>
-          <p className="header6">{translates.sub}</p>
+          <p className="heading6">{t("title3")}</p>
         </div>
       </div>
 
       <ContactForm
-        head1={translates.head1}
-        head2={translates.head2}
         name={translates.name}
         email={translates.email}
         phone={translates.phone}

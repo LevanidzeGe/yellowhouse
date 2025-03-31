@@ -18,7 +18,6 @@
   width: 100%;
 }
 .mainWrapper h1 {
-  color: var(--gray5);
   padding-bottom: 20px;
 }
 .textWrapper div {
@@ -27,7 +26,6 @@
 }
 .textWrapper div h3 {
   margin-bottom: 10px;
-  color: var(--gray7);
   font-weight: 700;
 }
 

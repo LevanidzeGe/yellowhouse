@@ -1,7 +1,7 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Webentwickler & Fotograf in Genf, Schweiz",
+      "title": "Levanidze Webentwickler & Fotograf in Genf, Schweiz",
       "description": "Steigern Sie Ihre Online-Präsenz mit modernen Webseiten und professioneller Fotografie in Genf und der ganzen Schweiz."
     },
     "hero": {
@@ -64,5 +64,10 @@
   },
   "levanidze": {
     "title1": "Digitale Visitenkarte"
+  },
+  "contactForm": {
+    "title1": "Sag Hallo zu",
+    "title2": "Levani",
+    "title3": "Bereit, deine Online-Präsenz aufs nächste Level zu bringen? Lass uns besprechen, wie ich dir helfen kann!"
   }
 }

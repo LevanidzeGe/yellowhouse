@@ -1,7 +1,7 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Développeur Web & Photographe à Genève, Suisse",
+      "title": "Levanidze Développeur Web & Photographe à Genève, Suisse",
       "description": "Développez votre activité en ligne grâce à des sites web modernes et des services photo professionnels basés à Genève, Suisse."
     },
     "hero": {
@@ -64,5 +64,10 @@
   },
   "levanidze": {
     "title1": "Carte de visite digitale"
+  },
+  "contactForm": {
+    "title1": "Dites bonjour à",
+    "title2": "Levani",
+    "title3": "Prêt à booster votre présence en ligne ? Parlons de comment je peux vous aider !"
   }
 }

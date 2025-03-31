@@ -33,3 +33,11 @@
   width: max-content;
   margin: 0 auto;
 }
+
+@media (max-width: 567px) {
+  .textWrapper,
+  .textWrapper p,
+  .textWrapper h1 {
+    max-width: 80%;
+  }
+}

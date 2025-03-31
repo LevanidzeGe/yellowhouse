@@ -4,8 +4,6 @@ import { sendEmail } from "./EmailService"; // npm install --save @emailjs/brows
 import styles from "./ContactForm.module.css";
 
 type ContactFormProps = {
-  head1: string;
-  head2: string;
   name: string;
   email: string;
   phone: string;
@@ -20,8 +18,6 @@ type ContactFormProps = {
 };
 
 const ContactForm: React.FC<ContactFormProps> = ({
-  head1,
-  head2,
   name,
   email,
   phone,

@@ -10,7 +10,7 @@ export default function ItemJsx({ item }: { item: ReturnTypeOfExtract }) {
           <span className={`gray7 caption-mini  ${styles.date}`}>
             {item.noTransDate}
           </span>
-          <h1 className="heading2 gray3">{item.transTitle}</h1>
+          <h1 className="heading3 gray3">{item.transTitle}</h1>
           <p className="paragraph gray5">{item.transDescription}</p>
         </div>
 

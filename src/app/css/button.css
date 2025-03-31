@@ -2,7 +2,7 @@
   border: 2px solid var(--blue2-50);
   background-color: var(--blue2-10);
   color: var(--gray3);
-  font-family: var(--font1);
+  font-family: var(--font);
   width: max-content;
   border-radius: 4px;
   display: flex;
@@ -84,7 +84,7 @@
   overflow: hidden;
   border-radius: 8px;
   transition: all 0.5s ease;
-  font-family: var(--font1);
+  font-family: var(--font2);
   font-size: 15px;
   font-weight: 500;
   backdrop-filter: blur(10px);

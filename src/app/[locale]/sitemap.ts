@@ -1,28 +1,33 @@
-import { companyDomain } from "@/Manager/info";
-// import { fetchCategories } from "@/src/app/[locale]/events/fetchingData";
-import {
-  // fireBaseRoute,
-  navItems,
-  supportedLocales,
-} from "@/Manager/navigation";
+import { companyDomain, companyRoute } from "@/Manager/info";
+import { navItems, supportedLocales } from "@/Manager/navigation";
+import { ref, get, getDatabase } from "firebase/database";
+import { app } from "@/lib/firebase/firebase";
+
+const db = getDatabase(app);
 
 export default async function sitemap() {
   try {
-    // const categories = await fetchCategories();
-    // const slugUrls =
-    //   categories?.flatMap((category) => {
-    //     if (!category.items) {
-    //       return []; // No items in this category
-    //     }
-    //     return Object.values(category.items).flatMap((item) => {
-    //       return supportedLocales.map((locale) => ({
-    //         url: `${companyDomain}/${locale}/${fireBaseRoute}/${item.id}`, // Generate URL for each item
-    //         lastModified: new Date().toISOString(),
-    //         changeFrequency: "monthly",
-    //         priority: 0.7,
-    //       }));
-    //     });
-    //   }) || [];
+    const collectionsRef = ref(db, `companiesData/${companyRoute}/collections`);
+    const snapshot = await get(collectionsRef);
+    const collectionsData = snapshot.val();
+
+    const collectionUrls = collectionsData
+      ? Object.entries(collectionsData).flatMap(
+          ([collectionId, collection]: any) => {
+            if (!collection.items) return [];
+
+            return Object.values(collection.items).flatMap((item: any) => {
+              const itemUrl = `${companyDomain}/companiesData/${companyRoute}/collections/${collectionId}/items/${item.id}`;
+              return supportedLocales.map((locale) => ({
+                url: `${itemUrl}?lang=${locale}`,
+                lastModified: new Date().toISOString(),
+                changeFrequency: "monthly",
+                priority: 0.7,
+              }));
+            });
+          }
+        )
+      : [];
 
     const navUrls = supportedLocales.flatMap((locale) => {
       return (
@@ -35,12 +40,7 @@ export default async function sitemap() {
       );
     });
 
-    const allUrls = [
-      // ...slugUrls,
-      ...navUrls,
-    ];
-
-    return allUrls;
+    return [...collectionUrls, ...navUrls];
   } catch (error) {
     console.error("Error generating sitemap:", error);
     return [];

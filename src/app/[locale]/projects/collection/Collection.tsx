@@ -1,6 +1,6 @@
 import { fetchCollectionIfUpdated } from "@/lib/firebase/getFirebaseData";
 import ServerCard from "./card/ServerCard";
-import { collectionRoute1, companyRoute } from "@/Manager/info";
+import { collectionRoute1, companyDomain, companyRoute } from "@/Manager/info";
 import styles from "./Collection.module.css";
 import { extractCollectionFields } from "@/lib/firebase/types";
 import { getLocale, getTranslations } from "next-intl/server";
@@ -60,7 +60,7 @@ export default async function Collection({
           <h2 className={`heading2 font2 ${styles.title}`}>{title1}</h2>
           <Image
             src={meMonitor2}
-            alt=""
+            alt={` ${companyDomain} levanidze cartoon`}
             width={130}
             height={130}
             className={styles.meMonitor}

@@ -1,7 +1,7 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Sviluppatore web e fotografo a Ginevra, Svizzera",
+      "title": "Levanidze Sviluppatore web e fotografo a Ginevra, Svizzera",
       "description": "Migliora la tua presenza online con siti web moderni e fotografia professionale a Ginevra e in tutta la Svizzera."
     },
     "hero": {
@@ -64,5 +64,10 @@
   },
   "levanidze": {
     "title1": "Biglietto da visita digitale"
+  },
+  "contactForm": {
+    "title1": "Saluta",
+    "title2": "Levani",
+    "title3": "Pronto a migliorare la tua presenza online? Parliamo di come posso aiutarti!"
   }
 }
