@@ -15,6 +15,7 @@ import { defaultLocale } from "@/Manager/navigation"; // Import supported locale
 // SEO Metadata
 import { getTranslations } from "next-intl/server";
 import { companyDomain, googleAnaliticId } from "@/Manager/info";
+import { CookieBot } from "./CookieBot";
 
 export async function generateMetadata({
   params,
@@ -92,6 +93,8 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale || defaultLocale}>
+      {/* cookie bot */}
+      <CookieBot />
       <body
         className={` ${inter.className} ${poppins.variable}  ${dancingScript.variable} ${gabriola.variable}   `}
       >
