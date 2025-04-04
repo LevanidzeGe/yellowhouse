@@ -12,6 +12,11 @@ export interface CollectionProps {
   images?: string[];
   itemActive?: boolean;
   itemTimestamp?: number;
+  itemCategories?: {
+    [categoryId: string]: {
+      order?: number;
+    };
+  };
 
   // ✅ All possible booleans
   booleans?: {
