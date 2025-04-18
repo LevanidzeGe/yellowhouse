@@ -9,7 +9,7 @@ import {
   addressLink,
   phoneNumber2,
   address2,
-} from "@/src/PPPmanager/info";
+} from "@/src/manager/info";
 interface props {
   title: string;
 }
