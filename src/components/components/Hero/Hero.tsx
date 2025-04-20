@@ -1,17 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./Hero.module.css";
-import {
-  childrenTeam,
-  giorgiSofia,
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  judoChildren,
-} from "@/public/image";
+import { img1, img2, img3, img4, img5, img6 } from "@/public/image";
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 
@@ -45,10 +35,7 @@ export default async function MainImage() {
                 Judo Club Geo <br /> de Genève
               </h1>
               <div className={styles.title}>
-                <h2 className="heading3 secondary7">
-                  Study the ar of Judo in Geneva with our beautiful somee text
-                  here and so one ...
-                </h2>
+                <h2 className="heading3 secondary7">{t("text1")}</h2>
               </div>
             </div>
             <div className={styles.buttonContainer}>

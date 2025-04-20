@@ -22,23 +22,10 @@ export default async function StoryPage() {
         image={childrenTeam}
         // value={t("forms.headComponent.title")}
       />
-      <ContactForm
-        head={t("forms.contactForm.head1")}
-        name={t("forms.contactForm.name")}
-        email={t("forms.contactForm.email")}
-        phone={t("forms.contactForm.phone")}
-        people={t("forms.contactForm.people")}
-        text={t("forms.contactForm.message")}
-        button={t("forms.contactForm.button")}
-        thank={t("forms.contactForm.thank")}
-        wait={t("forms.contactForm.wait")}
-      />
-      <Accordion title={t("contactPage.faq")} />
+      <ContactForm title1={t("contactPage.title1")} />
+      <Accordion />
 
-      <Testimonials
-        title1={t("homePage.testimonials.title1")}
-        title2={t("homePage.testimonials.title1")}
-      />
+      <Testimonials title1={t("homePage.testimonials.title1")} />
     </div>
   );
 }

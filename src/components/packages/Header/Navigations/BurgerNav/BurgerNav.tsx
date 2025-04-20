@@ -34,9 +34,7 @@ export default function BurgerNav({ isNavOpen, navClose }: BurgerNavProps) {
               <li key={localizedUrl} className={styles.burgerLi}>
                 <Link
                   className={`${styles.button} ${
-                    item.button
-                      ? "button button button-small button-reverse"
-                      : "burger-link"
+                    item.button ? "button button button-small " : "burger-link"
                   } ${isActive ? "active-burger-link" : ""}`}
                   href={localizedUrl}
                   onClick={navClose}

@@ -5,10 +5,7 @@
       "description": "Join Geo Judo Club de Genève for world-class judo training. Our school has been a trusted institution in Geneva for over 15 years, offering professional training for children aged 2-15."
     },
     "hero": {
-      "title1": "Study the art of judo in",
-      "title2": "Geneva",
-      "text1": "Students",
-      "text2": "Years in Geneva",
+      "text1": "Professional Judo training for kids — trusted in Geneva for over 15 years.",
       "button1": "Contact",
       "button2": "Roll in"
     },
@@ -39,9 +36,10 @@
       "text1": "Black Judo Uniform",
       "text2": "White Judo Uniform"
     },
-    "componentFive": {
+    "contactDetails": {
+      "tag1": "Contact Details",
       "title1": "Address",
-      "title2": "Email us",
+      "title2": "Email",
       "title3": "Call us"
     },
     "componentSix": {},
@@ -71,31 +69,24 @@
       "title": "Contact Geo Judo Club de Genève",
       "description": "Get in touch with Geo Judo Club de Genève for any inquiries or registration questions. We're here to help!"
     },
+    "title1": "Contact us",
+    "faq": "Frequently Asked Questions"
+  },
+  "FAQPage": {
+    "metadata": {
+      "title": "FAQ – Geo Judo Club de Genève",
+      "description": "Find answers to the most frequently asked questions about Geo Judo Club de Genève, including training details, schedules, age groups, and more."
+    },
     "faq": "Frequently Asked Questions"
   },
   "registrationPage": {
     "metadata": {
       "title": "Register for Geo Judo Club de Genève",
       "description": "Sign up for judo classes at Geo Judo Club de Genève and start your journey in the world of judo."
-    }
+    },
+    "title1": "Resgistration"
   },
-  "forms": {
-    "contactForm": {
-      "head1": "Contact us",
-      "head2": "Registration",
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone Number",
-      "date": "Date",
-      "time": "Time",
-      "quantity": "Number of People",
-      "message": "Your message here",
-      "button": "send",
-      "send": "Send Reservation Request",
-      "thankYou": "Thank you for your contact!",
-      "comfirmation": "We will contact you back, as soon as possible"
-    }
-  },
+
   "notFoundPage": {
     "title1": "The page you are looking for does not exist",
     "title2": "The page you are looking for does not exist",
@@ -109,12 +100,5 @@
     "wednsday": "Wednsday",
     "thursday": "Thursday",
     "friday": "Friday"
-  },
-  "levanidze": {
-    "title1": "Our",
-    "title2": "website",
-    "title3": "and",
-    "title4": "photography",
-    "title5": "provider"
   }
 }

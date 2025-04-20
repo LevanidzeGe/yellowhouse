@@ -5,10 +5,7 @@
       "description": "Treten Sie dem Geo Judo Club de Genève bei und genießen Sie professionelles Judo-Training. Unsere Schule ist seit über 15 Jahren eine vertrauenswürdige Institution in Genf und bietet erstklassiges Training für Kinder im Alter von 2 bis 15 Jahren."
     },
     "hero": {
-      "title1": "Lernen Sie die Kunst des Judo in",
-      "title2": "Genf",
-      "text1": "Schüler",
-      "text2": "Jahre in Genf",
+      "text1": "Professionelles Judo-Training für Kinder – seit über 15 Jahren in Genf anerkannt.      ",
       "button1": "Kontakt",
       "button2": "Jetzt anmelden"
     },
@@ -39,9 +36,10 @@
       "text1": "Schwarzer Judo-Anzug",
       "text2": "Weißer Judo-Anzug"
     },
-    "componentFive": {
+    "contactDetails": {
+      "tag1": "Kontaktangaben",
       "title1": "Adresse",
-      "title2": "Schreiben Sie uns per E-Mail",
+      "title2": "E-Mail",
       "title3": "Rufen Sie uns an"
     },
     "componentSix": {},
@@ -71,31 +69,25 @@
       "title": "Kontakt Geo Judo Club de Genève",
       "description": "Nehmen Sie Kontakt mit dem Geo Judo Club de Genève auf, wenn Sie Fragen haben oder sich anmelden möchten. Wir helfen Ihnen gerne weiter!"
     },
+    "title1": "Kontaktieren Sie uns",
     "faq": "Häufig gestellte Fragen"
   },
+  "FAQPage": {
+    "metadata": {
+      "title": "FAQ – Geo Judo Club de Genève",
+      "description": "Hier finden Sie Antworten auf häufig gestellte Fragen zum Geo Judo Club de Genève – Trainings, Zeiten, Altersgruppen und mehr."
+    },
+    "faq": "Häufig gestellte Fragen"
+  },
+
   "registrationPage": {
     "metadata": {
       "title": "Melden Sie sich beim Geo Judo Club de Genève an",
       "description": "Melden Sie sich für Judo-Kurse im Geo Judo Club de Genève an und starten Sie Ihre Reise in die Welt des Judo."
-    }
+    },
+    "title1": "Anmeldung"
   },
-  "forms": {
-    "contactForm": {
-      "head1": "Kontaktieren Sie uns",
-      "head2": "Anmeldung",
-      "name": "Vollständiger Name",
-      "email": "E-Mail",
-      "phone": "Telefonnummer",
-      "date": "Datum",
-      "time": "Uhrzeit",
-      "quantity": "Anzahl der Personen",
-      "message": "Ihre Nachricht hier",
-      "button": "Absenden",
-      "send": "Reservierungsanfrage senden",
-      "thankYou": "Vielen Dank für Ihre Kontaktaufnahme!",
-      "comfirmation": "Wir werden uns so schnell wie möglich bei Ihnen melden."
-    }
-  },
+
   "notFoundPage": {
     "title1": "Die gesuchte Seite existiert nicht",
     "title2": "Die gesuchte Seite existiert nicht",
@@ -109,12 +101,5 @@
     "wednsday": "Mittwoch",
     "thursday": "Donnerstag",
     "friday": "Freitag"
-  },
-  "levanidze": {
-    "title1": "Unser",
-    "title2": "Webseite",
-    "title3": "und",
-    "title4": "Fotografie",
-    "title5": "Anbieter"
   }
 }

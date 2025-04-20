@@ -11,13 +11,7 @@ import { companyRoute } from "@/src/manager/info";
 import HeadLine from "../../components/miniComponents/HeadLine";
 const testimonialRoute = "testimonials";
 
-export default function Testimonials({
-  title1,
-  title2,
-}: {
-  title1: string;
-  title2?: string;
-}) {
+export default function Testimonials({ title1 }: { title1: string }) {
   const reviewsWrapperRef = useRef<HTMLDivElement>(null);
   const [isScrolledLeft, setIsScrolledLeft] = useState(true);
   const [isScrolledRight, setIsScrolledRight] = useState(false);

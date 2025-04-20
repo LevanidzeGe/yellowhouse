@@ -15,11 +15,11 @@ import Image from "next/image";
 import HeadLine from "../miniComponents/HeadLine";
 
 export default function ContactDetails() {
-  const t = useTranslations("homePage.componentFive");
+  const t = useTranslations("homePage.contactDetails");
   return (
     <section className="section ">
       <div className="container">
-        <HeadLine title="CONTACT DETAILS" />
+        <HeadLine title={t("tag1")} />
         <div className={styles.wrapper}>
           {/* Email Box */}
           <Link href={`mailto: ${email}`} className="lift shadow1">

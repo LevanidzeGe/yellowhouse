@@ -27,7 +27,7 @@
   font-weight: 500;
 }
 .active-burger-link {
-  color: var(--primary3);
+  color: var(--black);
 }
 
 /* standart Nav link */

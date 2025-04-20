@@ -2,10 +2,9 @@
   position: relative;
   max-width: 800px;
   border: 5px solid var(--primary5);
-  margin: -200px auto 0 auto;
+  margin: -200px auto 30px auto;
   background-color: var(--white);
   border-radius: var(--radius3);
-
   z-index: 5;
 }
 .reservation {
@@ -19,7 +18,7 @@
 
 @media (max-width: 768px) {
   .reservationWrapper {
-    margin: -100px auto 0 auto;
+    margin: -100px auto 30px auto;
   }
 }
 

@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import RegistrationForm from "@/src/components/packages/RegistrationForm/RegistrationForm";
+import RegistrationForm from "@/src/components/packages/RegistrationForm/ContactForm";
 import { childrenTeam, giorgiSofia } from "@/public/image";
 import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
+import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 
 export async function generateMetadata() {
   const t = await getTranslations("registrationPage.metadata");
@@ -20,16 +21,8 @@ export default async function StoryPage() {
         image={giorgiSofia}
         // value={t("forms.headComponent.title")}
       />
-      <RegistrationForm
-        head={t("forms.contactForm.head2")}
-        name={t("forms.contactForm.name")}
-        email={t("forms.contactForm.email")}
-        phone={t("forms.contactForm.phone")}
-        people={t("forms.contactForm.people")}
-        text={t("forms.contactForm.message")}
-        button={t("forms.contactForm.button")}
-        thank={t("forms.contactForm.thank")}
-      />
+      <RegistrationForm title1={t("registrationPage.title1")} />
+      <Testimonials title1={t("homePage.testimonials.title1")} />
     </div>
   );
 }

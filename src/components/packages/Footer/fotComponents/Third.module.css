@@ -13,3 +13,6 @@
 .eventWrap p:hover {
   color: var(--white);
 }
+.eventWrap h3:hover {
+  color: var(--white);
+}

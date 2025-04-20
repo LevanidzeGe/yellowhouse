@@ -1,29 +1,45 @@
 "use client";
-
-import { useState } from "react";
 import styles from "./Accordion.module.css";
-import { accordionItems } from "./dataAccordion";
-import { useLocale, useTranslations } from "next-intl";
+import { useState, useEffect } from "react";
+import { useLocale } from "next-intl";
+import { fetchCollectionIfUpdated } from "@/src/lib/firebase/getFirebaseData";
+import { extractCollectionFields } from "@/src/lib/firebase/types";
 import { companyRoute } from "@/src/manager/info";
+import HeadLine from "../../components/miniComponents/HeadLine";
 const faqRoute = "faq";
 
-export default function Accordion() {
+export default function Accordion({ title1 }: { title1: string }) {
+  const [items, setItems] = useState<any[]>([]);
   const locale = useLocale();
-  const t = useTranslations();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const handleClick = (index: number) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
 
+  useEffect(() => {
+    const loadFaqs = async () => {
+      const collection = await fetchCollectionIfUpdated(companyRoute, faqRoute);
+      const rawItems = collection?.items ? Object.values(collection.items) : [];
+
+      const extracted = rawItems
+        .map((item) => extractCollectionFields(item, locale))
+        .filter((item) => !item.itemActive);
+
+      setItems(extracted);
+    };
+
+    loadFaqs();
+  }, [locale]);
+
+  if (items.length < 1) return null;
+
   return (
     <section className="section">
       <div className="container">
-        <h5 className={`heading3 primary6 ${styles.headTitle}`}>
-          {t("contactPage.faq")}
-        </h5>
+        <HeadLine title={title1} />
         <div className={styles.accordion}>
-          {accordionItems.map((item, index) => (
+          {items.map((item, index) => (
             <div
               key={index}
               className={`${styles.eachAccordion} ${
@@ -37,7 +53,7 @@ export default function Accordion() {
                     activeIndex === index ? styles.titleActive : styles.title
                   }`}
                 >
-                  {item.title[locale]}
+                  {item.transOption1}
                 </h6>
                 <span>{activeIndex === index ? "-" : "+"}</span>
               </div>
@@ -46,7 +62,7 @@ export default function Accordion() {
                   activeIndex === index ? styles.show : styles.hide
                 }`}
               >
-                <p className="paragraph">{item.content[locale]}</p>
+                <p className="paragraph">{item.transOption2}</p>
               </div>
             </div>
           ))}

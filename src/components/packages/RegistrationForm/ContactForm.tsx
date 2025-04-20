@@ -1,7 +1,7 @@
 import styles from "./ContactForm.module.css";
 import Contact from "./CotactForm/Contact";
 
-export default async function ContactForm({ title1 }: { title1: string }) {
+export default async function RegistrationForm({ title1 }: { title1: string }) {
   return (
     <section className="section no-padding-y">
       <div className="container">

@@ -1,30 +1,35 @@
-"use client";
 import styles from "./Levanidze.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import bg from "./bg.svg";
 import photo from "./photo.jpg";
 import web from "./web.jpg";
-import { useTranslations } from "next-intl";
-import { IoShareOutline } from "react-icons/io5";
 import { companyDomain } from "@/src/manager/info";
+import { getLocale } from "next-intl/server";
 
-export default function Levanidze() {
-  const handleShare = async () => {
-    try {
-      await navigator.share({
-        title: "Levanidze.com",
-        text: "Check out Levanidze's digital business card:",
-        url: `${companyDomain}/images/digitalBusinesCard.png`,
-      });
-    } catch (err: any) {
-      if (err.name !== "AbortError") {
-        console.error("Share failed:", err);
-      }
-    }
-  };
+const translations = {
+  en: {
+    title1: "Website and Photography Provider",
+  },
+  fr: {
+    title1: "Créateur de sites web & photographe",
+  },
+  de: {
+    title1: "Webseiten- & Fotografiedienstleister",
+  },
+  it: {
+    title1: "Servizi di fotografia e siti web",
+  },
+  ge: {
+    title1: "ვებსაიტებისა და ფოტოგრაფიის სერვისი",
+  },
+};
 
-  const t = useTranslations("levanidze");
+export default async function Levanidze() {
+  const rawLocale = await getLocale();
+  const locale = rawLocale.split("-")[0] as keyof typeof translations;
+  const t = translations[locale] ?? translations.en;
+
   return (
     <div className={styles.mainWrapper}>
       <div className={styles.darkBg}></div>
@@ -36,9 +41,7 @@ export default function Levanidze() {
         alt="vector background"
       />
       <div className={styles.textWrap}>
-        <h2 className={styles.textDropShadow}>
-          Website and Photography Provider
-        </h2>
+        <h2 className={styles.textDropShadow}>{t.title1}</h2>
         <Link href="https://levanidze.com" className={styles.textDropShadow}>
           www.Levanidze.com
         </Link>
@@ -55,7 +58,7 @@ export default function Levanidze() {
                       src={photo}
                       width={600}
                       height={400}
-                      alt={`Photographer ${companyDomain} ${t("title1")}`}
+                      alt={`Photographer Levanidze.com ${t.title1}`}
                     />
                   </div>
                   <div className={styles.cardBack}>
@@ -64,7 +67,7 @@ export default function Levanidze() {
                       src={web}
                       width={600}
                       height={400}
-                      alt="Website designer Levanidze.com"
+                      alt={`Website designer Levanidze.com ${t.title1}`}
                     />
                   </div>
                 </div>
