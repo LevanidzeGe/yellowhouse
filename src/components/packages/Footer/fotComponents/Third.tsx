@@ -10,19 +10,19 @@ export default function Third() {
       <ul>
         <li className={styles.eventWrap}>
           <p className="caption">{t("monday")}</p>
-          <h3 className="caption">17:30 - 19:15</h3>
+          <h3 className="caption">17:15 - 19:00</h3>
         </li>
-        <li className={styles.eventWrap}>
+        {/* <li className={styles.eventWrap}>
           <p className="caption">{t("wednsday")}</p>
           <h3 className="caption">16:45 - 17:45</h3>
-        </li>
+        </li> */}
         <li className={styles.eventWrap}>
           <p className="caption">{t("thursday")}</p>
-          <h3 className="caption">17:00 - 18:45</h3>
+          <h3 className="caption">17:15 - 20:30</h3>
         </li>
         <li className={styles.eventWrap}>
           <p className="caption">{t("friday")}</p>
-          <h3 className="caption">17:00 - 19:00</h3>
+          <h3 className="caption">17:15 - 19:00</h3>
         </li>
       </ul>
     </section>

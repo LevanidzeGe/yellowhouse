@@ -9,8 +9,7 @@ import ContactDetails from "@/src/components/components/ContactDetails/ContactDe
 import Collection from "@/src/app/[locale]/events/collection/Collection";
 import { getTranslations } from "next-intl/server";
 import Album from "@/src/components/packages/Album/Album";
-import { GoogleMapsEmbed, YouTubeEmbed } from "@next/third-parties/google";
-import Levanidze from "@/src/components/packages/Levanidze/Levanidze";
+import { GoogleMapsEmbed } from "@next/third-parties/google";
 
 export default async function Home() {
   const t = await getTranslations("homePage");
@@ -18,7 +17,6 @@ export default async function Home() {
   return (
     <div className="fadeOut">
       <Hero />
-      {/* <Levanidze /> */}
       <Story image={oldImage} />
       <SquaresTextPhoto />
       <Collection mini={true} />
@@ -33,7 +31,7 @@ export default async function Home() {
         width="100%"
         mode="place"
         maptype="satellite"
-        q="LevaniDze - Web Agency Geneva"
+        q="Ecole Mosaic"
       />
     </div>
   );
