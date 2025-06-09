@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./Sale.module.css";
-import { giSale1, giSale2, giSale3, giSvg } from "@/public/image";
+import { giSale1, giSale2, giSale3,} from "@/public/image";
 import { useTranslations } from "next-intl";
 import HeadLine from "../miniComponents/HeadLine";
 

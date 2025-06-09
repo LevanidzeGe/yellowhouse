@@ -18,7 +18,6 @@ import giSale3 from "@/public/images/giSale3.png";
 //
 //
 // assets
-import giSvg from "@/public/assets/svg/giSvg.svg";
 import babyIcon from "@/public/images/baby-icon.svg";
 import oldImage from "@/public/images/componentOne.jpg";
 import logo from "@/public/images/logo.png";
@@ -37,7 +36,6 @@ export {
   giSale2,
   giSale3,
   giorgiSofia,
-  giSvg,
   babyIcon,
   judoChildren,
   giIconSvg,

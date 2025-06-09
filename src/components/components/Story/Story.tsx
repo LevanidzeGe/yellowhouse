@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Story.module.css";
 import Image, { StaticImageData } from "next/image";
 import { useTranslations } from "next-intl";
-import { giSvg } from "@/public/image";
 import HeadLine from "../miniComponents/HeadLine";
 interface ComponentOne {
   image: StaticImageData;

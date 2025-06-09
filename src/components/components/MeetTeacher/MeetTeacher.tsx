@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./MeetTeacher.module.css";
-import { giSvg, giorgiSofia } from "@/public/image";
+import { giorgiSofia } from "@/public/image";
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 import HeadLine from "../miniComponents/HeadLine";
