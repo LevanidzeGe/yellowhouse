@@ -26,8 +26,11 @@
   background-color: var(--primary5);
 }
 .wrapper h3 {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-top: 25px;
+}
+.wrapper p {
+  padding-bottom: 25px;
 }
 .image {
   width: 100%;
