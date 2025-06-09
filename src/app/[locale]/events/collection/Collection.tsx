@@ -104,13 +104,15 @@ export default async function Collection({ mini }: { mini?: boolean }) {
   return (
     <section className={`section ${mini && "section-light"}`}>
       <div className={`container ${!mini && styles.container}`}>
-        <HeadLine
-          title={
-            mini
-              ? t("eventsPage.events.recentEvents")
-              : t("eventsPage.events.upcomingEvents")
-          }
-        />
+        {upcomingEvents?.length > 0 && (
+          <HeadLine
+            title={
+              mini
+                ? t("eventsPage.events.recentEvents")
+                : t("eventsPage.events.upcomingEvents")
+            }
+          />
+        )}
         <div className={styles.eventsWrapper}>
           {!mini &&
             upcomingEvents.map((event: ReturnTypeOfExtract) => (
