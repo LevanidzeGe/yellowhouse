@@ -10,7 +10,7 @@ export interface NavItemProps {
 export const companyRoute = "geo-judo-geneva-2025-04-16";
 
 export const collectionRoute1 = "events";
-export const collectionRoute2 = "";
+export const collectionRoute2 = "photo-album";
 
 export const dynamicPageRoute1 = "events";
 export const dynamicPageRoute2 = "";

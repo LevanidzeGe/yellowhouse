@@ -35,6 +35,7 @@ export default async function Album() {
   return (
     <div className="fadeOut">
       <AlbumSlider images={albumImages} />
+      sssss
     </div>
   );
 }
