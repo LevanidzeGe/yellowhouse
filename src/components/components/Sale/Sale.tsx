@@ -7,15 +7,15 @@ import HeadLine from "../miniComponents/HeadLine";
 const giItems = [
   {
     image: giSale1,
-    price: 40,
+    price: "",
   },
   {
     image: giSale2,
-    price: 50,
+    price: "",
   },
   {
     image: giSale3,
-    price: 60,
+    price: "",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function ComponentFour() {
                 <div className={styles.priceWrap}>
                   <div className={styles.price}>
                     <span className="heading3">{item.price}</span>
-                    <p className="paragraph">Chf</p>
+                    <p className="paragraph"></p>
                   </div>
                   <div className={styles.line}></div>
                 </div>
