@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Hero.module.css";
 import { img1, img2, img3, img4, img5, img6 } from "@/public/image";
+import locationIcon from "@/public/assets/icons/location.svg";
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 
@@ -30,7 +31,15 @@ export default async function MainImage() {
         <div className={styles.wrapper}>
           <div className={styles.leftDiv}>
             <div>
-              <span className="heading2 primary3"> Geneva Champel</span>
+              <span className="heading2 primary3">
+                <Image
+                  src={locationIcon}
+                  width={15}
+                  height={20}
+                  alt="locaton icon"
+                />
+                1206 Genève
+              </span>
               <h1 className="heading1 primary8">
                 Judo Club Geo <br /> de Genève
               </h1>

@@ -3,6 +3,7 @@
 // hero images
 import giIconSvg from "@/public/images/heros/Gi-icon.svg";
 import judoChildren from "@/public/images/heros/judoChildren.png";
+import locationIcon from "./assets/icons/location.svg";
 // xxx
 
 //
@@ -50,4 +51,5 @@ export {
   img4,
   img5,
   img6,
+  locationIcon,
 };
