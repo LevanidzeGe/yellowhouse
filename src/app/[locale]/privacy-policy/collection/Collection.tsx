@@ -51,11 +51,11 @@ export default async function Collections() {
                 className={`${index === 0 ? styles.head : styles.cardWrapper}`}
                 key={item.id}
               >
-                <h2 className="gray1 ">
+                <h2 className="gray4 ">
                   {index !== 0 && index + ". "}
                   {replacePlaceholders(item.transOption1)}
                 </h2>
-                <p className="gray3 paragraph ">
+                <p className="gray7 paragraph ">
                   {index !== 0 && "- "}
                   {replacePlaceholders(item.transOption2)}
                 </p>
