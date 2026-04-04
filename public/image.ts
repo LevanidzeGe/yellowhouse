@@ -16,6 +16,8 @@ import giSale1 from "@/public/images/giSale1.png";
 import giSale2 from "@/public/images/giSale2.png";
 import giSale3 from "@/public/images/giSale3.png";
 import sponsor1 from "./images/sponsors/sponsor1.jpg";
+import sponsor2 from "./images/sponsors/photo.jpg";
+import sponsor3 from "./images/sponsors//web.jpg";
 
 //
 //
@@ -54,4 +56,6 @@ export {
   img6,
   locationIcon,
   sponsor1,
+  sponsor2,
+  sponsor3,
 };
