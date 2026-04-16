@@ -1,5 +1,5 @@
 import styles from "./Item.module.css";
-import AlbumSlider from "@/src/components/packages/AlbumSlider/AlbumSlider";
+// import AlbumSlider from "@/src/components/packages/AlbumSlider/AlbumSlider";
 import type { ReturnTypeOfExtract } from "@/src/lib/firebase/types";
 import { getLocale } from "next-intl/server";
 
@@ -12,12 +12,12 @@ export default async function ItemJsx({ item }: { item: ReturnTypeOfExtract }) {
         {item.transOption1}
       </h2>
       <div className={styles.imgWrapper}>
-        <AlbumSlider
+        {/* <AlbumSlider
           images={item.images.map((src) => ({
             src,
             alt: item.transOption1 || "",
           }))}
-        />
+        /> */}
       </div>
       <div className={styles.infoWrapper}>
         {item.noTransOption1 && (

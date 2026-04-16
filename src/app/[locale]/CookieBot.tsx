@@ -1,7 +1,7 @@
 // src/components/UsercentricsScripts.tsx
 "use client";
 import { cookiesId } from "@/src/manager/info";
-import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 
 export function CookieBot() {
@@ -9,7 +9,7 @@ export function CookieBot() {
     <>
       {cookiesId ? (
         <>
-          <GoogleTagManager gtmId={cookiesId} />
+          {/* <GoogleTagManager gtmId={cookiesId} /> */}
           <Script
             src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"
             strategy="beforeInteractive"

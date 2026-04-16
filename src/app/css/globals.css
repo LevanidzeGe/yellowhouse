@@ -1,8 +1,8 @@
-@import "./reset";
-@import "./animation";
-@import "./shadow";
-@import "./button";
-@import "./container";
+@import "./reset.css";
+@import "./animation.css";
+@import "./shadow.css";
+@import "./button.css";
+@import "./container.css";
 @import "./typography.css";
 @import "./color.css";
 @import "./elements.css";

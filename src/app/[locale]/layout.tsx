@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/src/i18n/routing";
 import { SupportedLocale } from "@/src/i18n/routing";
-import { GoogleAnalytics } from "@next/third-parties/google";
+// import { GoogleAnalytics } from "@next/third-parties/google";
 import { Short_Stack, Fredoka, Montserrat } from "next/font/google";
 import Header from "@/src/components/packages/Header/Header";
 import Footer from "@/src/components/packages/Footer/Footer";
@@ -91,7 +91,7 @@ export default async function LocaleLayout({
       <body
         className={` ${font.className} ${font1.variable}  ${font2.variable}    `}
       >
-        <GoogleAnalytics gaId={googleAnaliticId} />
+        {/* <GoogleAnalytics gaId={googleAnaliticId} /> */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}

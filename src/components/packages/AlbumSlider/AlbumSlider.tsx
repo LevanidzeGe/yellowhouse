@@ -15,24 +15,21 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import styles from "./AlbumSlider.module.css";
 
-//projects array with props
-// import { projects } from "../../WholeProjects/Donabygg/DoneProjects/TwoProjects/projects";
-// import { ProjectDetProps } from "../../WholeProjects/Donabygg/DoneProjects/TwoProjects/projects";
-
 interface AlbumProps {
   images: { src: string; alt: string }[];
 }
+
 export default function AlbumSlider({ images }: AlbumProps) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   return (
-    <section className="section no-padding-x ">
-      <div className="container ">
+    <section className="section no-padding-x">
+      <div className="container">
         <div className={styles.mainWrapper}>
           <Swiper
-            loop={true}
+            loop
             spaceBetween={10}
-            navigation={true}
+            navigation
             thumbs={{
               swiper:
                 thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
@@ -54,20 +51,20 @@ export default function AlbumSlider({ images }: AlbumProps) {
               </SwiperSlide>
             ))}
           </Swiper>
-          {/* Thumbnail */}
+
           <Swiper
             onSwiper={setThumbsSwiper}
-            loop={true}
+            loop
             spaceBetween={6}
             slidesPerView={10}
-            freeMode={true}
-            watchSlidesProgress={true}
+            freeMode
+            watchSlidesProgress
             modules={[FreeMode, Navigation, Thumbs]}
             className={styles.navWrapper}
           >
             {images.map(({ src, alt }, index) => (
               <SwiperSlide key={index}>
-                <button className={styles.navImagesWrapper}>
+                <button type="button" className={styles.navImagesWrapper}>
                   <Image src={src} alt={alt} width={100} height={100} />
                 </button>
               </SwiperSlide>

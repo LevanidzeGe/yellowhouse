@@ -7,7 +7,7 @@ import AlbumSlider from "../AlbumSlider/AlbumSlider";
 export default async function Album() {
   const collection = await fetchCollectionIfUpdated(
     companyRoute,
-    collectionRoute2
+    collectionRoute2,
   );
   const locale = await getLocale();
 

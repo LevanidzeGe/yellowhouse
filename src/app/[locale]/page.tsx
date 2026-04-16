@@ -9,7 +9,7 @@ import ContactDetails from "@/src/components/components/ContactDetails/ContactDe
 import Collection from "@/src/app/[locale]/events/collection/Collection";
 import { getTranslations } from "next-intl/server";
 import Album from "@/src/components/packages/Album/Album";
-import { GoogleMapsEmbed } from "@next/third-parties/google";
+// import { GoogleMapsEmbed } from "@next/third-parties/google";
 import Lessons from "@/src/components/components/Lessons/Lessons";
 import Sponsors from "@/src/components/components/Sponsors/Sponsors";
 
@@ -29,14 +29,14 @@ export default async function Home() {
       <Sale />
       <Testimonials title1={t("testimonials.title1")} />
       <ContactDetails />
-      <GoogleMapsEmbed
+      {/* <GoogleMapsEmbed
         apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_KEY || ""}
         height={400}
         width="100%"
         mode="place"
         maptype="satellite"
         q="Ecole Mosaic"
-      />
+      /> */}
     </div>
   );
 }
