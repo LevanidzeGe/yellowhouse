@@ -1,4 +1,3 @@
-import { childrenTeam } from "@/public/image";
 import Accordion from "@/src/components/packages/FAQ/Accordion";
 import { getTranslations } from "next-intl/server";
 

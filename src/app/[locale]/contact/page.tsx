@@ -1,6 +1,5 @@
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
-import { childrenTeam } from "@/public/image";
 import ContactForm from "@/src/components/packages/ContactForm/ContactForm";
 import Accordion from "@/src/components/packages/FAQ/Accordion";
 
