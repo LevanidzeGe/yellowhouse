@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import RegistrationForm from "@/src/components/packages/RegistrationForm/ContactForm";
-import { childrenTeam, giorgiSofia } from "@/public/image";
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 
 export async function generateMetadata() {
