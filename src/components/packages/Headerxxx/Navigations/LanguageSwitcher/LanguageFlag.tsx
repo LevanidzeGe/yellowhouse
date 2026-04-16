@@ -6,7 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 import { supportedLocales } from "@/src/manager/navigation";
 
-export default function LanguageFlag() {
+export default function LanguageFlag({ navClose }: { navClose: () => void }) {
   const [flagShow, setFlagShow] = useState<boolean>(false);
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
@@ -27,7 +27,7 @@ export default function LanguageFlag() {
   };
 
   return (
-    <div className={styles.languageSwitcher}>
+    <div className={styles.languageSwitcher} onClick={navClose}>
       <button
         className={styles.currentLang}
         onClick={toggleFlagDropdown}

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ReturnTypeOfExtract } from "@/src/lib/firebase/types";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { getLocale, getTranslations } from "next-intl/server";
-import { eventPlaceholder } from "@/public/image";
+import { logo } from "@/public/image";
 import { dynamicPageRoute1 } from "@/src/manager/navigation";
 
 export default async function ServerCard({
@@ -28,7 +28,7 @@ export default async function ServerCard({
         className={styles.imageWrapper}
       >
         <Image
-          src={images[0] || eventPlaceholder}
+          src={images[0] || logo}
           width={1000}
           height={700}
           alt={transOption1}

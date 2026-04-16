@@ -1,15 +1,16 @@
-export const supportedLocales = ["fr", "en", "de", "it", "ge"];
+export const supportedLocales = ["ge", "en", "fr"];
 export const defaultLocale = supportedLocales[0];
 
 export interface NavItemProps {
   title: string;
   url: string;
   button?: boolean;
+  dropdown?: { title: string; url: string }[]; // Optional dropdown array
 }
 
 export const companyRoute = "geo-judo-geneva-2025-04-16";
 
-export const collectionRoute1 = "events";
+export const collectionRoute1 = "";
 export const collectionRoute2 = "photo-album";
 
 export const dynamicPageRoute1 = "events";
@@ -22,38 +23,53 @@ export const dynamicSitemap: Record<string, string> = {
 
 export const navItems: { [key: string]: NavItemProps[] } = {
   en: [
-    { title: "Main", url: "/" },
-    { title: "Events", url: "/events" },
-    { title: "FAQ", url: "/faq" },
-    { title: "Contact", url: "/contact" },
-    { title: "Registration", url: "/registration", button: true },
-  ],
-  fr: [
-    { title: "Accueil", url: "/" },
-    { title: "Événements", url: "/events" },
-    { title: "FAQ", url: "/faq" },
-    { title: "Contact", url: "/contact" },
-    { title: "Inscription", url: "/registration", button: true },
-  ],
-  de: [
-    { title: "Startseite", url: "/" },
-    { title: "Veranstaltungen", url: "/events" },
-    { title: "FAQ", url: "/faq" },
-    { title: "Kontakt", url: "/contact" },
-    { title: "Anmeldung", url: "/registration", button: true },
-  ],
-  it: [
-    { title: "Home", url: "/" },
-    { title: "Eventi", url: "/events" },
-    { title: "FAQ", url: "/faq" },
-    { title: "Contatto", url: "/contact" },
-    { title: "Registrazione", url: "/registration", button: true },
+    { title: "მთავარი", url: "/" },
+    { title: "ჩვენს შესახებ", url: "/about" },
+    { title: "მენიუ", url: "/projects" },
+    {
+      title: "სერვისები",
+      url: "/services",
+      dropdown: [
+        { title: "სახლის ქირაობა", url: "/extesrior" },
+        { title: "წვეულება", url: "/exfterior" },
+        { title: "ხელის თხოვნა", url: "/extgerior" },
+        { title: "ხელის მოწერია", url: "/exterijor" },
+        { title: "სქესის გაგება", url: "/extermior" },
+        { title: "წინა საქორწილო წვეულება", url: "/exte.rior" },
+      ],
+    },
+    { title: "კითხვა-პასუხი", url: "/contact", button: true },
   ],
   ge: [
-    { title: "მთავარი", url: "/" },
-    { title: "ღონისძიებები", url: "/events" },
-    { title: "FAQ", url: "/faq" }, // "FAQ" in Georgian
-    { title: "კონტაქტი", url: "/contact" },
-    { title: "რეგისტრაცია", url: "/registration", button: true },
+    { title: "Accueil", url: "/" },
+    {
+      title: "Services",
+      url: "/services",
+      dropdown: [
+        { title: "Sablage extérieur", url: "/exterior" },
+        { title: "Sablage intérieur", url: "/interior" },
+        { title: "Sablage de mobilier", url: "/furniture" },
+        { title: "Sablage sur Métal", url: "/metallization" },
+      ],
+    },
+    { title: "Projets", url: "/projects" },
+    { title: "À propos de nous", url: "/about" },
+    { title: "Contact", url: "/contact", button: true },
+  ],
+  fr: [
+    { title: "Startseite", url: "/" },
+    {
+      title: "Dienstleistungen",
+      url: "/services",
+      dropdown: [
+        { title: "Außenstrahlen", url: "/exterior" },
+        { title: "Innenstrahlen", url: "/interior" },
+        { title: "Möbelstrahlen", url: "/furniture" },
+        { title: "Metall-Sandstrahlen", url: "/metallization" },
+      ],
+    },
+    { title: "Projekte", url: "/projects" },
+    { title: "Über uns", url: "/about" },
+    { title: "Kontakt", url: "/contact", button: true },
   ],
 };

@@ -1,3 +1,7 @@
+body {
+  background-color: var(--primary9);
+}
+
 :root {
   --primary0: #e7f5f5;
   --primary1: #daf0f0;
@@ -10,16 +14,16 @@
   --primary8: #054446;
   --primary9: #032f30;
 
-  --secondary0: #fef0ee;
-  --secondary1: #f7f7f7;
-  --secondary2: #fdd1ca;
-  --secondary3: #fcbab1;
-  --secondary4: #fa9b8d;
-  --secondary5: #f98877;
-  --secondary6: #f86a55;
-  --secondary7: #e2604d;
-  --secondary8: #b04b3c;
-  --secondary9: #883a2f;
+  --secondary0: #f7f7f7;
+  --secondary1: #fef6d6;
+  --secondary2: #feedad;
+  --secondary3: #fde384;
+  --secondary4: #fdda5c;
+  --secondary5: #fcd133;
+  --secondary6: #cba829;
+  --secondary7: #9a801f;
+  --secondary8: #695714;
+  --secondary9: #382f0a;
 
   --accent0: #e9eff5;
   --accent1: #bbcfe1;
@@ -43,12 +47,13 @@
   --gray8: #494e4e;
   --gray9: #383c3c;
 
-  --primary: #097a7c;
-  --secondary: #f86a55;
+  --primary: #5888a6;
+  --secondary: #a1654e;
   --accent: #24639f;
-  --white: #f7f7f7;
-  --black: #0d1617;
-  --gradient1: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  --white: #f2f2f3;
+  --black: #0d1014;
+  --gradient1:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     linear-gradient(51.87deg, #ff6457 -11.28%, #80eeff 149.97%);
   --gradient2: linear-gradient(63.51deg, #b22317 -19.21%, #0c7e80 83.37%);
 

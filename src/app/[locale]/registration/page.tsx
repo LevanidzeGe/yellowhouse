@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import RegistrationForm from "@/src/components/packages/RegistrationForm/ContactForm";
 import { childrenTeam, giorgiSofia } from "@/public/image";
-import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 
 export async function generateMetadata() {
@@ -17,10 +16,6 @@ export default async function StoryPage() {
   const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      <PageHeadImage
-        image={giorgiSofia}
-        // value={t("forms.headComponent.title")}
-      />
       <RegistrationForm title1={t("registrationPage.title1")} />
       <Testimonials title1={t("homePage.testimonials.title1")} />
     </div>

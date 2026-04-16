@@ -7,7 +7,3 @@
 @import "./color.css";
 @import "./elements.css";
 @import "./radius.css";
-
-body {
-  background-color: var(--white);
-}

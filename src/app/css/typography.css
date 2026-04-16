@@ -35,54 +35,49 @@
   font-family: var(--font2);
   font-size: 14px;
   transition: all 0.2s;
-  color: var(--primary6);
+  color: var(--secondary2);
   text-transform: uppercase;
   font-weight: 600;
 }
 .active-link {
-  color: var(--primary9);
+  color: var(--secondary5);
 }
 .link:hover {
-  color: var(--primary8);
+  color: var(--secondary5);
 }
 
 /* typography */
 .heading1 {
   font-family: var(--font2);
-  font-size: 48px;
-  text-transform: uppercase;
-  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.32);
   line-height: 100%;
+  font-weight: 400;
+  font-size: 79px;
 }
 .heading2 {
   font-family: var(--font1);
-  font-weight: 600;
-  font-size: 32px;
   line-height: 100%;
+  font-weight: 400;
+  font-size: 60px;
 }
 .heading3 {
-  /* font-family: var(--font1); */
-  font-weight: 700;
-  font-size: 24px;
+  font-family: var(--font1);
   line-height: 100%;
+  font-weight: 500;
+  font-size: 48px;
 }
 .heading4 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 36px;
 }
 .heading5 {
-  position: absolute;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.heading6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .paragraph {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
 }
@@ -97,7 +92,7 @@
   font-size: 14px;
 }
 .caption:hover {
-  color: var(--primary3);
+  color: var(--secondary3);
 }
 .caption-mini {
   font-family: var(--font1);

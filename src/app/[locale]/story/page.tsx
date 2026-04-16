@@ -1,6 +1,5 @@
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
-import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
 
 export async function generateMetadata() {
   const t = await getTranslations("storyPage.metadata");

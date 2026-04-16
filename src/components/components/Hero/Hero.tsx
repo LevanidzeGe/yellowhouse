@@ -1,81 +1,87 @@
-import Image from "next/image";
-import React from "react";
-import styles from "./Hero.module.css";
-import { img1, img2, img3, img4, img5, img6 } from "@/public/image";
-import locationIcon from "@/public/assets/icons/location.svg";
-import Link from "next/link";
-import { getLocale, getTranslations } from "next-intl/server";
+"use client";
 
-export default async function MainImage() {
-  const t = await getTranslations("homePage.hero");
-  const locale = await getLocale();
-  const judoImages = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-  ];
-  const shuffledImages = [...judoImages].sort(() => 0.5 - Math.random());
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import styles from "./Hero.module.css";
+import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
+import { motion, AnimatePresence } from "framer-motion";
+
+import hero1 from "./hero1.jpeg";
+import hero2 from "./hero2.jpeg";
+import hero3 from "./hero3.jpeg";
+import Button from "./Button";
+
+const images = [hero1, hero2, hero3];
+
+export default function MainImage() {
+  const t = useTranslations("homePage.hero");
+  const locale = useLocale();
+
+  const [index, setIndex] = useState(0);
+
+  // ✅ Preload images using JS, once
+  useEffect(() => {
+    images.forEach((img) => {
+      const preload = new window.Image();
+      preload.src = img.src;
+    });
+  }, []);
+
+  // ✅ Switch images every 15s
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, 15000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <section className={` section  no-padding-y  ${styles.mainWrapper}`}>
-      <div className={`container`}>
-        <div className={styles.wrapper}>
-          <div className={styles.leftDiv}>
-            <div>
-              <span className="heading2 primary3">
-                <Image
-                  src={locationIcon}
-                  width={15}
-                  height={20}
-                  alt="locaton icon"
-                />
-                1206 Genève
-              </span>
-              <h1 className="heading1 primary8">
-                Judo Club Geo <br /> de Genève
+    <div className={styles.mainWrapper}>
+      <div className={styles.imageContainer}>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={index}
+            className={styles.motionImageWrapper}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1.5 }}
+          >
+            <Image
+              src={images[index]}
+              alt=""
+              fill
+              priority
+              className={styles.image}
+            />
+          </motion.div>
+        </AnimatePresence>
+      </div>
+
+      <div className={styles.overlay}></div>
+      <section className={`section no-padding-y relative`}>
+        <div className="container">
+          <div className={styles.contentWrapper}>
+            <div className={styles.content}>
+              <h1 className="heading1 white">
+                {/* <span>Art</span>
+                <span>of</span>
+                Levanidze */}
               </h1>
-              <div className={styles.title}>
-                <h2 className="heading3 secondary7">{t("text1")}</h2>
+              <h2 className="heading5 font1 gray1">
+                {/* {t("title1")} */}
+                <Link href="https://levanidze.com" className="heading5 font1">
+                  {/* {t("title2")} */}
+                </Link>
+              </h2>
+              <div className={styles.buttonContainer}>
+                {/* <Button value={t("button1")} /> */}
               </div>
-            </div>
-            <div className={styles.buttonContainer}>
-              <Link className="button" href={`${locale}/registration`}>
-                {t("button2")}
-              </Link>
-              <Link
-                className="button button-reverse "
-                href={`${locale}/contact`}
-              >
-                {t("button1")}
-              </Link>
-            </div>
-          </div>
-          <div className={styles.rightDiv}>
-            <div className={styles.overlay}></div>
-            <div className={styles.judoGrid}>
-              {shuffledImages.slice(0, 10).map((img, i) => (
-                <div key={i} className={styles.judoImageWrapper}>
-                  <Image
-                    src={img}
-                    alt={`judo-${i}`}
-                    fill
-                    className={styles.judoImage}
-                  />
-                </div>
-              ))}
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }

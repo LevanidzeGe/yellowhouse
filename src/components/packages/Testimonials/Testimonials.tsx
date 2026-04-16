@@ -8,8 +8,7 @@ import { useLocale } from "next-intl";
 import { fetchCollectionIfUpdated } from "@/src/lib/firebase/getFirebaseData";
 import { extractCollectionFields } from "@/src/lib/firebase/types";
 import { companyRoute } from "@/src/manager/navigation";
-import HeadLine from "../../components/miniComponents/HeadLine";
-const testimonialRoute = "testimonials";
+const testimonialRoute = "faq";
 
 export default function Testimonials({ title1 }: { title1: string }) {
   const reviewsWrapperRef = useRef<HTMLDivElement>(null);
@@ -22,7 +21,7 @@ export default function Testimonials({ title1 }: { title1: string }) {
     const loadTestimonials = async () => {
       const collection = await fetchCollectionIfUpdated(
         companyRoute,
-        testimonialRoute
+        testimonialRoute,
       );
       const rawItems = collection?.items ? Object.values(collection.items) : [];
 
@@ -71,9 +70,7 @@ export default function Testimonials({ title1 }: { title1: string }) {
     <section className="section hidden no-padding-x section-medium ">
       <div>
         <div className="section no-padding-y">
-          <div className="container">
-            <HeadLine title={title1} />
-          </div>
+          <div className="container"> {title1}</div>
         </div>
         <div className={styles.reviewsWrapper} ref={reviewsWrapperRef}>
           {items.map((info, index) => (

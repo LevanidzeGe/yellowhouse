@@ -28,10 +28,10 @@
   margin: 0 auto;
 }
 .section-light {
-  background-color: var(--primary0);
+  background-color: var(--secondary5);
 }
 .section-medium {
-  background-color: var(--primary1);
+  background-color: var(--secondary5);
 
   /* must fix */
 }

@@ -5,7 +5,6 @@ import styles from "./Collection.module.css";
 import { extractCollectionFields } from "@/src/lib/firebase/types";
 import { getLocale, getTranslations } from "next-intl/server";
 import type { ReturnTypeOfExtract } from "@/src/lib/firebase/types";
-import HeadLine from "@/src/components/components/miniComponents/HeadLine";
 
 export default async function Collection({ mini }: { mini?: boolean }) {
   const locale = await getLocale();
@@ -13,7 +12,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
 
   const collection = await fetchCollectionIfUpdated(
     companyRoute,
-    collectionRoute1
+    collectionRoute1,
   );
 
   const items = collection?.items ? Object.values(collection.items) : [];
@@ -51,7 +50,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
 
   // 🕓 Sort by most recent timestamp (desc)
   const sortedEvents = withTimestamps.sort(
-    (a, b) => (b.timestamp ?? 0) - (a.timestamp ?? 0)
+    (a, b) => (b.timestamp ?? 0) - (a.timestamp ?? 0),
   );
 
   // 🗓️ Filter upcoming and past events
@@ -60,7 +59,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
     .sort((a, b) => a.timestamp - b.timestamp); // Closest upcoming first
 
   const pastEvents = sortedEvents.filter(
-    (event) => event.timestamp <= Date.now()
+    (event) => event.timestamp <= Date.now(),
   );
 
   // 🆕 Mini Mode: Show the 2 events closest to today's date (future or past)
@@ -104,7 +103,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
   return (
     <section className={`section ${mini && "section-light"}`}>
       <div className={`container ${!mini && styles.container}`}>
-        {upcomingEvents?.length > 0 && (
+        {/* {upcomingEvents?.length > 0 && (
           <HeadLine
             title={
               mini
@@ -112,7 +111,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
                 : t("eventsPage.events.upcomingEvents")
             }
           />
-        )}
+        )} */}
         <div className={styles.eventsWrapper}>
           {!mini &&
             upcomingEvents.map((event: ReturnTypeOfExtract) => (
@@ -128,7 +127,7 @@ export default async function Collection({ mini }: { mini?: boolean }) {
         {/* ⏳ Past Events Section */}
         {!mini && (
           <div className={styles.paddingTop}>
-            <HeadLine title={t("eventsPage.events.pastEvents")} secondary />
+            {t("eventsPage.events.pastEvents")} secondary
             <div className={styles.eventsWrapper}>
               {pastEvents.map((event: ReturnTypeOfExtract) => (
                 <ServerCard key={event.id} {...event} />
