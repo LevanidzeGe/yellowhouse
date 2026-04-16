@@ -2,7 +2,7 @@ import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import Collection from "@/src/app/[locale]/events/collection/Collection";
 import { getTranslations } from "next-intl/server";
 import Album from "@/src/components/packages/AlbumSlider/Album/Album";
-import ContactMap from "./map";
+import ContactMap from "../../components/packages/Map/map";
 import Hero from "@/src/components/components/Hero/Hero";
 import Accordion from "@/src/components/packages/FAQ/Accordion";
 
