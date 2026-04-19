@@ -22,12 +22,12 @@
   font-family: var(--font1);
   font-size: 15px;
   transition: all 0.2s;
-  color: var(--primary3);
+  color: var(--primary2);
   text-transform: uppercase;
   font-weight: 500;
 }
 .active-burger-link {
-  color: var(--white);
+  color: var(--primary3);
 }
 
 /* standart Nav link */

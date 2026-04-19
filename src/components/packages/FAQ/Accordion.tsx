@@ -36,7 +36,7 @@ export default function Accordion({ title1 }: { title1: string }) {
   return (
     <section className="section">
       <div className="container">
-        {title1}
+        <h2 className="heading3 secondary3">{title1}</h2>
         <div className={styles.accordion}>
           {items.map((item, index) => (
             <div

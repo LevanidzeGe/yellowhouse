@@ -64,18 +64,13 @@ export default function MainImage() {
         <div className="container">
           <div className={styles.contentWrapper}>
             <div className={styles.content}>
-              <h1 className="heading1 secondary4">
-                <span>Yellow</span>
-                House
-              </h1>
+              <h1 className="heading1 secondary4">თქვენ მოიგეთ ჩართული უთო</h1>
               <h2 className="heading5 font1 secondary5">
-                {/* {t("title1")} */} yellow house nata
-                <Link href="https://levanidze.com" className="heading5 font1">
-                  {/* {t("title2")} */} khtariiiiiiiiiiii
-                </Link>
+                {/* {t("title1")} */} უი გამომძვრალა მაგრამ აქ რასაც გინდა იმას
+                დავწერ უბრალოდ უნდა გათვალო მაქსიმალურად ძებნადობაზე
               </h2>
               <div className={styles.buttonContainer}>
-                <Button value="book now" />
+                <Button value="book now თუ რა უნდა ქნას მაან ვაცაპელეს?" />
               </div>
             </div>
           </div>

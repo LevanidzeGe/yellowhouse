@@ -7,6 +7,7 @@
   width: 100%;
   border-radius: var(--radius6);
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .headTitle {
@@ -27,16 +28,16 @@
   justify-content: space-between;
   gap: 20px;
   padding: 15px;
-  border: 2px solid var(--secondary5);
+  border: 2px solid var(--primary5);
   border-radius: var(--radius3);
 }
 
 .title {
-  color: var(--secondary7);
+  color: var(--primary2);
 }
 
 .titleActive {
-  color: var(--secondary5);
+  color: var(--primary3);
 }
 
 .accordion p {
@@ -45,14 +46,14 @@
 }
 
 .accordion span {
-  color: var(--secondary6);
-  font-size: 30px;
+  color: var(--primary5);
+  font-size: 40px;
   line-height: 30px;
 }
 
 .active {
   background-color: var(--primary8);
-  border: solid 2px var(--secondary5);
+  border: solid 2px var(--primary7);
   color: var(--secondary1);
 }
 

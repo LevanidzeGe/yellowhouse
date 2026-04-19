@@ -67,7 +67,7 @@ export default function Testimonials({ title1 }: { title1: string }) {
   if (items.length < 1) return null;
 
   return (
-    <section className="section hidden no-padding-x section-medium ">
+    <section className="section hidden no-padding-x  ">
       <div>
         <div className="section no-padding-y">
           <div className="container"> {title1}</div>
