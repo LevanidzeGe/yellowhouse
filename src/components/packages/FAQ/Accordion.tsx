@@ -48,7 +48,7 @@ export default function Accordion({ title1 }: { title1: string }) {
             >
               <div className={styles.head}>
                 <h6
-                  className={`heading4 ${
+                  className={`heading5 ${
                     activeIndex === index ? styles.titleActive : styles.title
                   }`}
                 >
