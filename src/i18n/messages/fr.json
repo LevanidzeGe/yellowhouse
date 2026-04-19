@@ -1,110 +1,31 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Judo Club Geo de Genève - École de Judo à Genève pour Enfants",
-      "description": "Rejoignez le Judo Club Geo de Genève. Notre école est une institution de confiance à Genève depuis plus de 12 ans, offrant les cours de judo pour les enfants de 4 à 18 ans."
-    },
-    "hero": {
-      "text1": "Entraînement de judo professionnel pour enfants — reconnu à Genève depuis plus de 12 ans.",
-      "button1": "Contact",
-      "button2": "Inscrivez-vous maintenant"
-    },
-    "sponsors": {
-      "title1": "Nos sponsors et partenaires"
-    },
-    "lessons": {
-      "title1": "Horaires des cours – Judo Club Geo de Genève"
-    },
-    "componentOne": {
-      "title1": "Au service de Genève depuis 2014",
-      "text": "Notre club de judo, installé à Genève depuis 3 ans, est devenu un lieu incontournable pour les jeunes passionnés. Dans une ambiance bienveillante et motivante, on transmet bien plus que des techniques : on apprend le respect, la discipline, la force et l’esprit d’équipe à travers le judo. Rejoins l’aventure Geo Judo et fais partie de notre grande famille !"
-    },
-    "componentTwo": {
-      "text1": "Pourquoi notre école ?",
-      "text2": "Résultats garantis, activités sportives et une atmosphère conviviale",
-      "text3": "Pourquoi notre école ?",
-      "text4": "Choisir une école de judo, c’est offrir à son enfant bien plus qu’un sport : c’est lui transmettre des valeurs fortes comme le respect, la confiance en soi et l’esprit d’équipe, tout en développant sa force et sa concentration.",
-      "text5": "Atmosphère conviviale",
-      "text6": "Développement grâce à la convivialité, aux activités sportives et à la discipline",
-      "text7": "Compétitions de l'année dernière",
-      "text8": "L'année dernière, nos élèves ont participé à de nombreuses compétitions et ont remporté des médailles d'or, d'argent et de bronze bien méritées !"
-    },
-    "componentThree": {
-      "title1": "Enseignant",
-      "title2": "Giorgi Kurtanidze",
-      "text1": "Georgi Kurtanidze, professeur et responsable technique du Judo Club Geo de Genève. Diplômé d’état des arts martiaux judo et jiu-jitsu, certifié Moniteur Jeunesse et Sport, ceinture noire 2 ème Dan.",
-      "button": "Inscrivez-vous",
-      "title3": "100+ élèves actifs",
-      "text2": "Les connaissances et l'expérience acquises au cours de 12 années constituent le plus grand atout de notre école."
-    },
-    "componentFour": {
-      "title1": "Commandez votre uniforme chez Judo Club Geo de Genève ",
-      "text1": "Uniforme de Judo Noir",
-      "text2": "Uniforme de Judo Blanc"
-    },
-    "contactDetails": {
-      "tag1": "Coordonnées",
-      "title1": "Adresse",
-      "title2": "E-mail",
-      "title3": "Appelez-nous"
-    },
-    "componentSix": {},
-    "componentSeven": {},
-    "testimonials": {
-      "title1": "Ce que disent les parents"
+      "title": "Judo Club Geo de Genève - Judo School in Geneva for Children",
+      "description": "Join Judo Club Geo de Genève. Our school has been a trusted institution in Geneva for over 12 years, offering judo classes for children aged 4 to 18."
     }
   },
-  "eventsPage": {
-    "metadata": {
-      "title": "Événements à venir au Judo Club Geo de Genève",
-      "description": "Découvrez les derniers événements à venir au Judo Club Geo de Genève. Restez informés sur nos compétitions et événements d’entraînement."
-    },
-    "events": {
-      "title": "Événements récents",
-      "button": "Lire la suite",
-      "upcomingEvents": "Événements à venir",
-      "pastEvents": "Événements passés",
-      "recentEvents": "Événements récents",
-      "upcoming": "à venir",
-      "past": "passés",
-      "seeAll": "Tous les événements"
-    }
-  },
-  "contactPage": {
-    "metadata": {
-      "title": "Contacter Judo Club Geo de Genève",
-      "description": "Contactez le Judo Club Geo de Genève pour toute question ou inscription. Nous sommes là pour vous aider !"
-    },
-    "title1": "Contactez-nous",
-    "faq": "Questions fréquentes"
-  },
+
   "FAQPage": {
     "metadata": {
       "title": "FAQ – Judo Club Geo de Genève",
-      "description": "Trouvez les réponses aux questions fréquemment posées sur le Judo Club Geo de Genève : entraînements, horaires, tranches d’âge et plus encore      "
+      "description": "Find answers to frequently asked questions about Judo Club Geo de Genève: training, schedules, age groups, and more."
     },
-    "faq": "Questions fréquentes"
-  },
-  "registrationPage": {
-    "metadata": {
-      "title": "Inscrivez-vous au Judo Club Geo de Genève",
-      "description": "Inscrivez-vous aux cours de judo au Judo Club Geo de Genève et commencez votre voyage dans le monde du judo"
-    },
-    "title1": "Inscription"
+    "faq": "Frequently Asked Questions"
   },
 
   "notFoundPage": {
-    "title1": "La page que vous recherchez n'existe pas",
-    "title2": "La page que vous recherchez n'existe pas",
-    "button": "Page d'accueil"
+    "title1": "The page you are looking for does not exist",
+    "title2": "The page you are looking for does not exist",
+    "button": "Home"
   },
   "footer": {
-    "title1": "Informations de contact",
+    "title1": "Contact Information",
     "title2": "Navigation",
-    "title3": "Horaires",
-    "monday": "Lundi",
-    "wednsday": "Mercredi",
-    "thursday": "Jeudi",
-    "friday": "Vendredi"
+    "title3": "Schedule",
+    "monday": "Monday",
+    "wednsday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday"
   }
 }

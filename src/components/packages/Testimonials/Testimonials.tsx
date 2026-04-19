@@ -8,7 +8,7 @@ import { useLocale } from "next-intl";
 import { fetchCollectionIfUpdated } from "@/src/lib/firebase/getFirebaseData";
 import { extractCollectionFields } from "@/src/lib/firebase/types";
 import { companyRoute } from "@/src/manager/navigation";
-const testimonialRoute = "faq";
+const testimonialRoute = "testimonials";
 
 export default function Testimonials({ title1 }: { title1: string }) {
   const reviewsWrapperRef = useRef<HTMLDivElement>(null);

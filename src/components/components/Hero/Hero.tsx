@@ -64,19 +64,18 @@ export default function MainImage() {
         <div className="container">
           <div className={styles.contentWrapper}>
             <div className={styles.content}>
-              <h1 className="heading1 white">
-                {/* <span>Art</span>
-                <span>of</span>
-                Levanidze */}
+              <h1 className="heading1 secondary4">
+                <span>Yellow</span>
+                House
               </h1>
-              <h2 className="heading5 font1 gray1">
-                {/* {t("title1")} */}
+              <h2 className="heading5 font1 secondary5">
+                {/* {t("title1")} */} yellow house nata
                 <Link href="https://levanidze.com" className="heading5 font1">
-                  {/* {t("title2")} */}
+                  {/* {t("title2")} */} khtariiiiiiiiiiii
                 </Link>
               </h2>
               <div className={styles.buttonContainer}>
-                {/* <Button value={t("button1")} /> */}
+                <Button value="book now" />
               </div>
             </div>
           </div>

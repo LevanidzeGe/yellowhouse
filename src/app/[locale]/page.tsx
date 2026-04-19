@@ -1,5 +1,4 @@
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
-import Collection from "@/src/app/[locale]/events/collection/Collection";
 import { getTranslations } from "next-intl/server";
 import Album from "@/src/components/packages/AlbumSlider/Album/Album";
 import ContactMap from "../../components/packages/Map/map";
@@ -12,11 +11,10 @@ export default async function Home() {
   return (
     <div className="fadeOut">
       <Hero />
-      <Collection mini={true} />
       <Accordion title1="test" />
-
       <Album />
-      <Testimonials title1={t("testimonials.title1")} />
+      {/* <Testimonials title1={t("testimonials.title1")} /> */}
+      <Testimonials title1="" />
       <ContactMap />
     </div>
   );

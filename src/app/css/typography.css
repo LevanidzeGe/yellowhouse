@@ -22,12 +22,12 @@
   font-family: var(--font1);
   font-size: 15px;
   transition: all 0.2s;
-  color: var(--primary1);
+  color: var(--primary3);
   text-transform: uppercase;
   font-weight: 500;
 }
 .active-burger-link {
-  color: var(--black);
+  color: var(--white);
 }
 
 /* standart Nav link */
@@ -107,8 +107,8 @@
   }
 }
 @media (max-width: 600px) {
-  .paragraph {
-  }
+  /* .paragraph {
+  } */
 }
 
 /* Break point 1200px */

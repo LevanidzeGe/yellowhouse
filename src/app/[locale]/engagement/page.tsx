@@ -1,5 +1,4 @@
 import Accordion from "@/src/components/packages/FAQ/Accordion";
-import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata() {
@@ -16,7 +15,6 @@ export default async function ProjectsPage() {
   return (
     <div className="fadeOut">
       <Accordion title1={t("faq")} />
-      <Testimonials title1="" />
     </div>
   );
 }
