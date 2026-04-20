@@ -2,13 +2,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./StandartNav.module.css";
 import { navItems, NavItemProps } from "@/src/manager/navigation";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
+import { phoneNumber } from "@/src/manager/info";
 
 export default function StandartNav() {
   const pathname = usePathname();
   const locale = useLocale();
   const items: NavItemProps[] = navItems[locale] || [];
+  const t = useTranslations();
 
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
@@ -49,7 +51,11 @@ export default function StandartNav() {
                 </Link>
               ) : (
                 <Link
-                  href={localizedUrl}
+                  href={
+                    !item.button
+                      ? localizedUrl
+                      : `https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${encodeURIComponent(t("homePage.whatsappMessage"))}`
+                  }
                   className={`${
                     item.button && "button button-small button-reverse"
                   }

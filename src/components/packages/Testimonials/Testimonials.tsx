@@ -68,65 +68,65 @@ export default function Testimonials({ title1 }: { title1: string }) {
 
   return (
     <section className="section hidden no-padding-x  ">
-      <div>
-        <div className="section no-padding-y">
-          <div className="container"> {title1}</div>
-        </div>
-        <div className={styles.reviewsWrapper} ref={reviewsWrapperRef}>
-          {items.map((info, index) => (
-            <div key={index} className={`lift shadow1 ${styles.card}`}>
-              <div className={styles.starsReview}>
-                <div className={styles.stars}>
-                  {[...Array(5)].map((_, starIndex) => {
-                    const ratingStr =
-                      info.noTransOption1?.replace(",", ".") || "5";
-                    const rating = parseFloat(ratingStr);
+      <div className="section no-padding-y">
+        <div className="container">
+          <h3 className="heading3 secondary3">{title1}</h3>
+          <div className={styles.reviewsWrapper} ref={reviewsWrapperRef}>
+            {items.map((info, index) => (
+              <div key={index} className={`lift shadow1 ${styles.card}`}>
+                <div className={styles.starsReview}>
+                  <div className={styles.stars}>
+                    {[...Array(5)].map((_, starIndex) => {
+                      const ratingStr =
+                        info.noTransOption1?.replace(",", ".") || "5";
+                      const rating = parseFloat(ratingStr);
 
-                    const filled = starIndex < Math.floor(rating);
-                    const half =
-                      rating % 1 !== 0 && starIndex === Math.floor(rating);
+                      const filled = starIndex < Math.floor(rating);
+                      const half =
+                        rating % 1 !== 0 && starIndex === Math.floor(rating);
 
-                    return (
-                      <StarIcon key={starIndex} filled={filled} half={half} />
-                    );
-                  })}
+                      return (
+                        <StarIcon key={starIndex} filled={filled} half={half} />
+                      );
+                    })}
+                  </div>
+
+                  <p className="paragraph gray7">{info.transOption2}</p>
                 </div>
 
-                <p className="paragraph gray7">{info.transOption2}</p>
-              </div>
-
-              <div className={styles.authorInfoWrap}>
-                {info.images[0] && (
-                  <Image
-                    className="shadow-4-s"
-                    src={info.images?.[0]}
-                    alt={info.transOption1}
-                    width={50}
-                    height={50}
-                  />
-                )}
-                <div>
-                  <h3 className="paragraph">{info.transOption1}</h3>
-                  <p className="caption-mini gray5">
-                    {info.transOption3 || ""}
-                  </p>
+                <div className={styles.authorInfoWrap}>
+                  {info.images[0] && (
+                    <Image
+                      className="shadow-4-s"
+                      src={info.images?.[0]}
+                      alt={info.transOption1}
+                      width={50}
+                      height={50}
+                    />
+                  )}
+                  <div>
+                    <h3 className="paragraph">{info.transOption1}</h3>
+                    <p className="caption-mini gray5">
+                      {info.transOption3 || ""}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-        <div className="section no-padding-y">
-          <div className="container">
-            <div className={`gray7 ${styles.arrowWrapper}`}>
-              <IoMdArrowBack
-                className={`${styles.arrow} ${isScrolledLeft ? "gray3" : ""}`}
-                onClick={scrollLeft}
-              />
-              <IoMdArrowForward
-                className={`${styles.arrow} ${isScrolledRight ? "gray3" : ""}`}
-                onClick={scrollRight}
-              />
+          <div className="section no-padding-y">
+            <div className="container">
+              <div className={`gray7 ${styles.arrowWrapper}`}>
+                <IoMdArrowBack
+                  className={`${styles.arrow} ${isScrolledLeft ? "gray3" : ""}`}
+                  onClick={scrollLeft}
+                />
+                <IoMdArrowForward
+                  className={`${styles.arrow} ${isScrolledRight ? "gray3" : ""}`}
+                  onClick={scrollRight}
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export const navItems: { [key: string]: NavItemProps[] } = {
   ge: [
     { title: "მთავარი", url: "/" },
     { title: "ჩვენს შესახებ", url: "/about" },
-    { title: "მენიუ", url: "/menu" },
+    // { title: "მენიუ", url: "/menu" },
     {
       title: "სერვისები",
       url: "//",

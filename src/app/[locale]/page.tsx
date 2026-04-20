@@ -11,10 +11,9 @@ export default async function Home() {
   return (
     <div className="fadeOut">
       <Hero />
-      <Accordion title1="აქ რა დავწერო 002299" />
+      <Accordion title1={t("faqTitle")} />
       <Album />
-      {/* <Testimonials title1={t("testimonials.title1")} /> */}
-      <Testimonials title1="" />
+      <Testimonials title1={t("testimonialsTitle1")} />
       <ContactMap />
     </div>
   );

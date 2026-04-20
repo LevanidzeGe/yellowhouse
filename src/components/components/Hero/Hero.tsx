@@ -11,11 +11,13 @@ import hero1 from "./hero1.jpeg";
 import hero2 from "./hero2.jpeg";
 import hero3 from "./hero3.jpeg";
 import Button from "./Button";
+import { IoChatboxEllipses } from "react-icons/io5";
+import { phoneNumber } from "@/src/manager/info";
 
 const images = [hero1, hero2, hero3];
 
 export default function MainImage() {
-  const t = useTranslations("homePage.hero");
+  const t = useTranslations("homePage");
   const locale = useLocale();
 
   const [index, setIndex] = useState(0);
@@ -64,14 +66,19 @@ export default function MainImage() {
         <div className="container">
           <div className={styles.contentWrapper}>
             <div className={styles.content}>
-              <h1 className="heading1 secondary4">თქვენ მოიგეთ ჩართული უთო</h1>
+              <h1 className="heading1 secondary4">Yellow House</h1>
               <h2 className="heading5 font1 secondary5">
-                {/* {t("title1")} */} უი გამომძვრალა მაგრამ აქ რასაც გინდა იმას
-                დავწერ უბრალოდ უნდა გათვალო მაქსიმალურად ძებნადობაზე
+                {/* {t("title1")} */} სატესტო ტექსტი
               </h2>
-              <div className={styles.buttonContainer}>
-                <Button value="book now თუ რა უნდა ქნას მაან ვაცაპელეს?" />
-              </div>
+
+              <Link
+                href={`https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${encodeURIComponent("whatsappMessage")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button"
+              >
+                {t("whatsapp")}
+              </Link>
             </div>
           </div>
         </div>
