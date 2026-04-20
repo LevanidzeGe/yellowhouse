@@ -1,18 +1,19 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Judo Club Geo de Genève - Judo School in Geneva for Children",
-      "description": "Join Judo Club Geo de Genève. Our school has been a trusted institution in Geneva for over 12 years, offering judo classes for children aged 4 to 18."
+      "title": "Yellow House",
+      "description": "Yellow House"
     },
-    "whatsappMessage": "mee minda dajavshnai emsaatshi ",
-    "whatsapp": "bwhatsapp button",
-    "faqTitle": "კითხვა პასუხი"
+    "whatsappMessage": "მინდა დავჯავშნო",
+    "whatsapp": "დაჯავშნე",
+    "faqTitle": "კითხვა - პასუხი",
+    "testimonialsTitle1": "Reviews"
   },
 
   "FAQPage": {
     "metadata": {
-      "title": "FAQ – Judo Club Geo de Genève",
-      "description": "Find answers to frequently asked questions about Judo Club Geo de Genève: training, schedules, age groups, and more."
+      "title": "",
+      "description": ""
     },
     "faq": "Frequently Asked Questions"
   },
